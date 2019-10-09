@@ -1,0 +1,251 @@
+// talkRoom
+
+.talkRoom{
+    width: 100%;
+    height: 100%;
+    //max-height: 904px;
+    .talkContent{
+        width:100%;
+        height: 70%;
+        padding: 16px 20px;
+        .scrollareas{
+            width: 100%;
+            //overflow:auto;
+            img{
+                cursor: pointer;
+            }
+            ul{
+                width: 100%;
+                li{
+                    padding: 20px 0;
+                    >p{
+                        color: #626C7A;
+                        text-align: center;
+                        padding-bottom: 10px;
+                    }
+                    >div{
+
+                        &.flexRev{
+                            flex-direction:row-reverse;
+                        }
+                        .talkImg{
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 50%;
+                            overflow: hidden;
+                            position: relative;
+                            margin: 0 10px;
+                            line-height:40px;
+                            text-align: center;
+                            font-size: 20px;
+                            color: #fff;
+
+                        }
+                        .contents{
+                            background: #383E4A;
+                            border-radius: 4px;
+                            text-align: left;
+                            max-width: 200px;
+                            padding: 8px 10px;
+                            line-height: 24px;
+                            color: #E6E9ED;
+                            position: relative;
+                           
+                            p{
+                                word-break:normal;
+                                white-space:pre-warp;
+                                word-wrap:break-word;
+                            }
+                        }
+                        .SelfTalkInfor{
+                            .times{
+                                position: absolute;
+                                color: #737A8D;
+                                top: -20px;
+                                right: 0;
+                                white-space: nowrap;
+                            }
+                            // background: #72798F;
+                            // color: #E6E9ED;
+                        }
+                        .OtherTalkInfor{
+                            .times{
+                                position: absolute;
+                                color: #737A8D;
+                                top: -20px;
+                                left: 0;
+                                white-space: nowrap;
+                            }
+                            // background: #BABDC0;
+                            // color: #626C7A;
+                        }
+                    }
+                }
+                .system{
+                    background-color: #383E4A;
+                    margin: 30px 0;
+                    padding: 20px;
+                    position: relative;
+                    h3{
+                        pre{
+                            white-space:pre-wrap; /* css3.0 */ 
+                            white-space:-moz-pre-wrap; /* Firefox */ 
+                            white-space:-pre-wrap; /* Opera 4-6 */ 
+                            white-space:-o-pre-wrap; /* Opera 7 */ 
+                            word-wrap:break-word; /* Internet Explorer 5.5+ */ 
+                            margin: 0;
+                            line-height: 20px;
+                            padding-top: 10px;
+                            pre{
+                                margin: 0
+                            }
+                        }
+                    }
+                    .times{
+                        position: absolute;
+                        top: -22px;
+                        left: 0;
+                        width: 100%;
+                    }
+                }
+               
+            }
+        }
+       
+    }
+    .enterContent{
+        width: 100%;
+        height: 30%;
+        position: relative;
+        .control_item{
+            position: absolute;
+            top: 7px;
+            left: 11px;
+            span{
+                display: inline-block;
+                padding-right: 20px;
+                font-size: 16px;
+                // cursor: pointer;
+            }
+            .icon-liaotianbiaoqing{
+                position: relative;
+                .emjiSec{
+                    position: absolute;
+                    width: 240px;
+                    height: 200px;
+                    top: -208px;
+                    left: -3px;
+                    background-color: #4A4F5B;
+                    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15);
+                    border-radius: 2px; 
+                    z-index: 1000;
+                    padding-left: 5px;
+                    padding-top: 3px;
+                    box-sizing: border-box;
+                    .itemEmji{
+                        padding-right: 5px;
+                        padding-bottom: 5px;
+                        cursor: pointer;
+                    
+                    }
+                    &::after{
+                        content: "";
+                        display: block;
+                        border: 6px solid;
+                        width: 0px;
+                        position: absolute;
+                        bottom: -10px;
+                        left: 5px;
+                        height: 0px;
+                        border-color: #4A4F5B transparent transparent transparent;
+                    }
+                }
+            }
+            .icon-liaotiantupian{
+                position: relative;
+                .file_img{
+                    position: absolute;
+                    // cursor: pointer;
+                    top: 0;
+                    left: 0;
+                    width: 20px;
+                    overflow: hidden;
+                    opacity: 0;
+                    .box-icon{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .defultTest{
+            position: absolute;
+            top: 40px;
+            left: 3%;
+            &.none{
+                display: none;
+            }
+        }
+        .control{
+            height: 34px;
+            background: rgba(59,68,89,.3);
+        }
+        textarea{
+            resize:none;
+            width: 100%;
+            height: 60%;
+            background-color: #262938;
+            box-sizing: border-box;
+            padding: 20px 30px;
+        }
+        button{
+           position: absolute;
+            bottom: 15px;
+            background: #3E85A2;
+            border-radius: 2px;
+            color: #fff;
+            right: 20px;
+            padding: 6px 17px;
+            cursor: pointer;
+            &:hover{
+                background-color: #479EC2;
+            }
+            
+        }
+    }
+}
+.w-e-text-container{
+    border: none!important;
+    height: 100%!important;
+    overflow: hidden;
+}
+.w-e-toolbar{
+    height: 34px!important;
+    background: rgba(59,68,89,.3)!important;
+    border: none!important;
+    .w-e-menu{
+        &:hover .w-e-icon-image , .w-e-icon-happy{
+            color: #999!important;
+        }
+        .w-e-icon-image{
+            &:hover{
+                color: #999!important;
+            }
+            
+        }
+    }
+    
+}
+.openImg{
+    padding: 30px;
+    max-height: 700px;
+    position: relative;
+    span{
+        position: absolute;
+        top: 0;
+        right: 0;
+        cursor: pointer;
+        img{
+            width: 20px;
+        }
+    }
+}

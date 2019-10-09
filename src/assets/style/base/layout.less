@@ -1,0 +1,25 @@
+//响应式,全局布局相关
+
+//布局
+#otc-content{
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+//head 响应式
+@media screen and (max-width: 1540px) {
+    .up-mx-wp{
+        &.header .nav{
+            margin-left: 20px!important;
+        }
+        .nav li{
+            margin-right: 20px!important;
+        }
+        .header-trade em,
+        .header-trade i,
+        .header-trade div{
+            margin-right: 10px!important;
+        }
+    }
+}

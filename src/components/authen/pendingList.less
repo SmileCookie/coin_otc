@@ -1,0 +1,181 @@
+.pendingListMain {
+  .payInfo {
+    .alipay_icon_wrap {
+      float: right;
+      position: relative;
+      .alipay_icon {
+        width: 16px;
+        height: 16px;
+        margin-right: 5px;
+        color: #3E85A2;
+        cursor: pointer;
+      }
+      .alipay_icon:hover + .alipay_tip {
+        visibility: visible;
+      }
+      .alipay_tip:hover {
+        visibility: visible;
+      }
+      .alipay_tip {
+        visibility: hidden;
+        position: absolute;
+        top: -418px;
+        left: -132px;
+        width: 280px;
+        height: 410px;
+        box-sizing: border-box;
+        padding: 30px 45px 30px;
+        background-color: rgba(47, 50, 63, 0.9);
+        border-radius: 2px;
+        &:after {
+          content: "";
+          display: block;
+          position: absolute;
+          left: calc(50% - 6px);
+          top: 410px;
+          border: 6px solid transparent;
+          border-top: 6px solid rgba(47, 50, 63, 0.9);
+        }
+        > div:first-child {
+          position: relative;
+          width: 190px;
+          height: 284px;
+          margin-bottom: 20px;
+          > img {
+            width: 100%;
+            height: 100%;
+            border: none;
+          }
+          > span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+      }
+    }
+    .bank_icon_wrap {
+      float: right;
+      position: relative;
+      .bank_icon {
+        width: 18px;
+        height: 14px;
+        margin-right: 5px;
+        color: #3E85A2;
+        cursor: pointer;
+      }
+      .bank_icon:hover + .bank_tip {
+        visibility: visible;
+      }
+      .bank_tip:hover {
+        visibility: visible;
+      }
+      .bank_tip {
+        display: flex;
+        visibility: hidden;
+        position: absolute;
+        top: -210px;
+        left: -192px;
+        width: 400px;
+        height: 200px;
+        box-sizing: border-box;
+        padding: 30px 45px 30px;
+        background-color: rgba(47, 50, 63, 0.9);
+        border-radius: 2px;
+        &:after {
+          content: "";
+          display: block;
+          position: absolute;
+          left: calc(50% - 6px);
+          top: 200px;
+          border: 6px solid transparent;
+          border-top: 6px solid rgba(47, 50, 63, 0.9);
+        }
+        > div:first-child {
+          margin-right: 20px;
+          > p {
+            padding-bottom: 20px;
+          }
+        }
+        > div:last-child {
+          > p {
+            padding-bottom: 20px;
+          }
+        }
+      }
+    }
+    .tip_txt_wrap {
+      display: flex;
+      width: 100%;
+      > div:first-child {
+        flex: 1;
+        margin-right: 20px;
+        > p {
+          padding-bottom: 10px;
+          font-size: 14px;
+          color: #9199AF;
+          text-align: right;
+          white-space: nowrap;
+        }
+      }
+      > div:last-child {
+        flex: 2;
+        > p {
+          padding-bottom: 10px;
+          font-size: 14px;
+          color: #fff;
+          text-align: left;
+          word-break: break-all;
+        }
+      }
+    }
+  }
+}
+
+.area_wrap {
+  position: relative;
+  .area_dom {
+    background: transparent;
+    border: 1px solid #414654;
+    border-radius: 2px;
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 50px 10px 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    resize: none;
+  }
+  .area_dom:focus {
+    border: 1px solid #3e85a2;
+  }
+  .area_dom::-webkit-scrollbar {
+    width: 0; /* 滚动条宽度 */
+  }
+
+  .area_dom::-webkit-scrollbar:vertical {
+    width: 7px; /* 滚动条宽度 */
+  }
+
+  .area_dom::-webkit-scrollbar-thumb:vertical {
+    background-color: #333; /* 滑道 */
+  }
+
+  .area_dom::-webkit-scrollbar-thumb:horizontal {
+    background-color: #333; /* 滑道 */
+  }
+
+  .area_dom::-webkit-scrollbar-track {
+    background-color: #22262E;
+  }
+  .limit_num {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: #626C7A;
+    letter-spacing: 0;
+  }
+}

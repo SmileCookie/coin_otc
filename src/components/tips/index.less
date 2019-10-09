@@ -1,0 +1,144 @@
+
+.trade-tip{
+    position:fixed;
+    right:0px;
+    bottom:285px;
+    z-index:9999;
+}
+.future_tarde_tip{
+    bottom: auto;
+    top:70px;
+    font-size: 14px;
+    color: #D4DCF0;
+}
+.future_tarde_tip{
+    .trade-tip-item{
+        position:static;
+    }
+}
+.trade-tip-item{
+    width:500px;
+    height:60px;
+    background: rgba(74, 79, 91, 0.9);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.20);
+    border-radius: 2px;
+    padding:20px;
+    opacity:0;
+    .closedICoin{
+        font-size: 14px;
+        color: #7F889A;
+        position: absolute;
+        right: 6px;
+        top: 22px;
+        cursor: pointer;
+        &:hover{
+            color: #B6C1DA;
+        }
+    }
+}
+.trade-tip-item-big{
+    width:480px;
+}
+.trade-tip-item-place{
+     width: auto;
+    float: left;
+    font-size: 14px;
+    color: #D4DCF0;
+    .icon{
+        width:20px;
+        height:20px;
+        margin-right:5px;
+    }
+
+}
+
+.trade-tip-item-deals{
+    float: right;
+    font-size: 14px;
+    color: #B6C1DA;
+    padding-right: 10px;
+}
+
+.trade-tip-fadeIn{
+    animation: fadeIn 4s;
+    -moz-animation: fadeIn 4s;	/* Firefox */
+    -webkit-animation: fadeIn 4s;	/* Safari 和 Chrome */
+    -o-animation: fadeIn 4s;
+}
+
+.trade-tip-light{
+    .trade-tip-item{
+        background: #FFFFFF;
+    }
+    .trade-tip-item-place{
+        color: #17191F;
+    }
+    .trade-tip-item-deals{
+        color: #5F6575;
+    }
+    .closedICoin{
+        color:#AFAFB4;
+        &:hover{
+            color: #5F6575;
+        }
+    }
+}
+
+
+@keyframes fadeIn{
+    0%   {opacity:0;}
+    16%  {opacity:1;}
+    84%  {opacity:1;}
+    100% {opacity:0;}
+}
+
+@-moz-keyframes fadeIn{
+    0%   {opacity:0;}
+    16%  {opacity:1;}
+    84%  {opacity:1;}
+    100% {opacity:0;}
+}
+
+@-webkit-keyframes fadeIn{
+    0%   {opacity:0;}
+    16%  {opacity:1;}
+    84%  {opacity:1;}
+    100% {opacity:0;}
+}
+
+@-o-keyframes fadeIn{
+    0%   {opacity:0;}
+    16%  {opacity:1;}
+    84%  {opacity:1;}
+    100% {opacity:0;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

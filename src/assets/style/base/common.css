@@ -1,0 +1,117 @@
+/* layui-laydate  style cover Start */
+.layui-laydate{
+    background-color: rgba(44,48,58,0.9)!important;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.50) !important;
+    border: none!important;
+}
+.layui-laydate .layui-laydate-main .layui-laydate-content .layui-laydate-list{
+    background-color: rgba(44,48,58,0.9)!important;
+}
+.layui-laydate .layui-laydate-main .layui-laydate-content .layui-laydate-list .layui-this{
+    background-color: #3E85A2!important;
+    color: #fff!important;
+}
+.layui-laydate .layui-laydate-main .layui-laydate-content  table tbody .layui-this{
+    background-color: #3E85A2!important;
+    color: #fff!important;
+}
+.layui-laydate .layui-laydate-main .layui-laydate-content table tr td ,.layui-laydate .layui-laydate-main .layui-laydate-content table tr th{
+    color: #9199AF!important;
+}
+.layui-laydate .layui-laydate-main .layui-laydate-content table tbody tr .laydate-day-prev , .layui-laydate .layui-laydate-main .layui-laydate-content table tbody tr .laydate-day-next{
+    color: #545968!important;
+}
+
+.layui-laydate .layui-laydate-main .layui-laydate-content .layui-laydate-list li{
+    color: #9199AF!important;
+}
+.layui-laydate .layui-laydate-main .layui-laydate-content table tr td ,.layui-laydate .layui-laydate-main .layui-laydate-content table tr th{
+    color: #9199AF!important;
+}
+.layui-laydate .layui-laydate-main .layui-laydate-content table tbody tr .laydate-day-prev , .layui-laydate .layui-laydate-main .layui-laydate-content table tbody tr .laydate-day-next{
+    color: #545968!important;
+}
+
+.layui-laydate .layui-laydate-main .layui-laydate-content .layui-laydate-list li{
+    color: #9199AF!important;
+}
+
+.layui-laydate .layui-laydate-main .layui-laydate-content table tbody tr td:hover, .layui-laydate .layui-laydate-main  .layui-laydate-content .layui-laydate-list li:hover{
+    color: #333!important;
+}
+
+.layui-laydate .layui-laydate-header{
+    border-bottom: 1px solid #22262E!important;
+}
+.layui-laydate .layui-laydate-footer{
+    border-top: 1px solid #22262E!important;
+}
+.layui-laydate .layui-laydate-footer .laydate-footer-btns span{
+    background-color: rgba(44,48,58,0.9)!important;
+    border: 1px solid #414654!important;
+    color: #9199AF!important;
+}
+/* layui-laydate  style cover End */
+
+
+
+
+/*  form errors  start */
+
+.test-form {
+    width: 20%;
+    position: relative;
+h3{
+    color: #fff;
+}
+input {
+    border: 0;
+    background: transparent;
+}
+.i1{
+    border-bottom: 1px solid #5F6575;
+    height: 46px;
+    width: 100%;
+    font-size: 18px;
+    outline: none;
+    color: #FFFFFF;
+    padding-right: 80px;
+}
+
+.i1:focus{
+    padding-right: 80px;
+    border-color: #3E85A2 !important;
+    color: #FFFFFF !important;
+    opacity: 1;
+}
+.err{
+    position: relative;
+.ew{
+    display: block;
+    position: absolute;
+    top: auto;
+    margin-right: -40%;
+    bottom: 60%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background: rgba(47, 50, 63, .9);
+    padding: 10px 13px;
+    color: #FFFFFF;
+    text-align: left;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15);
+&:after {
+     content: '';
+     display: transparent;
+     border: 6px solid #4A4F5B;
+     border-color: rgba(47, 50, 63, .9) transparent transparent transparent;
+     /* margin-top: 20px; */
+     position: absolute;
+     top: 100%;
+     left: 46%;
+ }
+}
+}
+}
+
+/*  form  errors  end */

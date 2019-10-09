@@ -1,0 +1,90 @@
+.Jua-table-inner{
+    max-width: none;
+    width: 540px;
+    height: auto;
+    z-index: 10008;
+    display: block;
+    padding:40px 60px;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.20);
+}
+.react-safe-box-head{
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.react-safe-box-head h3{
+    font-weight:normal;
+    color: #B6C1DA;
+    font-size:16px;
+    padding-bottom: 20px;
+}
+.react-safe-box-head .text-p{
+    line-height: 24px;
+}
+.react-safe-box-head .entrust-head-box{
+    padding-top: 15px;
+    margin: 0;
+}
+.react-safe-box-head .textArea_p textarea{
+    width: 100%;
+    height: 130px;
+    border: 1px solid #414654;
+    border-radius: 2px;
+    background: none;
+    resize: none;
+    color: #fff;
+    font-size: 14px;
+    padding: 12px 10px;
+    box-sizing: border-box;
+}
+.react-safe-box-head .textArea_p p{
+    line-height: 50px;
+    color: #fff;
+}
+.tc{
+    text-align: center;
+}
+.foot{
+    text-align: center;
+    margin-top: 20px;
+
+}
+.foot a{
+    display: inline-block;
+    margin: 0 10px;
+    width: 180px;
+    font-size: 16px;
+    border: 1px solid #3E85A2;
+    background: #3E85A2;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.foot a:hover{
+    background: #479EC2;
+}
+
+.foot a:first-child {
+    background:transparent;
+    color: #3E85A2;
+    border: 1px solid #414654;
+    border-radius: 4px;
+}
+.foot a:first-child:hover {
+    border: 1px solid #3E85A2;
+    background:transparent;
+}
+.foot a.stop{
+    background:#737A8D;
+    color:  #9199AF;
+    border: none;
+
+}
+.foot a.stop:hover{
+    border: none;
+    background:#737A8D;
+}
+
+.r-pop {
+    display: none;
+}
