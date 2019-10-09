@@ -1,6 +1,6 @@
 .DS_Store
 node_modules/
-build/webpack.dev.config.js*
+
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
