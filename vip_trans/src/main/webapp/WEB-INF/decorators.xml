@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<decorators defaultdir="/common/v2">
+	<decorator name="common" page="mainPage.jsp">
+        <pattern>/v2/*</pattern>
+    </decorator>
+	<decorator name="common" page="userPage.jsp">
+        <pattern>/v2/btc</pattern>
+        <pattern>/v2/ltc</pattern>
+        <pattern>/v2/btq</pattern>
+    </decorator>
+    
+    <excludes> 
+    	<pattern>*/ajax*</pattern>
+    </excludes>
+</decorators>

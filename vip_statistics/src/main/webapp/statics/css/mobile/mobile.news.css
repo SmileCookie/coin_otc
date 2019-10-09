@@ -1,0 +1,134 @@
+.container {
+    width: 100%;
+    height: auto;
+}
+.news_mainer{
+    padding: 0;
+    min-width: 320px;
+    padding-bottom: .4rem;
+}
+.news_container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: 1.2rem;
+}
+.news_con-msg{
+    background: #FFFFFF;
+    border: 1px solid rgba(0,0,0,0.07);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.05);
+    padding: .4rem;
+    font-size: .24rem;
+    line-height: .48rem;
+}
+h2{
+    font-size: .54rem;
+    padding-bottom: .44rem;
+}
+.b_newslist {
+    min-height: 300px;
+    margin-bottom:.6rem;
+}
+.b_newslist .item {
+    padding-bottom: .4rem;
+}
+.b_newslist .item h3 {
+    font-size: .32rem;
+    line-height: .42rem;
+    margin-top: .4rem;
+}
+.b_newslist .item .time {
+    height: .76rem;
+    line-height: .26rem;
+    font-size: .2rem;
+    padding-top: .4rem;
+    padding-bottom: 0;
+}
+.new-con {
+    font-size: .24rem;
+    line-height: .48rem;
+}
+.b_newslist .item p {
+    font-size: .24rem;
+    line-height: .48rem;
+}
+.news_foot {
+    height: .88rem;
+    line-height: .88rem;
+    margin: 0;
+}
+.news_warp>div {
+    float: left;
+    width: 3.6rem;
+}
+.news_warp {
+    height: 1.76rem;
+    padding:.3rem 0;
+}
+.news_warp .news_left_img {
+    width: 2.1rem;
+    height: 1.1rem;
+    margin-right:.2rem;
+    overflow: hidden;
+}
+.news_left_img img {
+    width: 2.1rem;
+    height: 1.1rem;
+}
+.news_warp .news_title {
+    font-size: .24rem;
+    height: .62rem;
+    line-height: .33rem;
+    margin-bottom: .22rem;
+}
+.news_warp .news_content,.news_warp .news_right {
+    display: none;
+}
+.news_warp .news_time {
+    width: 3.6rem;
+    line-height: .26rem;
+    font-size: .2rem;
+}
+.time_img {
+    width: .2rem;
+    height: .2rem;
+    background-size: contain;
+    top:0;
+}
+.details_title {
+    font-size: .54rem;
+    padding-bottom: .42rem;
+    margin-top: 0;
+    line-height: .71rem;
+    text-align: left;
+}
+.news_time,.news_source {
+     height: .36rem;
+    line-height: .36rem;
+    font-size: .24rem;
+}
+.details_other {
+    height: auto;
+    line-height: .36rem;
+    padding-bottom: .2rem;
+}
+.details_other .news_time {
+    margin-right: .3rem;
+    font-size: .24rem;
+}
+.details_contene {
+    padding-top: .4rem;
+    font-size: .28rem;
+    line-height:.48rem;
+    padding-bottom: 1rem;
+}
+.details_contene p {
+     font-size: .28rem;
+    line-height:.48rem;
+}
+.details_foottext {
+    height:auto;
+    line-height: .3rem;
+    font-size: .2rem;
+    padding-bottom: .2rem;
+}

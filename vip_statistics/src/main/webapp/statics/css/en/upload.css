@@ -1,0 +1,280 @@
+@charset "utf-8";
+.pm-itemcont{float:left;width:100%;}
+
+
+.pm-itemcont .item{width:88px;height:125px;float: left;margin: 0px 0px 0px 15px;}
+.pm-itemcont .item .preview{width:88px;height:88px;float: left;position: relative;background:#FFF;}
+.pm-itemcont .item .preview a{width:100%;height:100%;border: 1px solid #dedede;float: left;text-align: center;float: left; overflow: hidden;
+    font-size: 14px;line-height: 90px;color: green;background: #FFF; cursor:pointer; }
+	.pm-itemcont .item .preview a.nob { width:118px;}
+	.pm-itemcont .item .preview a img { width:100%; height:auto; vertical-align:top;}
+.pm-itemcont .item .preview a:hover{border: 1px solid #40B3FF;}
+.pm-itemcont .item .preview .ajaxing{background:url("/statics/img/cn/upload/loader.gif") no-repeat 50% 50%;}
+.pm-itemcont .item .preview .deal-file{width:100%;height:20px;background: #F8F8F8;position: absolute;left:1px;top:69px;text-align: center;display: none;}
+.pm-itemcont .item .preview .deal-file .left{width:12px;height:12px;background:url("/statics/img/cn/upload/upload_sets.png") no-repeat -54px -2px;float:left;margin: 4px 0 0 15px;cursor: pointer;}
+.pm-itemcont .item .preview .deal-file .del{width:12px;height:12px;background:url("/statics/img/cn/upload/upload_sets.png") no-repeat -77px -2px;float:left;margin: 4px 0 0 8px;cursor: pointer;}
+.pm-itemcont .item .preview .deal-file .right{width:11px;height:12px;background:url("/statics/img/cn/upload/upload_sets.png") no-repeat -66px -2px;float:left;margin: 4px 0 0 8px;cursor: pointer;}
+.pm-itemcont .item .upload{width:88px;margin: 3px 0 0 0px;float:left;}
+.upload a {background-position: 0 0;cursor: pointer;display: block;height: 25px;margin-top: 3px;overflow: hidden;width: 90px;color: #3366CC;
+    text-decoration: none;background: url("/statics/img/cn/upload/T1xxOmXX4NXXXXXXXX-90-120.png") no-repeat scroll 0 0 transparent;}
+.upload a:hover{background: url("/statics/img/cn/upload/T1xxOmXX4NXXXXXXXX-90-120.png") no-repeat scroll 0px -25px transparent;}
+.upload .has-up{background: url("/statics/img/cn/upload/T1xxOmXX4NXXXXXXXX-90-120.png") no-repeat scroll 0px -95px transparent;}
+.upload input {	
+	BACKGROUND-REPEAT: no-repeat;
+	BORDER-RIGHT: 2px inset #666;
+	LIST-STYLE-TYPE: none;
+	WIDTH: 100px;
+	FONT-SIZE: 600;
+	MARGIN-LEFT: 0px;ZOOM: normal;
+	MARGIN-TOP: 0px;opacity: 0;
+	CURSOR: pointer;MARGIN-RIGHT: 0px;
+	WHITE-SPACE: nowrap;OVERFLOW: hidden;
+	BORDER-LEFT: 2px inset #666;TEXT-DECORATION: none;HEIGHT: 40px;
+	FILTER: alpha(opacity=0);PADDING-TOP: 0px;
+	BORDER-BOTTOM: 2px inset #666;BORDER-TOP: 2px inset #666;POSITION: static;CLEAR: none;DISPLAY: inline;
+	BACKGROUND: white url("/statics/img/cn/upload/input-bg.png") no-repeat;BACKGROUND-POSITION: ;
+	FONT-FAMILY: Tahoma;BACKGROUND-COLOR: white;LINE-HEIGHT: normal;PADDING-RIGHT: 0px;
+	DIRECTION: rtl;PADDING-LEFT: 0px;
+	MARGIN-BOTTOM: 0px;FONT: 40px/normal Tahoma,Helvetica,Arial,sans-serif;COLOR: #666;MARGIN: 0px;PADDING-BOTTOM: 0px;
+}
+
+.pm-itemcont .upload_210{width:212px;height:125px;}
+.pm-itemcont .upload_210 .preview{width:210px;height:210px;}
+.pm-itemcont .upload_210 .preview a{line-height: 210px;}
+
+.pm-itemcont .item .upload_210{width:212px;margin: 3px 0 0 0px;float:left;}
+.upload_210 a{background-position: 0 0;height: 25px;width: 212px;background: url("/images/upload/upload-212-90.png") no-repeat scroll 0 0 transparent;}
+.upload_210 a:hover{background: url("/statics/img/cn/upload/upload-212-90.png") no-repeat scroll 0px -25px transparent;}
+.upload_210 .has-up{background: url("/statics/img/cn/upload/upload-212-90.png") no-repeat scroll 0px -95px transparent;}
+.upload_210 input{width:220px;}
+
+.pm-itemcont .upload_210 .preview .deal-file{top:191px;}
+
+#addBtnA{font-size: 12px;}
+.pm-itemcont .item .add{width:100%;height:37px;text-align: left;padding: 15px 0 0 0;float: left;}
+
+@charset "utf-8";
+
+/*************************************************box鏍峰紡寮€濮�**********************************************/
+
+.cell {
+
+	height: 117px;	
+
+	width: 120px;
+
+	background: url(/images/x1_button.png) 0 0;
+
+	position : relative;
+
+	font-size: 14px;
+
+	color: #C7D92C;
+
+	text-align: center;
+
+	float: left;
+
+	margin-right: 3px;
+
+	padding-top: 5px;
+
+}
+
+
+
+.cell_flash {
+
+	height: 117px;	
+
+	width: 120px;
+
+
+	font-size: 14px;
+
+	color: #C7D92C;
+
+	text-align: center;
+
+	float: left;
+
+	margin-right: 3px;
+	margin-bottom:8px;
+	overflow:hidden;
+
+}
+
+
+
+.addCell {
+
+	height: 117px;	
+
+	width: 120px;
+
+	position : relative;
+
+	font-size: 14px;
+
+	text-align: center;
+
+	float: left;
+
+
+
+}
+
+
+
+.addButtonImage
+
+{
+
+	position: absolute;
+
+	top: 36px;
+
+	left:1px;
+
+	background:url(/images/uploadbutton.png);
+
+	width: 119px;
+
+	height: 47px;
+
+	cursor: pointer;
+
+}
+
+
+
+
+
+.imageCells
+
+{
+
+
+
+
+
+	width:644px;margin-left:-2px;
+
+}
+
+
+
+.upload_cancel 
+
+{
+
+	z-index : 100;
+
+	width : 18px;
+
+	height : 18px;
+
+	position : absolute;
+
+	background : url('/images/cancel.png');
+
+	top : 10px;
+
+	left :90px; 		
+
+	cursor : pointer;		
+
+}
+
+
+
+.upload_timer
+
+{
+
+	width: 29px;
+
+	height: 29px;
+
+	background: url('/images/num.png') no-repeat 0px 0px;
+
+	position: absolute;
+
+	z-index: 100;
+
+	top: 45px;
+
+	left: 45px;				
+
+}
+
+
+
+.upload_word
+
+{
+
+		z-index: 90;
+
+		position: absolute;
+
+		width: 92px;
+
+		height: 20px;
+
+		top: 92px;
+
+		left: 15px;
+
+		color: black;
+
+		font-size: 12px;
+
+		text-align: center;
+
+}
+
+
+
+.upload_line
+
+{
+
+		z-index: 100;
+
+		position: absolute;
+
+		width: 96px;
+
+		height: 17px;
+
+		background: url('/images/ajax.gif');
+
+		top: 85px;
+
+		left: 10px;
+
+}
+
+
+
+.upload_imminent
+
+{
+
+		z-index: 100;
+
+		position: absolute;
+
+		width: 77px;
+
+		height: 20px;
+
+		background: url('/images/imminent.png');
+
+		top: 85px;
+
+		left: 25px;
+
+}
+

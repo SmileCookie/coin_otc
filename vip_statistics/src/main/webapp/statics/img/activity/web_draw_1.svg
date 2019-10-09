@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="55px" viewBox="0 0 100 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="0.0%" y="0.0%" width="100.0%" height="100.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="0" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="抽奖-未抽奖-copy-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-910.000000, -453.000000)">
+        <g id="中枢显示" transform="translate(749.000000, 285.000000)" fill="#CEC277">
+            <g id="Group-2" transform="translate(161.000000, 168.000000)">
+                <path d="M36.1842105,0 L65.7894737,0 L75.6578947,26.8373494 L26.3157895,26.8373494 L36.1842105,0 Z M9.86842105,28.1626506 L39.4736842,28.1626506 L49.3421053,55 L0,55 L9.86842105,28.1626506 Z M60.5263158,28.1626506 L90.1315789,28.1626506 L100,55 L50.6578947,55 L60.5263158,28.1626506 Z" id="Combined-Shape" filter="url(#filter-1)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+{
+    "name": "buivannguyen/tradingview_chart",
+    "type": "library",
+    "description": "Tradingview.com chart javascript library",
+    "keywords": ["preview image","jquery plugin preview"],
+    "homepage": "https://github.com/buivannguyen/tradingview_chart",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sotatek JSC",
+            "email": "admin@sotatek.com",
+            "homepage": "http://sotatek.com",
+            "role": "Developer"
+        }
+    ]
+}

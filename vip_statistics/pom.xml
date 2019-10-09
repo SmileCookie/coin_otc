@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>bitglobal-parent</artifactId>
+        <groupId>com.atlas.bitglobal</groupId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>vip_statistics</groupId>
+    <artifactId>vip_statistics</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+    <name>vip_statistics</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.web</groupId>
+            <artifactId>javax.servlet.jsp.jstl</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+    </dependencies>
+    <build>
+        <finalName>vip_statics</finalName>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <version>3.1</version>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>net.alchim31.maven</groupId>
+                <artifactId>yuicompressor-maven-plugin</artifactId>
+                <version>1.3.0</version>
+                <configuration>
+                    <skip>false</skip>
+                    <!-- 读取js,css文件采用UTF-8编码 -->
+                    <encoding>UTF-8</encoding>
+                    <!-- 不显示js可能的错误 -->
+                    <jswarn>false</jswarn>
+                    <!-- 若存在已压缩的文件，会先对比源文件是否有改动。有改动便压缩，无改动就不压缩 -->
+                    <force>false</force>
+                    <!-- 在指定的列号后插入新行 -->
+                    <linebreakpos>-1</linebreakpos>
+                    <!-- 压缩之前先执行聚合文件操作 -->
+                    <preProcessAggregates>true</preProcessAggregates>
+                    <!-- 压缩后保存文件后缀 -->
+                    <!--
+                    <suffix>.min</suffix>
+                    -->
+                    <nosuffix>true</nosuffix>
+                    <!-- 源目录，即需压缩的根目录 -->
+                    <!--
+                    <sourceDirectory>${basedir}/mobile</sourceDirectory>
+                    -->
+                    <!-- 压缩js和css文件 -->
+                    <includes>
+                        <include>**/*.js</include>
+                        <include>**/*.css</include>
+                    </includes>
+                    <outputDirectory>${basedir}/src/main/webapp/mergejscss</outputDirectory>
+                    <!-- 以下目录和文件不会被压缩 -->
+                    <excludes>
+                        <exclude>**/*.min.js</exclude>
+                        <exclude>**/*.min.css</exclude>
+                        <exclude>scripts/data/*.js</exclude>
+                        <exclude>**/myfocus/*.js</exclude>
+                        <exclude>**/myfocus/**/*.css</exclude>
+                        <exclude>**/jquery.SuperSlide.2.1.1.js</exclude>
+                    </excludes>
+                    <!-- 压缩后输出文件目录 -->
+                </configuration>
+            </plugin>
+
+
+            <!--   <plugin>
+                   <groupId>org.apache.maven.plugins</groupId>
+                   <artifactId>maven-war-plugin</artifactId>
+                   <configuration>
+                       <warName>${artifactId}</warName>
+                       <warSourceExcludes>**/*.js,**/*.css</warSourceExcludes>
+                   </configuration>
+               </plugin> -->
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <configuration>
+                    <!--
+                                    装配过程中排除  不以.min.js -min.js结尾的js文件。
+                                    因为在 yuicompressor配置了不会处理min这些文件所以这些文件要拷贝到对应的目
+                                    录。开始弄的时候就是由于maven-war-plugin会把yuicompressor压缩后的文件覆盖掉，
+                                    所以要做这样的处理，yuicompressor没有压缩的js文件就会拷贝过去，压缩过的js则不会拷贝
+                           yuicompressor会拷贝压缩后的文件过去
+                    -->
+                    <warSourceExcludes>
+                        %regex[^.+(?:(?&lt;!(?:-|\.)min)\.js)],
+                        <!-- 这里的这些文件是本地测试用的配置 打包时候不需要 -->
+                        src/main/resources/config.xml,src/main/resources/jdbc.properties
+                    </warSourceExcludes>
+                </configuration>
+            </plugin>
+
+
+        </plugins>
+
+        <resources>
+            <!-- 直接复制不用压缩的文件，图片，已经压缩的css，js -->
+            <resource>
+                <directory>${basedir}/statics</directory>
+                <includes>
+                    <include>**/**.min.js</include>
+                    <include>**/**.min.css</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+
+</project>

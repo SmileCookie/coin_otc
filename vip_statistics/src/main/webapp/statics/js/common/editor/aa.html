@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+ <html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+<title></title>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+    
+
+    <script type="text/javascript">
+
+           function SetValue() {
+
+                var v = $("input[id='txtValue']").val();
+
+                $("#ifSet").remove();
+
+                $("body").append("<iframe id='ifSet' src='http://img.artww.com/body/editor/editorIn.html#" + v + "' style='display:none'></iframe>");            
+
+            }
+
+           $(document).ready(function () {
+
+               if (location.hash != "") {
+
+                 parent.parent.frames["Myiframe"].SetValue(location.hash.substr(1));
+
+             } 
+
+         });
+
+     
+
+</script>
+
+  </head>
+
+   <body>
+
+        <input id="btnSetValue" type="button" value="È·¶¨" onclick="SetValue();return false;" />
+
+     <input id="txtValue" type="text" />
+
+ </body>
+
+ </html>

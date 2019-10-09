@@ -1,0 +1,247 @@
+.container{
+    width: 100%;
+    
+}
+.content{
+    min-width: 320px;
+    padding: 0;
+    font-size: 0.24rem;
+}
+.vote_head {
+    width: 100%;
+    min-height: 5.43rem;
+    height: auto;
+    background-size: 100%;
+    padding-top: 2.05rem;
+}
+#title {
+    width: 80%;
+    font-size: 0.36rem;
+    line-height: 0.5rem;
+}
+#title_p, .vote_head h5 {
+    width: 80%;
+    font-size: 0.24rem;
+    color: #FFFFFF;
+    height: auto;
+    line-height: 0.33rem;
+    margin: 0 auto;
+}
+#title_p{
+    width: 80%;
+    margin: 0.2rem  0.6rem;
+}
+.number {
+    width: 100%;
+    height: 1.3rem;
+    margin-top: 0.07rem;
+    font-size: 0.24rem;
+    padding-bottom: 0.8rem;
+}
+.time{
+    width: 0.45rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.36rem;
+    margin-right: 0.06rem;
+}
+.text{
+    height: 0.5rem;
+    padding-top: 0.1rem;
+}
+.number .text{
+    font-size: 0.12rem;
+    margin-right: 0.27rem;
+    
+}
+.number .time .item{
+    width: 0.5rem;
+    height: 0.5rem;
+    left: -0.025rem;
+    top: -0.025rem;
+}
+
+.time, .text {
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.days{
+    width: auto;
+}
+.vote_main {
+    width: 100%;
+    background: #FFFFFF;
+    border: 0;
+    box-shadow: none;
+    min-height: 200px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 0;
+    padding: 0;
+}
+.vote_table tr {
+    height: 1rem;
+    line-height:1rem;
+}
+.vote_table td:nth-child(2), .vote_table th:nth-child(2) {
+    display: none;
+}
+.vote_table td, .vote_table th {
+    text-align: center;
+    font-size: 0.2rem;
+    color: #656B6A;
+    width: 20%;
+    padding: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.vote_table td:nth-child(4), .vote_table th:nth-child(4) {
+    width: 40%;
+}
+.vote_table th{
+    font-size: 0.24rem;
+}
+.status {
+    width: 0.88rem;
+    line-height: 0.46rem;
+    font-size: 0.18rem;
+}
+.vote_table td:nth-child(4){
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    padding-left: 15%;
+}
+.per_num {
+    width: 1.3rem;
+    height: 0.12rem;
+    position: relative;
+    background: #E9E9E9;
+    margin-right: 0.1rem;
+    overflow: hidden;
+    margin-top: 0.44rem;
+}
+.per_num_bar {
+    height: 0.12rem;
+}
+.submit {
+    width: 3.6rem;
+    height: 1rem;
+    line-height: 1rem;
+    bottom: 0;
+    font-size: 0.36rem;
+    margin-top: 0.78rem;
+    margin-bottom: 0.8rem;
+}
+.vote_foot {
+    width: 100%;
+    padding: 0.8rem 0.4rem;
+    background: url("../../img/common/mobile_vote_bg.png")no-repeat;
+    background-size: 100%;
+    color: #ffffff;
+    padding-top: 0.9rem;
+}
+.vote_foot>div:nth-child(1) {
+    font-size: 0.36rem;
+    color: #ffffff;
+    line-height: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+.vote_foot .vote_foot_text {
+    margin-bottom: 0.1rem;
+    font-size: 0.28rem;
+    color: #ffffff;
+    line-height: 0.36rem;
+}
+.vote_foot p {
+    font-size: 0.28rem;
+    color: #ffffff;
+    line-height: 0.32rem;
+}
+.vote_home {
+    position: fixed;
+    border-radius: 3px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    width: 5.4rem;
+    height: 4.8rem;
+    z-index: 10001;
+    top: 50%;
+    left: 50%;
+    margin-top: -2.4rem;
+    margin-left: -2.7rem;
+}
+.vote_close {
+    width: 0.5rem;
+    height: 0.5rem;
+    right: 0.3rem;
+    top: 0.3rem;
+}
+.vote_home h3 {
+    font-size: 0.36rem;
+    line-height: 0.4rem;
+    margin: 1.2rem 0 0.6rem 0;
+    text-align: center;
+}
+.vote_login {
+    width: 3.6rem;
+    height: 1rem;
+    background: #128FDC;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-bottom: 0.38rem;
+}
+.vote_login a {
+    line-height: 1rem;
+    font-size: 0.36rem;
+}
+.vote_reg{
+    height: 0.42rem;
+    width: 100%;
+    font-size: 0.2rem;
+}
+.vote_reg .reg_a{
+    font-size: 0.3rem;
+    color: #199ED8;
+}
+
+.bk-nav.navbar, .bk-menuBar, .nav_mobile_langs {
+    z-index: 1001;
+}    
+.rule_state_1:hover{
+    background: #fff;
+    color: #128FDC
+}
+/*****分享的图标**/
+.float_div {
+    width: 0.8rem;
+    height: 2.8rem;
+    position: fixed;
+    right: 10px;
+    bottom: 0.2rem;
+}
+.float_div div {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-bottom: 0.2rem;
+    line-height: 0.8rem;
+    font-size: 0.24rem;
+}
+.float_div div img{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.at-expanding-share-button[data-position=bottom-right]{
+    right: 10px !important;
+    bottom: 2.2rem !important;
+    z-index: 999 !important;
+}
+.at-expanding-share-button.at-expanding-share-button-mobile .at-expanding-share-button-toggle-bg, .at-expanding-share-button.at-expanding-share-button-mobile .at-expanding-share-button-toggle-bg span {
+    width: 0.8rem !important;
+    height: 0.8rem !important;
+    line-height: 0.8rem !important;
+}
+.at-expanding-share-button.at-expanding-share-button-mobile+.at-expanding-share-button-mobile-overlay {
+    z-index: 998 !important;
+}

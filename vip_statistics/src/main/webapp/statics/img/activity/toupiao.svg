@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>投票</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="投新币抽GBC1102" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1投新币，抽GBC-未抽奖" transform="translate(-1811.000000, -999.000000)">
+            <g id="Group" transform="translate(1810.000000, 938.000000)">
+                <g id="投票" transform="translate(0.000000, 60.000000)">
+                    <circle id="Oval-12" fill="#EEEEEE" cx="25" cy="25" r="24"></circle>
+                    <text id="Vote" font-family="PingFangSC-Regular, PingFang SC" font-size="15" font-weight="normal" letter-spacing="0.3125" fill="#413D5E">
+                        <tspan x="8.3625" y="31">Vote</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

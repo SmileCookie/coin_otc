@@ -1,0 +1,325 @@
+/* foot */
+	.bk-footer {
+		min-width: 320px;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		font-size: 0.24rem;
+	}
+	.bk-footer .bk-footer-hd .container {
+		width: 100%;
+		min-width: 100%;
+	}
+	.bk-footer-hd{
+		padding: 0;
+		width: 100%;
+	}	
+	.bk-footer-hd .bk-footer-hd-left ,.bk-footer-hd .bk-footer-hd-right{
+		width: 100%;
+		float: none;
+	}
+	.bk-footer-hd .bk-footer-list{
+		width: 100%;
+		float: none;
+		text-align: left;
+		overflow: hidden;
+	}
+	.bk-footer-hd .bk-footer-list:first-child{
+		padding-top: 0.1rem;
+	}
+	.bk-footer-list li a{
+		font-family: Roboto-Regular;
+		font-size: 0.28rem;
+		color: #97999E;
+		line-height: 0.48rem;
+	}
+	.bk-footer-list li:first-child a{
+		margin-left: 0rem;
+	}
+	/* .bk-footer-list li:first-child{
+		padding-bottom: .2rem;
+	} */
+	.bk-footer-list li:first-child a{
+		font-size: .32rem;
+		line-height: .45rem;
+	}
+	.bk-footer-hd .bk-footer-hd-left{
+		padding:0rem 0 0 0.22rem;
+	}
+	.bk-footer-hd-right .navbar-brand {
+		display: none;
+	}
+	.bk-footer-logo .icon {
+		width: 3rem;
+    	height: .65rem;
+	}
+	#bitLan {
+		height: 1.44rem;
+	}
+	#bitLan .bk-secd{
+		width: 2.4rem;
+		height: .48rem;
+		line-height: .48rem;
+		margin: 0 auto;
+		padding: 0;
+		padding: 0 .19rem;
+		position: relative;
+	}
+	.bk-secd a{
+		font-size: .24rem;
+		width: 100%;
+		display: inline-block;
+	}
+	.g-ico{
+		width: .36rem;
+		height: .26rem;
+		margin: 0;
+		border-radius: 0;
+	}
+	.bk-footer-info{
+		width: 100%;
+		line-height: 1.39rem;
+	}
+	.bk-footer-info{
+		text-align: left;
+		padding-left: 0.32rem;
+	}
+	.bk-footer p{
+		opacity: 0.5;
+		font-family: Roboto-Regular;
+		font-size: 0.24rem;
+		color: #97999E;
+		line-height:1rem;
+	}
+	.bk-secd .dropdown-menu{
+		padding: 0 ;
+		margin: 0;
+		font-size: .24rem;
+	}
+	.bk-secd .dropdown-menu>li>a{
+		font-size: .24rem;
+		padding: 0 .19rem;
+		height: .48rem;
+		line-height: .48rem;
+	}
+	.bk-secd .ft14{
+		font-size: .16rem !important;
+		position: absolute;
+		right:0.1rem;
+	}
+	/* foot end*/
+	/* header */
+	#bitMenu{
+		display: none;
+	}
+	.bk-nav.navbar,.bk-menuBar,.nav_mobile_langs {
+		z-index: 9999;
+		position: fixed;
+		top: 0px;
+		left: 0px;
+		height:1rem;
+		min-height:1rem;
+		width: 100%;
+		min-width: 320px;
+		background: rgb(28,29,26);
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+	.bk-nav .navbar-header {
+		padding: 0;
+		position: relative;
+		z-index: 110;
+		margin:0;
+	}
+	.bk-nav-logo {
+		float: left;
+		width: 3.3rem;
+		height: 1rem;
+		line-height: 1rem;
+		margin: 0;
+	}
+	.bk-nav-logo .icon {
+		width: 3rem;
+		height: 0.55rem;
+		position: absolute;
+		top: 0.2rem;
+		left: 0.30rem;
+	}
+	
+	.bk-nav .nav_mobile_menu{
+		display: block;
+		width: 0.38rem;
+		height: 0.32rem;
+		position: absolute;
+		right: 0.36rem;
+		top: 0.35rem;
+		background: url("../../img/icoimgs/menu.svg") 0% 0% / cover no-repeat;
+	}
+	.nav_mobile_menu_1{
+		display: block;
+		width: 0.5rem;
+		height: 0.34rem;
+		position: absolute;
+		right: 1.2rem;
+		top: 0.35rem;
+	}
+	.pin_cn{
+		background: url("../../img/common/pin_cn.png") no-repeat;
+		background-size: 100%;
+	}
+	.pin_en{
+		background: url("../../img/common/pin_en.png") no-repeat;
+		background-size: 100%;
+	}
+	.pin_hk{
+		background: url("../../img/common/pin_hk.png") no-repeat;
+		background-size: 100%;
+	}
+	.bk-nav .navbar-nav{
+		float: none;
+		width: 100%;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		z-index: 120;
+		background: rgba(0, 0, 0, 0.9);
+		display: none;
+		padding: 1.8rem 10% 0 10%;
+	}
+	.nav_mobile_langs{
+		padding-top: 3.88rem;
+		background: rgba(0, 0, 0, 0.9);
+	}
+	.navbar-nav>li,.nav_mobile_langs>li {
+		width: 5.9rem;
+		height: 0.88rem;
+		line-height: 0.88rem;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: .3rem;
+	}
+	.nav>li>a:not(.btn),.nav_mobile_langs>li>a {
+		overflow: hidden;
+		font-size: .36rem;
+		z-index: 200;
+		padding: 0;
+		line-height: 0.88rem;
+		display: block;
+		color: #ffffff;
+		position: relative;
+	}
+	.nav_mobile_langs>li>a i {
+		width: 0.48rem;
+		height: 0.32rem;
+		margin-right: 0.2rem;
+	}
+	.nav_mobile_langs>li>a .left_ico{
+		position: relative;
+		right: 0.2rem;
+		margin-right: 0;
+	}
+	.navbar-nav .nav_mobile_close,.nav_mobile_langs .nav_mobile_close_1{
+		width: 0.44rem;
+		height: 0.44rem;
+		position: absolute;
+		right: 0.33rem;
+		top: 0.28rem;
+		background: url("../../img/icoimgs/close.png") 0% 0% / cover no-repeat;
+		margin: 0;
+	}
+	.mobile_hide{
+		display: none;
+	}
+	.login_mobile_hide{
+		display: block;
+	}
+	.bk-footer .container li {
+ 	   font-family: Roboto-Bold;
+		font-size: 0.32rem;
+		color: #FFFFFF;
+		letter-spacing:0.02rem;
+		line-height:0.4rem;
+		padding-top: 0.4rem;
+		float: left;
+		margin-left: 0.2rem;
+		letter-spacing: 0;
+	}
+	.bk-footer .container li:first-child{
+		width: 100%;
+		clear: both;
+	}
+	.bk-footer-hd-right .share_it{
+		width: 100%;
+		height: 0.72rem;
+		margin-top: 0.26rem;
+		text-align: left;
+		margin-bottom: 0.4rem;
+		padding-left: 0.32rem;
+	}
+	.bk-footer-hd-right .share_it .item {
+		display: inline-block;
+		width: 0.72rem;
+		height: 0.72rem;
+		line-height: 0.72rem;
+		float: none;
+		border-radius: 50%;
+		background: rgba(255,255, 255, .1);
+		margin-right: 0.2rem;
+		cursor: pointer;
+		color: #ffffff;
+		text-align: center;
+	}
+	.bk-footer-hd-right .share_it .item .iconfont{
+		color: #97999E;
+	}
+	.foot_home_box {
+		width: 88%;
+		min-height: 4.2rem;
+		height: auto;
+		z-index: 10001;
+		top: 50%;
+		left: 50%;
+		margin-top: -2.1rem;
+		margin-left: -44%;
+	}
+	.foot_home_box h3 {
+		font-size: 0.48rem;
+		color: #484C4B;
+		letter-spacing: 0;
+		line-height:0.48rem;
+		text-align: center;
+		margin-top:1.31rem;
+		margin-bottom: 0.28rem;
+	}
+	.foot_home_box .text_box {
+		opacity: 0.5;
+		font-family: MicrosoftYaHei;
+		font-size: 0.24rem;
+		color: #48494C;
+		letter-spacing: 0;
+		margin-bottom: 0.79rem;
+		text-align: center;
+		padding: 0 6px;
+	}
+	.foot_home_box .foot_btn {
+		background: #0093DE;
+		border-radius: 2px;
+		font-size: 0.24rem;
+		color: #FFFFFF;
+		width: 2.4rem;
+		height: 0.54rem;
+		line-height: 0.54rem;
+		text-align: center;
+		margin: 0 auto;
+		cursor: pointer;
+		margin-bottom: 0.26rem;
+	}
+	.foot_home_box .draw_sup {
+		position: absolute;
+		width:1rem;
+		height: 1.1rem;
+		left: 50%;
+		top: -0.6rem;
+		margin-left: -0.55rem;
+		background: url(../../img/activity/draw_sup.png) no-repeat;
+		background-size: 100%;
+	}

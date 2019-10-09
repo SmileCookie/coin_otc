@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+body { background-color: #f9f9f9; }
+#pagename { background: url(/statics/img/cn/user/headings.png) repeat-x scroll 0 100% #F9F9F9; height: 85px; overflow: hidden; padding: 0 0 15px; }
+#pagename .inner { margin: 10px auto 0; }
+#pagename h2 { color: #666; font-size: 28px; line-height: 75px; text-shadow: 1px 1px 3px #FFFFFF; font-family:"微软雅黑"; text-align:center; }
+/*#pagename h2 span { font-family:"宋体";}*/
+#pagename .topright { background-image: url(/statics/img/reg_step.png); margin-top: 0px; margin-left:12px; width: 774px; height:50px; float:left; }
+#pagename .topright.d2 { background-position:0px -50px;}
+#pagename .topright.d3 { background-position:0px -100px;}
+
+
+.desc { color: #777777; display: block; font-size: 12px; font-weight: normal; margin: -2px 0 0; text-transform: none; }
+.desc a { color: #333333; text-decoration: underline; }
+.Toolbar { width: 800px; }
+.ClassifySelect { background: none; }
+.Login-tips { float: left; font-family: arial; }
+.Login-tips span { color: #666666; float: left; line-height: 32px; margin-right: 10px; }
+.Login-tips a { color: #FFFFFF; float: left; font-size: 14px; height: 50px; line-height:50px; margin-left: 218px; text-align: center; text-indent: -999em; text-decoration: none; width: 205px; display:inline-block; }
+.Register-fill { width:1000px; margin:5px auto; text-align:left;  }
+.Register-con { width: 800px; margin: 0 auto 30px; }
+.form-line { clear: both; padding-bottom: 10px; padding-left: 0px; width: 700px; float: left; }
+.form-tit { font-family:"微软雅黑"; line-height: 40px; color: #666666; margin-right: 3px; width: 500px; font-weight: 500; font-size: 24px; float: left; }
+.form-con { float: left; line-height: 40px; }
+.form-con input { width:350px; border:1px solid #ddd;}
+.form-tips { line-height: 40px; color: #999999; width:auto; padding-left:208px; clear:both; }
+.form-tips span { color:#c00; margin-right:5px;}
+.rules { padding: 15px 0 0px 243px; line-height:28px; color: #666666; clear: both; height:50px; }
+.rules input { float:left; margin-top:10px;}
+.rules span { float:left; margin-left:10px; }
+.rules a { color: #0092DD; }
+.rules a:hover { color: #333333; }
+.rules label.checkbox { margin: 4px 3px 0 5px; }
+.form-code { float: left; height: 40px; line-height: 40px; width: 200px; padding-top:2px; }
+.submit { height: 38px; padding-left: 208px; }
+.submit a { background: url(/images/zc.png) no-repeat; width: 242px; height: 38px; color: #fff; text-align: center; line-height: 38px; font-size: 14px; text-decoration: none; display: block; }
+#regmain { margin: 0 auto; width: 800px; overflow: hidden; }
+#stepOne { float: left; width: 800px; margin-top:80px; }
+#stepTwo { float: left; width: 800px; overflow: hidden; margin-top:60px; }
+#stepThree { float: left; width: 800px; overflow: hidden; }
+#stepFour { float: left; width: 800px; overflow: hidden; }
+#form-con { width: 3600px; float: left; }
+.btn_blue { float: right; margin-right: 68px; }
+.btn_red { margin-left: 110px; }
+*html .ie6 { margin-top: -52px; }
+*+html .ie6 { margin-top: -52px; }
+*html .middleMargin { width: 800px; }
+*+html .middleMargin { width: 800px; }
+*html #pagename .topright { margin-top: 5px; }
+.bottomLine { border-top: 1px dotted #CCCCCC; padding-top: 20px; width:500px; margin: 0 auto; text-align:right; }
+.bottomLine a { }
+.desc { color: #6b6b6b; }
+.desc a { color: #0092dd; }
+.dropdown dd, .dropdown dt, .dropdown ul { margin: 0px; padding: 0px; }
+.dropdown dd { position: relative; }
+.dropdown a, .dropdown a:visited { color: #816c5b; text-decoration: none; outline: none; }
+.dropdown a:hover { color: #5d4617; }
+.dropdown dt a:hover { color: #5d4617; border: 1px solid #d0c9af; }
+.dropdown dt a { background: url(/statics/img/en/country/arrow.png) no-repeat scroll 95% center #F9F9F9; border: 1px solid #D8D8D8; display: block; height: 60px; line-height: 60px; padding-right: 20px; width: 430px; }
+.dropdown dt a span { cursor: pointer; display: block; float: left; font-size: 26px; line-height: 40px; margin-top: 14px; padding-left: 15px; }
+.dropdown dt a span.flag2 { margin-top: -6px; }
+.dropdown dd ul { background: #F9F9F9 none repeat scroll 0 0; border: 1px solid #d4ca9a; color: #C5C0B0; display: none; left: 0px; position: absolute; top: -2px; width: auto; width: 450px; list-style: none; }
+.dropdown dd ul li { width: 150px; float: left; height: 40px; line-height: 40px; }
+.dropdown2 dd ul li { border-bottom: 1px solid #EEEEEE; clear: both; float: left; height: 35px; line-height: 40px; margin-left: 10px; padding: 5px 0 10px; width: 427px; }
+.dropdown span.value { display: none; }
+.dropdown dd ul li a { display: block; font-size: 14px; height: 34px; line-height: 34px; padding-left: 10px; padding-top: 6px; padding-bottom: 4px; }
+.dropdown dd ul li a:hover { color: #8DC03C; background-color: #3B3B3B; }
+.dropdown img.flag { border: none; vertical-align: middle; float: left; margin-right: 10px; }
+.form-con span.check { float: left; height: 15px; line-height: 15px; margin: 0 5px; }
+#sample2.dropdown dd ul li { }
+#sample2.dropdown dd ul li a { }
+#sample2.dropdown dt a span { }
+.red { color: red; }
+.form-code img { float: left; cursor: pointer; }
+.form-code a { display: block; float: left; height: 40px; line-height: 40px; padding-left: 10px; }
+.form-line input { height:40px; line-height:30px; padding: 5px 10px;  font-size:18px; font-family:"微软雅黑"; color:#999;}
+.form-line { margin-bottom: 5px; }
+.operation-buttons { display:none;}
+.operation-buttons a { color: #FFFFFF; float: left; font-size: 18px; height: 46px; line-height: 46px; margin-bottom: 20px; margin-right: 35px; text-align: center; text-decoration: none; width: 226px; }
+.operation-buttons a:hover { color: #fff; }
+.operation-buttons a.a1 { background: #1c7d5a; }
+.operation-buttons a.a1:hover { background: #2c8e6b; }
+.operation-buttons a.a2 { background: #6a5c8e; }
+.operation-buttons a.a2:hover { background: #8275a3; }
+.operation-buttons a.a3 { background: #5799a9; }
+.operation-buttons a.a3:hover { background: #69a9b8; }
+.operation-buttons a.a4 { background: #26545b; }
+.operation-buttons a.a4:hover { background: #376971; }
+.operation-buttons a.a5 { background: #8b5e7a; }
+.operation-buttons a.a5:hover { background: #977189; }
+.operation-buttons a.a6 { background: #e08748; }
+.operation-buttons a.a6:hover { background: #e79962; }
+.operation-buttons a.a7 { background: #e96e66; }
+.operation-buttons a.a7:hover { background: #f08982; }
+.operation-buttons a.a8 { background: #5799a9; }
+.operation-buttons a.a8:hover { background: #6eadbc; }
+.operation-buttons a.a9 { background: #222222; }
+.operation-buttons a.a9:hover { background: #434343; }
+.user-information { background: #181c19; }
+.tb-list2 td { text-align: left; }
+.tb-list2 td { border-bottom: 1px solid #DADADA; border-top: 1px solid #FFFFFF; color: #666666; text-align: center; }
+.tb-list2 th, .tb-list2 td { padding: 11px 10px; }
+#divLanguage span { display: block; float: left; height: 40px; line-height: 40px; }
+#divLanguage span img { float: left; margin-right: 10px; }
+.deposit_tips { background:url(/statics/img/en/form/right.png) no-repeat 130px center #fff; line-height: 200px; height:200px; font-size:18px; font-family:"微软雅黑"; text-align:left; padding-left:200px; }
+.deposit_tips a { font-size:18px; color:#1155aa;}
+#divMarket span { display: block; float: left; line-height: 40px; padding-right: 20px; }
+#stepThree .do_relink { text-align:center; padding:30px 0px 0px; margin-top:20px; background: url(/statics/img/gexian.png) left top repeat-x #fff;}
+#stepThree .do_relink a { width:200px;}
+#stepThree .do_relink a h4 { width:185px;}
+#stepThree hr {background: url(/statics/img/gexian.png) left bottom repeat-x #fff;}
+
+#stepTwo { width:800px; border:1px solid #ddd; margin-top:10px; padding:0px 0px 30px; background-color:#fff;}
+#stepTwo .hd { margin:20px 50px 30px; height:50px; line-height:40px; text-align:left; padding-left:0px; clear:both; background:url(/statics/img/gexian.png) left bottom repeat-x; }
+#stepTwo .hd h3 { font-size:24px; font-family:"微软雅黑"; color:#333; margin:0; padding-top:20px; padding-left:15px;}
+#stepTwo .form-line:after { display: block; clear: both; content: ""; visibility: hidden; height: 0; }
+#stepTwo .form-line { zoom: 1; padding-left:30px; }
+#stepTwo .form-line .form-tit { width:208px; text-align:right;}
+#stepTwo .form-line .form-con { width:400px; text-align:right;}
+#stepTwo .form-line .form-con input { width:280px;}
+#stepTwo .form-line .form-tit,#stepTwo .form-line .form-con { font-size:14px; float:left; height:50px; line-height:50px; _display:inline;}
+
+#stepTwo .bottomLine {margin:10px 50px 30px; width:auto; padding-top: 20px; text-align:center; background:url(/statics/img/gexian.png) left top repeat-x; border:none; }
+#stepTwo .bottomLine a { width:300px;}
+#stepTwo .bottomLine a h4 { width:285px;}
+
+
+#stepOne { width:800px; border:1px solid #ddd; margin-top:10px; padding:0px 0px 30px; background-color:#fff;}
+#stepOne .hd { margin:20px 50px 30px; height:50px; line-height:40px; text-align:left; padding-left:0px; clear:both; background:url(/statics/img/gexian.png) left bottom repeat-x; }
+#stepOne .hd h3 { font-size:24px; font-family:"微软雅黑"; color:#333;}
+#stepOne .form-line:after { display: block; clear: both; content: ""; visibility: hidden; height: 0; }
+#stepOne .form-line { zoom: 1; padding-left:30px; }
+#stepOne .form-line .form-tit { width:208px; text-align:right;}
+#stepOne .form-line .form-con { width:400px; text-align:right;}
+#stepOne .form-line .form-con input { width:290px;}
+#stepOne .form-line .form-tit,#stepTwo .form-line .form-con { font-size:14px; float:left; height:50px; line-height:40px; _display:inline;}
+
+#stepOne .bottomLine {margin:10px 50px 30px; width:auto; padding-top: 20px; text-align:center; background:url(/statics/img/gexian.png) left top repeat-x; border:none; clear:both; }
+#stepOne .bottomLine a { width:300px;}
+#stepOne .bottomLine a h4 { width:285px;}
+
+
+
+#stepThree { width:800px; border:1px solid #ddd; margin-top:10px; padding:0px 0px 30px; background-color:#fff;}
+#stepThree .hd { margin:20px 50px 30px; height:50px; line-height:40px; text-align:left; padding-left:0px; clear:both; background:url(/statics/img/gexian.png) left bottom repeat-x; }
+#stepThree .hd h3 { font-size:24px; font-family:"微软雅黑"; color:#333;}
+
+
+
+
+
+
+
+
+

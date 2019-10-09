@@ -1,0 +1,451 @@
+
+.content{
+    background: #F6F6F6;
+    min-width: 1270px;
+    padding-bottom: 60px;
+}
+.vote_head{
+    width: 100%;
+    min-height: 361px;
+    height: auto;
+    background: url("../img/common/vote_bg.png");
+    background-size: 100%;
+    padding-top: 60px;
+}
+#title{
+    width: 1190px;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 33px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: normal;
+}
+.active_end{
+    /* font-family: PingFangSC-Regular; */
+    padding-top: 18px;
+    font-size: 36px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center
+}
+#title_p,.vote_head h5{
+    width: 1190px;
+    font-size: 14px;
+    color: #FFFFFF;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: normal;
+}
+.vote_head h5{
+    margin-bottom: 10px;
+}
+#title_p{
+    margin: 15px auto 30px auto;
+    width: 1190px;
+}
+#title_p p{
+    margin: 0;
+}
+.vote_main{
+    width: 1190px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0,0,0,0.07);
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.05);
+    min-height: 500px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 84px;
+    padding: 35px 40px;
+}
+.number{
+    width: 1100px;
+    height: 176px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    padding-bottom: 122px;
+}
+.time,.text{
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: 300;
+}
+.time{
+    width: 50px;
+    height: 50px;
+    font-size: 36px;
+    margin-right: 6px;
+    position: relative;
+    text-align: center;
+}
+.days{
+    width: auto;
+}
+.number .text{
+    font-size: 12px;
+    margin-right: 27px;
+}
+.number .time .item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: ' ';
+    width: 100%;
+    height: 50px;
+    background: #999;
+    border-radius: 50%;
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.ainim{
+    -webkit-animation: mymove 0.6s;
+    -moz-animation: mymove 0.6s;
+    -ms-zoom-animation: mymove 0.6s;
+     animation:mymove 0.6s;
+}
+
+@keyframes mymove{
+    0% {
+        transform: scale(0);
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        opacity: 0;
+    }
+}
+@-webkit-keyframes mymove{ 
+   0% {
+        transform: scale(0);
+        -webkit-transform: scale(0);
+        -moz-transform: scale(0);
+        -ms-transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        opacity: 0;
+    }
+}
+.vote_table{
+    width: 100%;
+}
+.vote_table thead tr{
+    background: #F0F0F0;
+    border: 1px solid #dedede;
+}
+.vote_table tbody tr{
+    border: 1px solid #EEEEEE;
+    border-top: 0;
+}
+.vote_table tr{
+    height: 50px;
+    line-height: 50px;
+}
+.vote_table td,.vote_table th{
+    text-align: center;
+    font-size: 13px;
+    width: 15%;
+}
+.vote_table th{
+    color: #484C4B;
+}
+.vote_table td{
+    color: #656B6A;
+}
+.vote_table td:nth-child(3),.vote_table th:nth-child(3){
+    width: 25%;
+}
+.vote_table td:nth-child(4),.vote_table th:nth-child(4){
+    width: 30%;
+}
+
+.submit{
+    width: 240px;
+    height: 36px;
+    line-height: 36px;
+    background: #999999;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    bottom: 60px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+}
+.submit_active{
+    background: #128FDC;
+    cursor: pointer;
+}
+.submit_active:hover{
+    background: #1081C6;
+}
+.vote_foot{
+    width: 1110px;
+    margin: 0 auto;
+}
+.vote_foot div{
+    font-size: 18px;
+    color: #4E4F51;
+    line-height: 32px;
+}
+.vote_foot p{
+    font-size: 16px;
+    color: #4E4F51;
+    line-height: 32px;
+}
+.percentage div{
+    float: left;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.vote_table .percentage div:last-child{
+    height: 100%;
+}
+.vote_table td:nth-child(4){
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    padding-left: 15%;
+}
+.per_num{
+    width: 180px;
+    height: 6px;
+    position: relative;
+    background: #E9E9E9;
+    margin-right: 10px;
+    overflow: hidden;
+    margin-top: 22px;
+}
+.per_num_bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 66%;
+    height: 6px;
+    background: #128FDC;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.status{
+    width: 46px;
+    line-height: 28px;
+    border-radius: 4px;
+    border: 1px solid #D8D8D8;
+    color: #D8D8D8;
+    margin: 0 auto;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.rule_state_1:hover{
+    background: #128FDC;
+    color: #fff;
+}
+.rule_state_1{
+    border: 1px solid #128FDC;
+    color: #128FDC;
+    cursor: pointer;
+}
+.rule_state_2,.rule_state_3,.rule_state_0{
+    border: 1px solid #D8D8D8;
+    color: #D8D8D8;
+}
+#listData .rule_state_vote{
+    border: 1px solid #128FDC;
+    background: #128FDC;
+    color: #fff;
+}
+.active{
+    background: #128FDC;
+    color: #fff;
+}
+.float_div{
+    width: 50px;
+    height: 180px;
+    position: fixed;
+    right: 60px;
+    bottom: 10px;
+    z-index: 999;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.float_div div{
+    width: 50px;
+    height:50px;
+    border-radius:50%;
+    margin-bottom: 10px;
+    background: #2bb38a;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.3);
+}
+.float_div div:hover{
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+}
+
+.float_div div:first-child{
+    opacity: 0;
+}
+.float_div div .float_a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.float_div div:last-child{
+    background: #128FDC;
+}
+.vote_alert{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.vote_home {
+    position: fixed;
+    border-radius: 3px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    width: 450px;
+    height: 220px;
+    z-index: 10001;
+    top: 50%;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: -225px;
+    background: #fff;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.vote_close{
+    width: 18px;
+    height: 18px;
+    background: url("../img/common/close.png");
+    background-size: 100%;
+    position: absolute;
+    right: 19px;
+    top: 15px;
+    cursor: pointer;
+}
+.vote_home h3{
+    font-size: 18px;
+    color: #484C4B;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 40px 0 33px 0;
+    text-align: center;
+    padding: 0 20px;
+}
+.vote_home .martop_60{
+    margin-top: 60px;
+}
+.vote_login{
+    width: 240px;
+    height: 36px;
+    background: #128FDC;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.vote_login a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+}
+.vote_reg{
+    text-align: center;
+    color: #128FDC;
+}
+.vote_reg .reg_a{
+    font-size: 13px;
+    color: #199ED8;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.vote_foot .vote_foot_text{
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.vote_login:hover{
+    background: #1081C6;
+}
+.float_div div:hover{
+    background: #249271;
+}
+.float_div div:last-child:hover{
+    background: #1081C6;
+}
+.name_href{
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    color: #656B6A;
+}
+.name_href:hover{
+    color: #199ED8;
+}
+.currp{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****分享的图标**/
+.at-expanding-share-button[data-position=bottom-right]{
+    right: 60px !important;
+    bottom: 140px !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.at-expanding-share-button .at-expanding-share-button-toggle-bg>span{
+    background-image: url('../img/common/addthis-icon.png') !important;
+    background-color: #DABB84 !important; 
+}

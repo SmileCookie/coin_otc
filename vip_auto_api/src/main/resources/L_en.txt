@@ -1,0 +1,964 @@
+                                                                     
+                                                                     
+------------------------------这份语言包被所有市场的所有语言公用------------------------------------------------------
+-----------------------------顶部菜单双层header有他的作用-----------------------------
+header.htm=@@header.htm
+foot.htm=@@foot.htm
+uLeft.htm=@@uLeft.htm
+regMarket.htm=@@regMarket.htm
+regLanguage.htm=@@regLanguage.htm
+service.htm=@@service.htm
+headerHelp.htm=@@headerHelp.htm
+footHelp.htm=@@footHelp.htm
+header1.htm=@@header1.htm
+header2.htm=@@header2.htm
+header3.htm=@@header3.htm
+header4.htm=@@header4.htm
+USA=usd market
+CHA=RMB market
+HK$=HKD market
+USD=USD
+RMB=RMB
+BtcBt交易图=CHBTC trading charts
+关于我们=About Us
+有奖建议=Recommended prices
+联系我们=Contact Us
+给我们留言=Leave a message
+帮助=Help
+语言=Language
+登录=Login
+注册=Registration
+退出=Logout
+首页=Homepage
+主要市场对比=Main markets comparison
+主要市场=Main markets
+新闻资讯=News feed
+在线问答=Online support
+社区交流=Communities exchange (Forums/Social networks/Chat)
+分时k线图=K line charts per hour
+分日k线图=K line charts per day
+分钟k线图=k line charts per minut
+所有对比=All comparison
+BtcBt实时=CHBTC Real-time
+MtGox实时=MtGox Real-time
+BtcE实时=BtcE Real-time
+BtcChina实时=BtcChina Real-time
+所有新闻资讯=All news feed
+时事资讯=Newsletter
+行业动态=Industry trends
+站内公告=Daily bulletin
+市场=Market
+美元市场=CHBTCUSD
+港币市场=CHBTCHKD
+人民币市场=RMB market
+cn=simplified cinese
+en=English
+$=$
+-----------------------------顶部菜单结束-----------------------------
+-----------------------------底部开始-----------------------------
+充值与提现=Deposit and Withdrawal
+我想要充值=I want to deposit
+我想要提现=I want to withdrawal
+我的资金明细=My detailed statement
+我的资金冻结明细=My detailed frozen capital
+比特币充值与提现=BTC deposit & withdrawal
+比特币充值=BTC deposit
+比特币提现=BTC withdrawal
+我的比特币明细=My detailed BTC portfolio
+我的比特币提现明细=My detailed BTC withdrawal
+我的比特币冻结明细=My detailed frozen BTC
+关于账户=About account
+账户信息=Account Information
+验证邮箱=Email Verification
+设置资金安全密码= set transaction Password
+比特币工具=BTC tools
+委托购买比特币=Authorization to buy BTC
+委托购买详情=Detailed Authorization to buy BTC
+委托卖比特币=Authorization to sell BTC
+委托卖比特币详情=Detailed Authorization to sell BTC
+其他=others
+---------------------------底部结束-----------------------------
+
+
+--------------------------------------------------用户管理左边菜单-----------------------------------------------------------
+个人信息与安保=Personal Information & Security
+基本信息=Basic information
+手机认证=Mobile authentication
+邮箱认证=Email authentication
+登录密码管理=login password management
+交易密码管理=Transaction password management
+资金管理=Capital management
+我要充值=I want to deposit
+充值记录=Deposit record
+我要提现=I want to withdrawal
+提现记录=Withdrawal record
+资金明细=Detailed statement
+资金冻结明细=Detailed frozen capital
+比特币管理=BTC management
+比特币充值=BTC deposit
+比特币充值记录=BTC deposit record
+比特币下载=BTC download
+比特币下载记录=BTC download record
+比特币详情=Detailed BTC
+比特币冻结记录=Frozen BTC record
+客户服务=Customer service
+我的建议=My suggestion
+我的提问=My question
+欢迎登录，在这里您可以便捷地管理您的账户与交易=Welcome login, here you can find an easier and faster way to manage your account and transaction
+--------------------------------------------------用户管理左边菜单结束-----------------------------------------------------------
+
+---------------------------------------用户注册 User registration---------------------------------------
+现在加入我们=Join Us Now
+已经是我们的成员了？请=Already being our member? please
+选择货币市场=Choose a currency market
+选择语言=Choose a language
+货币市场=Currency market
+用户名=Username
+邮箱=Email
+用户名将会被用来作为登录的主帐户=Username will be used as login main account
+用户名填写不正确=Wrong username
+请填写一个有效的邮箱地址=Please insert a valid email
+您填写的邮箱地址不正确=Email address invalid
+邮箱将作为您最重要的安全保障，请认真填写=To secure your account, please enter a correct email address
+下一步=Next
+上一步=Previous
+密码强度=Password strengthen
+登录密码=Login password
+至少6个字符或、数字或者特殊字符构成=Consisted of at least 6 characters, including numbers or special characters
+密码至少需要6个字符=At least 6 characters for password
+提交注册=Submit the registration
+注册新账户=Sign up for a new account
+确认登录密码=Confirm login password
+重复您的用户密码=Repeat your password
+两次密码不一致=incorrect password for two consecutive times
+图像验证码=Image verification code
+刷新验证码=Refresh verification code
+请填写图像验证码=Please enter image verification code
+请填写至少4位的验证码=Please enter at least four verification code
+我已经阅读并且同意=I have read and agree to the CHBTC Terms and Conditions
+btcbt服务声明=CHBTC service statement
+恭喜你=Congratulations!
+转到网站首页=Switch to Homepage
+转到您的首页=Switch to your Homepage
+您已经成功注册了一个账户=Your account has been registered successfully
+您必须同意本网站的服务声明才可以继续=You must agree with the term of use of this site to proceed
+网络错误导致失败=Network error caused the failure
+注册失败，请检查您填写的信息并重新填写验证码，然后尝试再次提交=Registration failed, please check the information and re-enter verification code
+用户名重复=Repeat username
+邮箱地址重复=Repeat email address
+您想要的用户名已经存在，请更换一个新的=The username you registered already existed, please try a new one
+您用于注册的邮箱已经存在，请更换新的邮箱地址=The email address you are using for registration already existed, please try again with another email address
+用户名含有敏感关键字，请重新填写=The username contains sensitive keywords, please try a new one
+
+---------------------------------------用户注册结束---------------------------------------
+
+-----------------------------------------------首页开始-------------------------------------------
+比特币第一次从技术上保证了私有财产神圣不可侵犯=For the first time BTC has technically guaranteed the inviolability of private property
+交易比特币=BTC trading
+主要市场实时交易图对比=Real-time BTC trading charts in Main markets
+我们同时提供btcbt、mtgox、btce等多家主要比特币交易对比图，方便用户及时掌握各个交易市场的实时价格变动。=Meanwhile, we offer many trading charts from CHBTC、mtgox、btce etc for your comparison, facilitating you to monitor the real-time trading price of BTC
+实时交易=Real-time trading
+移动交易=Mobile trading
+比特币钱包软件=BTC wallet software
+比特币Api=BTC Api
+对于Pc网络版比特币交易，我们提供最为细致与先进的交易方式=we provide the most detailed and advanced trading solution for PC web edition 
+我们将为您提供移动版的API图表和交易管理，所以，在不远的未来，你可以在任何地方进行比特币交易！=We will offer you API charts and transaction management for mobile edition, so in the coming future you can trade you Bitcoins anywhere in the world 
+我们致力于结合的BTC管理软件和交易图表，让您更轻松地查看市场，交易更迅速。=We are committed to combine BTC management software with trading charts to facilitate your checking and trading BTC
+如果你是一个BTC相关行业的网站管理员，需要对接交易图表，请联系我们。=If you are webmaster of relevant industry who needs to dock trading charts, please feel free to contact us
+-----------------------------------------------首页结束----------------------------------------------
+-------------------------------------------------------------用户后台首页--------------------------------------------------
+用户管理=User management
+站内信=Post message
+未读=Unread
+发送消息=sent message
+发件箱=outbox
+网站首页=Homepage
+欢迎=Welcome
+推荐用户=Referral user
+推荐用户到btcbt进行交易，您可以获得= You can earn commission on referral user trading at CHBTC
+交易费永久=commission
+您的推荐地址=Your preferred address
+您大约有=You have approximately 
+大约= approximately
+包括=IncludeF
+安全级别=Security level
+修改密码=modify password
+修改资金安全密码=modify transaction password
+详情=details
+资产=assets
+
+共有=Total
+可用=Could use
+-----------------------------------------------------------用户后台首页结束------------------------------------------------
+发送邮箱验证=@sendMobelEmail.htm 
+
+
+
+-----------------------------------------------------------在线问答------------------------------------------------
+已经提问过？=Already asked?
+存款及现金=Deposit and cash
+比特币收支=Balance of BTC
+关于账户=About account
+比特币工具=BTC tools
+所有问题=All questions
+主题=Subject
+提问时间=Time for question
+回答时间=Time for answer
+问题=question
+客服回答=Customer service answer
+解答您提出的问题=Solve your problem
+如果您提出的建议被网站采纳，将获得相应的奖励=If your proposal is adopted website will reward you
+您好，客服%%为您服务=Good morning / Good afternoon, can I help you?
+稍候客服将回答您的问题=Our service is busy now please be patient, thanks！
+客服=Customer service
+客服回答对您是否有帮助=The answers of service are helpful for you?
+有帮助=Yes,it's helpful
+没帮助=No, it isn't helpful
+-----------------------------------------------------------在线问答结束------------------------------------------------
+
+
+-----------------------------------------------------------TITLE--------------------------------------------------
+基本信息=Basic information
+手机认证=Mobile verification
+邮箱认证=Email verification
+登录密码=Login password
+资金安全密码=transaction password
+社区交流=Communities
+
+-----------------------------------------------------------表单名称------------------------------------------------
+-------------------------------------------------------------文本--------------------------------------------------
+没有设置资金安全密码=not yet set up transaction password
+现在去设置=Now go to set up
+您的手机号码已经通过认证=Your mobile number has been verified successfully：
+您的邮箱已经通过认证=Your email has been verified successfully：
+您的邮箱将收到一封邮件= An email has been sent to your address, please click on the link below and complete the verification。
+没有收到请重新发送=If you hadn't received any email within 30mintus, please check your junk email, if you still hadn't get it please re-send it。
+登录密码格式=Password consists 6-16 Alphanumeric & Special Characters, for the security of your account please use complicated password
+忘记登录密码=Forgot password?
+资金安全密码描述=transaction password used for payment, cash and other important operation。
+忘记资金安全密码=Forgot transaction password?
+
+Hi<span style="color:#c400;">%%</span>Dear！
+您正在进行BtcBt邮箱认证=You are verifying your CHBTC email address, please click on the link below to complete the verification, you may proceed with other operation after verification completed successfully。This link is valid for 24hours。
+如果链接无法点击=If the link can't be opened, please copy it into your browser
+
+没有符合要求的记录=Does not meet the requirements 
+
+关键字=Keywords
+发表于=Published
+回复=Reply
+我要建议=I want give suggestion
+我要提问=I want make a question
+
+--------------------------------------------------------------标题-------------------------------------------------
+姓名=Name
+手机=Mobile
+MSN=MSN
+邮箱=Email
+内容=Content
+真实姓名=Real name
+电话=Telephone
+是否接收短信=whether receive sms
+接收短信=receive sms
+不接收短信=not receive sms
+头像=avatar
+修改头像=Modify avatar
+手机号码=Mobile number
+新=New
+验证码=Verification code
+短信验证码=Sms verification code
+原手机号码=Previous mobile number
+资金安全密码=Transaction password
+原邮箱地址=Previous email address
+邮箱地址=Email address
+当前密码=Current password
+密码=Password
+确认新密码=confirm new password
+显示=display
+条=
+标题=title
+满意=satifaction
+操作=operation
+问题类型=type of question
+请选择=please choose
+建议时间=suggested time
+回复时间=reply time
+
+
+
+--------------------------------------------------------------Tab----------------------------------------------
+所有=All
+已回复=replied
+未回复=no reply
+
+
+
+
+--------------------------------------------------------------Mytitle----------------------------------------------
+请输入您的姓名=please enter your name
+请输入正确的姓名=please enter a correct name
+请输入您的手机号码=please enter a mobile phone number
+请输入正确的手机号码=please enter a correct mobile phone number
+请输入您的电话号码=please enter your telephone number
+请输入正确的电话号码=please enter a correct telephone number
+请输入您的MSN账号=please enter your MSN account
+请输入您常用的邮箱地址=please enter your frequently used email address
+邮箱格式不正确=the format of email is incorrect
+请输入您的留言=please enter your message(16-500characters)
+请输入发送到您手机上的验证码=please enter the verification code sent to your mobile
+请输入您的资金安全密码=please enter your transaction password
+请确认资金安全密码是否正确=please confirm if the password is correct
+请输入您当前的登录密码=please enter your current login password
+当前密码输入不正确=Current password is not correct
+密码强度=password strengthen
+密码建议=suggested password consists 6-16 Alphanumeric & Special Characters
+确认密码格式是否正确=please confirm if the format of password is correct
+请再次输入您的新密码=please enter again your new password
+两次输入的密码不一致=incorrect password for two consecutive times
+
+请选择问题的类型=please choose the type of questions
+请输入标题=please enter the title(6-100 characters)
+请输入内容=please enter the correct content (10-2000 characters)
+请输入验证码=please enter the correct verification code
+请输入正确的用户名=please enter the correct username
+请输入您注册的邮箱=please enter your registered email
+请输入您的登录密码=please enter your login password
+
+---------------------------------------------------------------按钮-------------------------------------------------
+提交=submit
+取消=cancel
+搜索=search
+重置=reset
+提问=ask a question
+建议=suggestion
+确认信息并提交=confirm information and submit
+获取验证码=obtain verification code
+修改=modify
+设置=setting up
+登录到邮箱=login to email
+重新发送=re-send
+删除=deleted
+发布=publish
+更多=more>>
+--------------------------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------后台操作结果-------------------------------------------------
+操作成功=successful operation 
+操作失败=failed operation
+未知错误导致操作失败=unknown error results in operation failed
+
+资金安全密码没有设置=You haven't set up your transaction password yet, please set it up
+资金安全密码已锁定=Transaction password locked
+资金安全密码错误=Transaction password input error
+
+密码已锁定=password locked
+原始密码不正确=original password incorrect pleas confirm and re-enter it
+
+邮箱已存在=this email address already been used, pleas confirm and re-enter it
+有效的邮箱=Valide email
+邮件已发送=Email sent, please check it
+邮件发送失败=Email sent failed
+手机号码已存在=This mobile number has been used, please re-enter after confirmation
+有效的手机号码=Valid cell phone number
+验证码已发送=verification code has been sent
+验证码发送失败=Verification code sent failed
+一分钟之后再重新获取=Please reacquire it one minute later
+验证码错误=Verification code error, please re-enter
+手机认证成功=Mobile phone verified successfully
+手机认证失败=Mobile phone verification failed
+提交成功=Submitted successfully
+提交失败=Submit failed, please check the contents and enter the verification code again
+用户名不存在=User name does not exist
+邮箱不正确=Mailbox is incorrect
+密码不正确=Invalid password
+修改资金安全密码的请求已失效=Transaction password has expired, please re-apply
+资金安全密码修改成功=Transaction password modified successfully
+资金安全密码修改失败=Transaction password modification failed
+
+----------------------------------------------------------配置dao层相关----------------------------------------------------
+用户中心=User Center
+点击联系我们=Click on contact us
+联系我们=Contact us
+亲爱的=Dear
+您好=Hello
+您正在找回=Welcome back
+登录密码，以下是您的新登录密码，请妥善保存：=Login password, here is your new login password, please keep it safely：
+您的新密码为：=Your new password：
+为保证密码安全，请及时修改本系统生成密码=Please modify this system-generated password to ensure your password security
+
+-----------------------------------------------------------委托相关------------------------------------------------
+您的账户余额不足请充值=Your account balance is insufficient, Please<a href=\"/u/pay/recharge\" target=\"_blank\">re-charge</a>!
+您的比特币余额不足请充值=Your bitcoin balance is insufficient, please<a href=\"/u/pay/BtcUpload\" target=\"_blank\">re-deposit your bitcoin</a>!
+您还有卖比特币委托已经达到您本次购买的报价请取消=Your commissioned bitcoins sales has reached the purchase price, please cancel it
+您还有买比特币的委托已经达到您本次出售的报价请取消=Your commissioned bitcoins purchase has reached the sales price, please cancel it
+委托成功=Commissioned successfully
+委托失败程序错误=Commissioned programm error occured，order failed
+请输入买入的金额=Please enter the purchase amount, it must be a digital number
+请输入卖出的金额=Please enter the sales amount it must be a digital number
+请输入买入的数量=Please enter the purchase quantity it must be a digital number
+请输入卖出的数量=Please enter the sales quantity it must be a digital number
+请检查您输入的金额是否正确=Please confirm the amount you entered is correct
+请检查您输入的数量是否正确=Please confirm the quantity you entered is correct, the transaction quantity should be superior to 0.001 but inferior to 100.00！。
+-----------------------------------------------------------委托相关------------------------------------------------
+
+
+
+
+
+
+
+
+-----------------------------------------------------------前台   实时行情 ----------------------------------------------
+实时行情-比特币BtcBt交易网-最专业的比特币交易平台比特币交易比特币=Real-time Bitcoin rates- CHBTC is the most professional Bitcoin exchange platform- Bitcoin exchange - Bitcoin
+首页=Homepage
+实时行情=Real-time Bitcoin rates
+hour= Statistics on hours
+BtcBt的主要图表=Main charts of CHBTC
+购买比特币=buy
+卖比特币=sell
+买价=purchase price
+卖价=sales price
+最高价=Maximum price
+最低价=Lowest price
+最新价格=Newest price
+数量=quantity
+买入=buy
+买入价=purchase price
+卖出=sell
+卖出价=sales price
+最新成交=Newest transaction
+时间=time
+数量=quantity
+单价=unit price
+
+
+市场=market
+BtcBt=CHBTC
+MtGox=MtGox
+BtcE=BtcE
+BtcChina=BtcChina
+
+
+-----------------------------------------------------------前台   论坛 ----------------------------------------------
+今日=Today
+昨日=Yesterday
+帖子=Post
+主题=Topic
+帖数=post quantity
+最后回复=last reply
+&=/
+查看新帖=view new posts
+精华区=Highlight area
+筛选=filter
+全部时间=total time
+一天=a day
+两天=two days
+一周=a week
+一个月=a month
+三个月=three months
+半年=half year
+一年=a year
+排序=rank
+最后回复时间=last reply time
+发布时间=release time
+查看次数=time of views
+回复次数=time of replies
+按降序排列=rank by descending
+按升序排列=rank by ascending
+精华=Highlight
+回复=Reply
+查看=View
+快速发帖=quick post
+登录后发帖=login before you can post
+发帖=post
+发表帖子=posting a topic
+帖子标题Demo=Please enter the post title，you can still enter 80 characters
+帖子标题Mytitle=Please enter the post title，no more than 80 characters (6-160 characters).
+返回列表=Return to list
+作者=Author
+浏览=Browse
+次=time
+注册时间=Register time
+只看楼主=Check host only
+显示全部=Disply all
+只看用户=check user only
+发帖成功=Post successfully
+发帖失败=Post failed
+回复内容=Reply to a post
+填写回复内容=Please fill in the reply
+回复成功=Reply successfully
+回复失败=Reply failed
+标题=Title
+版块=Section
+最新帖子=The latest posts
+
+确定置顶=Are you sure you want to sticky this thread?
+确定取消置顶=Are you sure you want to cancel your sticky thread？
+确定精华帖=Are you sure you want to highlight this post?
+确定取消精华帖=Are you sure you want to remove highlight from this post?
+------------------------------------------------------------------------------------------------------------------
+
+
+推荐人=Recommended
+我的提成=My commission
+推荐规则=Every transaction completed by the registered user you invited you will get the highest<b class=\"co_red\">20% commissions</b>，and you can enjoy a life-time commission！all details of commission could be viewed in the balance. The more transactions the more bonus！
+
+
+
+
+
+--------------------------------------------------------------帮助自助服务----------------------------------------------------
+找回登录密码=Recover login password 
+找回资金安全密码=Recover transaction password
+登录密码描述=Please enter information below correctly, you will receive a reset email.
+资金安全密码描述=Please enter information below correctly, you will receive a reset link via this email.
+重置资金安全密码描述=You are resetting the transaction password, please remember your transaction password.
+您的用户名=Your user name
+您的邮箱=Your email address
+您的登录密码=Your login password
+您将在此邮箱中收到重置的密码=You will receive a reset password in your mailbox
+您将在此邮箱中收到重置资金安全密码的链接=You will receive a link to reset the transaction password
+重置资金安全密码=Reset transaction password
+
+
+
+
+
+
+
+
+
+我的账户=My account
+我要充值=I want to deposit
+在线充值=Online deposit
+转账/汇款=transfer/remittance
+方式=methods
+限额=quotas
+描述=description
+操作=operation
+贝宝国际付款=Paypal payment
+下一步=next
+上一步=previous
+
+充值记录=record of deposit
+账户=account
+通过问能解决您的难题=Resolve your problems by asking questions
+操作时间=operating time
+从=from
+到=to
+搜索=search
+重置=reset
+
+成功=succsessful
+失败=failed
+处理中=processing
+待确认=waiting for confirmation
+编号/时间=serial number/time
+金额=amount
+充值方式=deposit method
+状态=status
+
+我要提现=I want to withdrawal
+提现银行账户=Common withdrawal account
+添加银行卡=add a bank card
+修改银行卡=modify a bank card
+添加财付通=Add TenPay
+添加支付宝=Add AliPay
+(您最多添加%%个账号)=(you can add maximum<font color="#c92707" id="varableNum">%%</font>accounts)
+银行=bank
+银行卡尾号=the last number of bank card
+限额=quotas
+最多提现金额=the maximum withdrawal amount
+提现金额=withdrawal amount
+提示：=hint：
+提现收取的手续费=1% commissions will be charged for cash withdrawal, the minimum charge is 2rmb。
+未设置提现银行账户！=Cash withdrawal bank account is not set！
+提现操作=cash withdrawal operation
+编辑=edite
+删除=delete 
+设置默认=default setting
+取消默认=cancel the default
+
+提交成功=submit successfully！
+充值请求提交成功！=deposit request submitted successfully！
+当前转账%%，请务必在转账信息备注栏填写%%=Currently transfer $%%.please fill transfer information in remark column when you transfer<b style="color:red;">%%</b>，after receiving the funds CHBTC will automatically recharge your account
+收款人=payee	
+收款人账户= Beneficiary Account
+收款方式=payment methods	
+备注=remark
+我要=I want
+查看充值记录=view the record of deposit
+继续充值=deposit continuely
+Paypal账户=Paypal account
+贝宝转账付款=Paypal transfer payment
+您已经选择了贝宝线下存款=You have selected Paypal offline deposit
+您已经选择了银行线下汇款=Your have selected bank offline remittance
+您已经选择了支付宝转账充值=You have chosen Alipay for transfer deposit
+您已经选择了财付通转账充值=You have chosen Tenpay for transfer deposit
+存款订单=Deposit order
+存款金额=Deposit amount
+实收款=Net payment amount
+验证码=Verification code
+请检查该字段是否是一种数字货币=please check whether the field is a digital currency
+请检查该字段是否是数字类型，输入存款金额=Please check whether the field is numeric-type and  enter deposit amount
+填写备注=Fill in remarks
+请输入图形验证码=Please enter the graphical verification code
+查看=View
+查看原因=View the causes
+
+
+买入比特币=Purchase bitcoins
+卖出比特币=Sell bitcoins
+卖出手续费=sales commissions
+买入手续费=purchase commissions
+买比特币余额=purchase bitcoin balance
+
+手机认证奖励=Mobile verification incentive / Mobile Authentication
+邮箱认证奖励=Mailbox verification incentive
+
+亲爱的%%,您好！=Dear <span style="color:#c400;">%%</span> , Hello！
+点击认证邮箱=Please click on verification mailbox
+
+您正在申请找回您在BtcBt的资金安全密码，请点击下面的链接修改您的资金安全密码。该链接地址24小时内有效。=You are applying for recover your transaction password in CHBTC,please click on the link below to modify your transaction password. The link address will be valid for 24hours.
+您正在找回BtcBt登录密码，以下是您的新登录密码，请妥善保存：=You are recovering your CHBTC login password, here is your new login password, please keep it safely：
+您的新密码为：=Your new password：
+邮箱认证成功，系统奖励您%%比特币=Email verification is successful, the system rewards you %% bitcoins，<a href='/u/pay/BtcDetails' target='_blank'>View</a>
+出错了！=error occured！
+
+
+委托买比特币=Commissioned/entrusted to buy bitcoins
+委托卖比特币=Commissioned to sell bitcoins
+买入=Buy
+卖出=Sell
+委托单价=Commissioned unit price
+委托买入数量=Commissioned buy quantity
+委托卖出数量=Commissioned sell quantity
+总额=Total amount
+余额=Balance
+您已经选择了=You have selected
+委托买相关信息=Commissioned buy related information
+委托卖相关信息=Commissioned sell related information
+交易=transaction
+
+委托买入详情=Commissioned buy details
+委托卖出详情=Commissioned sell details
+比特币收支明细=Bitcoin payments detail
+范围=Range
+总额=Total amount
+创建时间=Creat time
+待成交=Wait for a deal
+取消中=Cancelling
+编号=Serial number
+已完成=Completed
+购买中=purchasing
+已取消=cancelled
+保存登录=keep loglin
+小时=hour
+天=day
+周=week
+登录=login
+安全登录=Safe login
+忘记密码=Forgot password
+您正在进行BTCBT手机认证，验证码为：%%=You are working on CHBTC mobile verification，verification code：%%。
+手机认证成功，成功获赠%%比特币=Mobile verification successful，successfully gained %% bitcoins，<a href='/u/pay/BtcDetails' target='_blank'>view</a>
+推荐[%%]交易提成=Referral[%%]transaction commission
+账号=account
+收入=income
+支出=expenses
+收支明细=balance details
+冻结明细=frozen detail
+冻结=frozen
+解冻=unfrozen
+委托或交易时，系统会冻结你相应的资金=when entrusting and trading the system will freeze your funds
+请将比特币充值到下面的地址=Please deposit bitcoins to address below
+暂无接收地址，请等待或联系我们=missing address for receiving bitcoins，please wait or contact us
+当您向此地址发送比特币成功后，我们会自动为您的BtcBt账户充值比特币=when you send bitcoins to this address successfully，we will automatically recharge bitcoins to your CHBTC account 
+强大的技术支持快速BTC上传。=A powerful technical support to recharge bitcoins quickly.
+发送地址=send address
+处理时间=processing time
+您有=you have
+今日已提现= withdrawal today
+今日余额=Today's balance
+添加地址=Add address
+接收地址=Receive address
+(你最多添加%%个接收地址)=(You can add up to maximum<font color="#c92707" id="varableNum">%%</font>address)
+您的比特币账户余额=Your bitcoin account balance
+
+充值=Deposit
+提现=Withdrawal
+其它=other
+类型=type
+
+
+第一页=The first page
+上一页=last page
+下一页=next page
+跳转=skip
+最多%%页=maximum%% page
+页码太大，最多%%=pagination is too big，maximum%%
+
+请输入搜索的最小金额=Please enter searched minimum amount
+请输入搜索的最大金额=Please enter searched maximum amount
+请输入备注信息=Please enter the note information
+请检查您输入的是否是数字类型=Please check whether you have entered is numeric type
+
+请输入充值金额，充值金额不能为空！=Please enter deposit amount prepaid amount cannot be empty！
+输入格式错误，请输入数字类型的字符，例如：input format error, please enter numeric characters, for example：100
+充值金额至少5.00= Deposit Recharge amount of at least 5.00
+充值金额不能大于100,000= Deposit Recharge amount can’t exceed 100,000
+请输入提现金额，最多=Please enter withdrawal amount, maximum
+请选择默认的提现账户！=Please select default cash account!
+请设置您的提现账户！=Please set up your cash account!
+提现账户不能为空=Cash account can’t be empty!
+金额格式错误，请填写正确的提现金额，如：100.00=Amount format is incorrect, please enter the correct amount, such as：100.00
+您的提现金额少于100，无法提现=Your withdrawal amount is less than 10，withdrawal failed
+确定要设置当前项为默认提现账户吗？=Are you sure you want set the current item as the default withdrawal account?
+确定取消当前项为默认提现账户吗？=Confirm to cancel current item as the default withdrawal account?
+确定删除当前提现账户吗=Confirm to delete the current withdrawal account?
+
+开户行真实姓名=Real name of opening bank
+银行所在地=location of the bank
+选择银行=select bank
+银行卡号=bank card
+重复卡号=repeat card number
+选择省=--select province--
+选择市=--select city--
+
+选择国家=Select Country
+城市=City
+银行名称=Bank Name
+请输入您银行卡所在的城市=Enter the city where your bank card
+请输入您要提现的银行卡的银行名称=Please enter your bank card to withdraw cash in the bank name
+收款人地址=Payee address
+
+财付通账号=TenPay account
+收款人姓名=Payee name
+支付宝账号=AliPay account
+请正确填写您要提现的支付宝账号=Please fill in your correct to mention now Alipay account.
+请正确填写您要提现的财付通账号=Please fill in your correct to mention now Tenpay account.
+请正确填写您要提现的收款人姓名=Please fill in your correct to mention now Payee name.
+请填写收款人地址=Please fill in your correct to mention now Payee address.
+
+填写银行账户的真实姓名=Fill in the real name of bank account
+银行账户的真实姓名错误=Real name of bank account incorrect
+填写正确的银行卡号，不必用空格隔开=Fill in the correct bank card number without space！
+请重复上面银行卡号=Please re-enter the bank card number above!
+两次填写的卡号不一致=incorrect card number for two consecutive times ，please check it！
+添加银行卡成功=Bank card added successfully
+添加银行卡失败=Bank card added failed
+添加银行卡发生错误=Bank card added error
+选择银行卡所在的银行=Please select the bank where the bank card belongs to
+
+
+10月10日前免费，之后恢复0.5%=October 10 free, after which recovery of 0.5%
+提现确认=confirm withdrawal
+银行账号=Bank account
+确认=confirm
+返回=return
+银行卡户者必须是“%%”，否则提现将失败=bank card holder must be“<span style="color:#D75A46;">%%</span>”，otherwise the withdrawal will be failed, please confirm before you submit it.
+请输入提现账号=please enter withdrawal account
+未知错误导致提取现金失败=Unknown error caused withdrawal failed
+非法金额=illegal amount
+提现金额需大于%%且小于%%=withdrawal amount must be superior to %%but inferior to %%
+显示您所有的资金收支记录=Display all records of cash balance of payments
+请确认以下银行卡是正确的，以确保您的提现能成功到账=Please confirm the bank cards below are correct in order to ensure a successful withdrawal!
+
+
+请选择默认的比特币接收地址=Please select a default bitcoin receive address
+请设置您的比特币接收地址=Please set up a bitcoin receive address
+下载的比特币数量不能为空=Download bitcoin volume can not be empty
+数量格式错误，请输入正确的要下载的比特币数量=quantity format incorrect，please enter correct bitcoin quantity for downloading
+今日的比特币下载量已经用完=Downloading volume of bitcoin for today has been finished
+下载数量超过了每次允许的下载数量=download volume exceeds the allowed quantity!
+您确定要设置当前地址为默认接收地址吗=Are you sure you want to set the current address as the default recipient address?
+您确定要取消当前的默认接收地址吗=Are you sure you want to cancel the current default address?
+您确定要删除该比特币地址吗=Are you sure you want to delete the bitcoin address?
+您的下载数量超过您拥有的比特币数量=You download more than you have
+每天=Every day
+每次=Every time
+比特币下载确认=Confirm bitcoin download
+比特币下载请求提交成功=bitcoin download request is submitted successfully.
+请确认您的比特币接收地址是否正确，确保你可以成功收到比特币=please make sure your address is correct in order to receive bitcoins successfully !
+请认真检查下面的接收地址是否正确，否则将不能收到比特币=Please check carefully the following receiving addresses, otherwise you won't be able to receive bitcoins
+下载数量=Download volume
+比特币下载成功=Bitcoin download successfully
+您可能会需要搜索比特币下载记录=You may need to<a href="/u/pay/BtcDownRecord"> search for bitcoins download record </a> | <a href="/u/pay/BtcDownload"> continued download</a>
+
+
+重复比特币接收地址=Repeat bitcoin receiving address
+比特币接收地址=bitcoin receive address
+成功添加比特币接收地址=bitcoin receiving address is added successfully 
+添加比特币接收地址出错=bitcoins receiving address added incorrectly
+接收地址不能有空格=Received address can not have space
+填写正确的接收地址，如：1LiW55iqsUSAgA5rMXHUFAWJWG3s9CPdCW=Fill in the correct address, such as：1LiW55iqsUSAgA...
+
+填写正确的接收地址，不必用空格隔开！=Fill in the correct received address without space
+两次填写不一致=Incorrect filled information for two consecutive times
+请重复上面的接收地址=Please repeat the above received address
+
+请填写用户名或邮箱=Please enter the username or email
+请输入登录密码=Please enter login password
+请填写正确的用户名或密码=Please enter the correct username or password
+请填写正确的验证码=Please enter the correct verification code
+
+
+请输入搜索关键字=Please enter a search keyword
+用户登录=User login
+部分成交=No/partial deal
+确定取消当前项吗=Are you sure to cancel current entry?
+确定删除当前项吗=Are you sure to delete current entry?
+暂无未读消息=No unread messages
+更多站内信=More in-box letters
+未读=Unread
+
+请输入交易的金额=Please enter trading amount
+请输入交易的数量=Please enter trading volume
+在线银行充值=Online bank deposit
+支付宝在线充值=Alipay online deposit
+贝宝在线充值=Paypal online deposit
+
+汇款详情=Remittance details
+
+线下银行汇款=Offline bank transfer
+贝宝转账充值=Paypal transfer deposit
+支付宝转账充值=Alipay transfer
+财付通转账充值=Tenpay transer deposit
+请输入充值金额=Please enter the deposit amount
+选择充值银行=Select deposit bank
+补贴充值，100%到账=We provide pre-paid subsidy，100% money arrival
+充值金额=Recharge amount
+提现成功=Withdrawal succeeded
+您的提现请求提交成功=Your withdrawal request submitted successfully 
+如果您的银行卡信息设置不当导致提现失败，资金将自动返回=If your bank card information settings failed, funds will be automatically returned
+提现银行=Withdrawal bank
+到账时间=Arrival time
+1-2个工作日=1-2 working days
+您可能会需要搜索提现记录=Youo may need to<a href="/u/pay/CashRecord"> search for withdraw records </a> | <a href="/u/pay/cash"> continue withdrawal </a>
+一天最多提现3次=cash withdrawals up to 3 times a day, you have operated more than 3 times.
+您可以提现的金额少于10元，不能提现=The amount you may withdraw is less than $ 10, can’t withdraw
+添加银行账户成功=bank account added successfully
+添加银行账户失败=Adding bank account failed
+添加银行账户发生错误=Error occurred adding bank account
+未设置比特币接收地址=BTC receive address is not set yet
+添加比特币地址=Add bitcoin address
+修改比特币地址=Modify bitcoin address
+请输入您要下载的比特币数量=Please enter the bitcoin volume you want to download
+冻结号=Frozen account
+
+您已经选择支付宝充值=You have selected Alipay to recharge online
+您已经选择在线银行充值=You have selected online banking to recharge 
+您已经选择贝宝充值=You have selected Paypal online recharge
+
+
+
+----------------------------------------------------------------站内信--------------------------------------------------------------------------
+全部信件=All letters
+已读信件=Read letters
+未读信件=Unread letters
+发件人= sender
+收件人=recipients
+发送时间=Send time
+全选=select all
+全部删除=delete all
+共%%项=Total %%
+返回收件箱=go back to inbox
+上一封=last
+下一封=next
+
+请输入收件人用户名=please enter username of recipients
+
+
+------------------------------------------------------------站内信提醒信息-----------------------------------------------------------------
+恭喜您注册成为BTCBT的会员=Congratulations! you have become a member of CHBTC successfully
+系统提醒：您的手机认证成功=System alert：Your mobile verification is successful
+系统提醒：您的邮箱认证成功=System alert：Your email verification is successful
+系统提醒：您的提现成功=System alert：Your withdrawal is successful
+系统提醒：您的提现未成功=System alert：Your withdrawal is failed
+系统提醒：您的建议已经回复=System alert：Your suggestion has been replied
+系统提醒：您的提问已经回复=System alert：Your question has been replied
+系统提醒：您的充值成功=System alert：Your deposit is successful
+系统提醒：您的充值失败=System alert：Your deposit is failed
+
+
+
+
+恭喜您注册成为BTCBT会员=Congratulations! you have become a member of CHBTC successfully<br>you may earn %% bitcoins by mobile verification, now go to<a href=\"/u/approve/mobile\" target=\"_blank\">mobile verification</a>；you may earn %% bitcoins by email verification, now go to<a href=\"/u/approve/email\" target=\"_blank\">email verification</a>。
+您的提现已经成功，资金已经提现到您的银行卡中=The cash withdrawn successfully, serial number：%%，the funds has been transferred to your bank card, please check it. if you have any question please contact online customer service!
+您的提现未成功，资金已冻结=Your withdrawal is failed and the funds have been frozen, serial number：%%，reason：%%，funds have been unfrozen
+您的提现未成功，资金已退回=Your withdrawal is failed and returned to your account, serial number：%%，reason：%%，the funds have been credited back to your CHBTC account
+您的充值确认已成功=Your recharge confirmed successfully, serial number：%%。
+您的充值未成功=Recharge failed, reason：%%。
+您的建议已回复=Your suggestion to CHBTC has been replied，<a href=\"/u/customer/suggest\" target=\"_blank\">view the suggestion</a>。
+您的提问已回复=Your questions have been replied ，<a href=\"/u/customer/ask\" target=\"_blank\">view my questions</a>。
+
+
+
+未知原因导致操作失败，请稍后重试=Operation failed due to unknown reasons, please try again later 
+
+取消成功=Cancellation successful
+用户取消=User cancelled
+添加银行账户成功=Add bank account successfully
+确定要取消当前提现吗=Are you sure you want to cancel current withdrawal?
+取消提现=cancel withdrawal
+
+
+
+输入必须为数字类型，单次提现金额=Entered number must be numeric type，single withdrawal amount 0.001฿-10฿
+比特币提现成功，您提现的%%比特币已成功到账，请检查，如有疑问，请联系在线客服。=Bitcoin withdrawal successful, %% bitcoins have arrived to your account successfully, please check, if you have any questions, please contact customer service.
+比特币充值成功，您充值的%%比特币已成功到账，请检查，如有疑问，请联系在线客服。=Bitcoin recharge successful,%% bitcoins reached your account successfully, please check, if you have any questions, please contact customer service.
+您已经成功买入%%比特币，详情请查看交易记录，如有疑问，请联系在线客服。=You have successfully purchased %% bitcoins ，please check the details<a href=\"/u/pay/BtcDetails\" target=\"_blank\">transaction record</a>，if you have any questions, please contact customer service.
+您已成功卖出%%比特币，详情请查看交易记录，如有疑问，请联系在线客服。=You have successfully sold %% bitcoins，please check the details<a href=\"/u/pay/BtcDetails\" target=\"_blank\">transaction record</a>，if you have any questions, please contact customer service.
+
+
+
+------------------------------------------------------关于我们---------------------------------------------------------
+Btcbt是一家面向全球的比特币交易平台，我们致力于提供给我们的Bitcoin的爱好者一个最安全和最可靠的交易平台，以及最优质的服务体验。=CHBTC is the world's class Bitcoin trading platform in operation today. We are committed to offer our customers the safest and the most reliable bitcoin trading platform, as well as the best service experience.
+Btcbt成立于亚洲的香港，在中国大陆设立办事处，香港是主要负责研究和开发工作，我们现在有近20人的技术团队，强大的研发团队是btcbt能够为用户提供长期稳定和安全保护服务。=CHBTC is found in HongKong with the representative office in mainland China. The Hong Kong office is in charge of research and development; With our strong skilled team we can guarantee stability, safety and reliability. 
+最满意的BTC交易平台=The most satisfactory BTC exchange platform
+促进BTC的广泛应用=Promote extensive use of BTC
+通过改进细节简化交易过程=Simplify process of trading through improving detail
+满足所有合理的要求=Meet all reasonable request
+为了自由=For the freedom<br/>Here we have an expert team<br/>for protecting your property<br/>we make our great effort<br/>with passion、energy<br/>never give in spirit<br/>with more encouragement expect future<br/>this is our team<br/>
+
+
+
+
+系统提醒：您的比特币提现成功=System alert：Your bitcoins withdrawn successfully
+系统提醒：您的比特币充值成功=System alert：Your bitcoins recharged successfully
+系统提醒：您的比特币买入成功=System alert：Your bitcoins purchased successfully
+系统提醒：您的比特币卖出成功=System alert：Your bitcoins sold out successfully
+
+推荐用户到btcbt进行交易，您可以永久获得最高50%交易费=Recommend users to CHBTC transaction, you can permanently get the highest 50 percent transaction fee
+
+
+
+
+
+
+
+最近委托卖出=Recently commissioned to sell
+最近委托买入=Recently commissioned BUY
+最近十笔充值记录=Record last ten pen refill
+最近十笔提现记录=Record last ten pen withdrawals
+详细记录=Details
+
+
+
+
+类别=Category
+价格=Price
+现金手续费=Cash fee
+比特币手续费=Bitcoin fee
+立即下单=Order now
+立即出售=Immediate sale
+
+确定充值=Determine recharge
+请输入正确的密码=Please input Right Password!
+平均成交价=average transaction price
+委托失败，交易大盘忙碌，请稍后再试，或者通知网站！ = Entrust failure, the transaction is busy, please try again later, or notify the site!
+
+
+
+
+

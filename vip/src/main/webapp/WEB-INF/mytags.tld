@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"   version="2.0"> 
+ <tlib-version>1.0</tlib-version>
+ <short-name>L</short-name>
+     <uri>http://w.btcbt.com/jstl/functions</uri>  
+	  <function> 
+	    <name>l</name> 
+	    <function-class>com.Lan</function-class> 
+	    <function-signature>java.lang.String Language(java.lang.String,java.lang.String)</function-signature> 
+	  </function>
+	  <function> 
+	    <name>l1</name> 
+	    <function-class>com.Lan</function-class> 
+	    <function-signature>java.lang.String LanguageFormat(java.lang.String,java.lang.String,java.lang.String)</function-signature> 
+	  </function>
+	  <function> 
+	    <name>l2</name> 
+	    <function-class>com.Lan</function-class> 
+	    <function-signature>java.lang.String LanguageFormat(java.lang.String,java.lang.String,java.lang.String,java.lang.String)</function-signature> 
+	  </function>
+	  <function> 
+	    <name>l3</name> 
+	    <function-class>com.Lan</function-class> 
+	    <function-signature>java.lang.String LanguageFormat(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</function-signature> 
+	  </function>
+	  <function> 
+	    <name>l4</name> 
+	    <function-class>com.Lan</function-class> 
+	    <function-signature>java.lang.String LanguageFormat(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</function-signature> 
+	  </function>
+	  <function> 
+	    <name>l5</name> 
+	    <function-class>com.Lan</function-class> 
+	    <function-signature>java.lang.String LanguageFormat(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</function-signature> 
+	  </function>
+	  <function> 
+	    <name>l6</name> 
+	    <function-class>com.Lan</function-class> 
+	    <function-signature>java.lang.String LanguageFormat(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</function-signature> 
+	  </function>
+	  <function> 
+	    <name>l7</name> 
+	    <function-class>com.Lan</function-class> 
+	    <function-signature>java.lang.String LanguageFormat(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</function-signature> 
+	  </function>
+	  <function> 
+	    <name>l8</name> 
+	    <function-class>com.Lan</function-class> 
+	    <function-signature>java.lang.String LanguageFormat(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</function-signature> 
+	  </function>
+	  <function> 
+	    <name>l9</name> 
+	    <function-class>com.Lan</function-class> 
+	    <function-signature>java.lang.String LanguageFormat(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)</function-signature> 
+	  </function>
+
+	  
+</taglib>

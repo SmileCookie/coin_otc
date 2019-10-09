@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Roboto,"PingFang SC",'Microsoft YaHei',arial;
+}
+html,body{
+    font-size: 16px;
+}
+.content{
+    min-height: 500px;
+    
+}
+.content .top{
+    margin: 0 auto;
+    width:1170px;
+    text-align: center;
+    overflow: hidden;
+}
+.content .top .left{
+    width: 330px;
+    height: 620px;
+    margin: 145px 102px 35px 0;
+    display: inline-block;
+    background: url("../../img/icoimgs/app_phone.png") no-repeat;
+    background-size: contain;
+}
+.content .top .right{
+    width: 610px;
+    vertical-align: top;
+    margin-top: 222px;
+    display: inline-block;
+}
+.content .top .right h1{
+    font-size: 40px;
+    color: #3F3F41;
+    line-height: 52px;
+    text-align: left;
+}
+.content .top .right .text{
+    font-size: 18px;
+    color: #696A6B;
+    line-height: 24px;
+    text-align: left;
+    margin: 20px 0 56px;
+}
+.content .top .right .button{
+    margin-bottom: 36px;
+}
+.content .top .right .button::after{
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.content .top .right .button div{
+    float: left;
+    width: 180px;
+    height: 54px;
+    background: #3F4346;
+    border-radius: 4px;
+    position: relative;
+    cursor: pointer;
+}
+.content .top .right .button div:hover{
+    background: #128FDC;
+}
+.content .top .right .button div.iphone:hover::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 196px;
+    height: 204px;
+    z-index: 15;
+    top:-200px;
+    left: -9px;
+    background: url("../../img/icoimgs/app_qrcode_iphone.png?v=201711061111") no-repeat;
+    background-size: cover;
+}
+.content .top .right .button div.android:hover::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 196px;
+    height: 204px;
+    z-index: 15;
+    top:-200px;
+    left: -9px;
+    background: url("../../img/icoimgs/app_qrcode_android.png?v=201711061111") no-repeat;
+    background-size: cover;
+}
+.content .top .right .button div.iphone{
+    margin-right: 20px;
+}
+.content .top .right .button .button-box i{
+    position: absolute;
+    width: 25px;
+    height: 28px;
+    top:11px;
+    left: 20px;
+}
+.content .top .right .button .button-box.iphone i{
+    background: url("../../img/icoimgs/app_phone_icon.png") no-repeat;
+    background-size: contain;
+}
+.content .top .right .button .button-box.android i{
+    background: url("../../img/icoimgs/app_android_icon.png") no-repeat;
+    background-size: contain;
+}
+
+.content .top .right .button .button-box .name{
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 1px;
+    line-height: 21px;
+    display: block;
+    margin-left: 55px;
+    margin-top: 8px;
+    text-align: left;
+}
+.content .top .right .button .button-box .memo{
+    opacity: 0.5;
+    display: block;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 15px;
+    text-align: left;
+    margin-left: 55px;
+}
+.content .top .right .info span{
+    font-size: 12px;
+    color: #696A6B;
+    line-height: 24px;
+    display: block;
+    text-align: left;
+}
+.content .top .right .info span.text1{
+    width: 440px;
+}
+.content .top .right .info span.text1 i{
+    font-size: 12px;
+    color: #128FDC;
+    line-height: 24px;
+    cursor: pointer;
+}
+.content .center{
+    width: 100%;
+    height: 700px;
+    background: url("../../img/icoimgs/app_bg.jpg") no-repeat;
+    background-size: cover;
+}
+.content .center .box{
+    width: 1170px;
+    min-height: 50px;
+    margin: 0 auto;
+    padding-top: 90px;
+    overflow: hidden;
+}
+.content .center .box .title{
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 47px;
+    text-align: center;
+    margin-bottom: 96px;
+}
+.content .center .box .item{
+    position: relative;
+    text-align: left;
+    margin-bottom: 65px;
+    height: 90px;
+}
+.content .center .box .item .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.content .center .box .item .item-top{
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    display: block;
+    width: 440px;
+    margin-left: 44px;
+    text-align: left;
+}
+.content .center .box .item .item-bottom{
+    opacity: 0.5;
+    width: 440px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    line-height: 24px;
+    display: block;
+    margin-left: 44px;
+}
+.content .center .box .left{
+    float: left;
+    width: 50%;
+}
+.content .center .box .right{
+    float: left;
+    width: 50%;
+    padding-left: 40px;
+}
+.content .center .box .left .item.one .icon{
+    background: url('../../img/icoimgs/chooseus1.png') no-repeat;
+    background-size: cover;
+    width: 24px;
+    height: 20px;
+    top: 2px;
+}
+.content .center .box .left .item.two .icon{
+    background: url('../../img/icoimgs/chooseus2.png') no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 20px;
+}
+.content .center .box .left .item.three .icon{
+    background: url('../../img/icoimgs/chooseus3.png') no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 21px;
+}
+.content .center .box .right .item.one .icon{
+    background: url('../../img/icoimgs/chooseus4.png') no-repeat;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+}
+.content .center .box .right .item.two .icon{
+    background: url('../../img/icoimgs/chooseus5.png') no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 28px;
+}
+.content .center .box .right .item.three .icon{
+    background: url('../../img/icoimgs/chooseus6.png') no-repeat;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+}
+.content .bottom{
+    width: 100%;
+    text-align: center;
+}
+.content .bottom .text{
+    width: 800px;
+    font-size: 24px;
+    color: #696A6B;
+    line-height: 36px;
+    margin: 117px auto 41px;
+}
+.content .bottom .button{
+    background: #128FDC;
+    border-radius: 4px;
+    font-size: 15px;
+    color: #FFFFFF;
+    letter-spacing: 0.31px;
+    padding: 15px 49px;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 120px;
+}
+.appdownload-mark{
+    display: none;
+}

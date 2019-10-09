@@ -1,0 +1,293 @@
+/* CSS Document */
+
+.online-qa {
+	overflow: hidden;
+	zoom: 1;
+	width:1000px;
+	margin:0 auto;
+}
+
+body {
+	background-color: #fafafa;
+}
+
+.online-qa .bd {
+	border: 1px #dbdbdb solid;
+	float: right;
+	width: 798px;
+	overflow: hidden;
+	padding-bottom: 20px;
+	border-top: none;
+	background-color: white;
+	min-height:370px;
+}
+
+.page_nav {
+	margin-top: 20px;
+	padding-right: 20px;
+}
+
+.online-qa table {
+	width: 768px;
+	margin: 10px auto 0 auto;
+}
+
+.online-qa th,.online-qa td {
+	padding: 15px 0;
+	text-align: center;
+}
+
+.online-qa th {
+	background: none repeat scroll 0 0 #F8F8F8;
+
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px 0;
+}
+
+.online-qa td {
+	border-bottom: 1px dotted #e8e8e8;
+	color: #666666;
+}
+
+.online-qa td span {
+	font-family: 宋体;
+	color: #999999;
+}
+
+.online-qa td a {
+	color: #666666;
+}
+
+.online-qa td a:hover {
+	color: #317EE7;
+}
+
+.tab {
+	position: relative;
+	float: left;
+	margin-right: -1px;
+	left: 1px;
+	width: 200px;
+}
+
+#pagename {
+	height: 60px;
+}
+
+#pagename .inner {
+	margin: 0 auto;
+}
+
+.tab a {
+	background: #f3f3f3 url(/statics/img/back-bg.png) repeat-x 0 0;
+	border: 1px #e8e8e8 solid;
+	border-right: 1px #dbdbdb solid;
+	margin-top: -1px;
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	text-align: right;
+	padding-right: 20px;
+
+	font-weight: bold;
+	font-size: 14px;
+	color: #666666;
+	position: relative;
+}
+
+.tab a:hover {
+	color: #317EE7;
+	text-decoration: none;
+}
+
+.tab a.current,.tab a.current:hover {
+	background: #fff;
+	color: #333333;
+	position: relative;
+	border-right: none;
+	border-top: none;
+	margin-top: -1px;
+	top: 1px;
+}
+
+.main {
+	overflow: hidden;
+	zoom: 1;
+	margin:0px 0 15px;
+}
+
+#formSearchContainer {
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+.search-submit {
+	background: url(/statics/img/uButton2.gif) no-repeat scroll -5px -6px
+		transparent;
+}
+
+.search-submit:hover {
+	background-position: -5px -49px;
+}
+
+.bdf.on {
+	background: url(/statics/img/back-bg.png) repeat-x scroll 0 0 #F3F3F3;
+}
+
+
+
+
+
+
+
+.question {
+	padding: 20px;
+}
+
+.question .hd {
+	background: none repeat scroll 0 0 #F8F8F8;
+
+	font-size: 26px;
+	padding: 10px 0 10px 20px;
+}
+
+.question .bd {
+	padding: 20px 10px 0 10px;
+}
+
+.question .bd h3 {
+	font-size: 12px;
+	color: #333333;
+}
+
+.question .bd .time {
+	color: #666666;
+	border-bottom: 1px #E4E4E4 solid;
+	padding: 5px 0 10px 0;
+}
+
+.question .bd .cont {
+	line-height: 24px;
+	color: #999999;
+	padding: 10px 0 0 0;
+}
+
+.answer {
+	padding: 0 20px;
+}
+
+.answer .hd {
+	background: none repeat scroll 0 0 #F8F8F8;
+
+	font-size: 26px;
+	padding: 10px 0 10px 20px;
+	background: #eff9ed;
+	color: #198500;
+}
+
+.answer .bd {
+	padding: 20px;
+}
+
+.answer .bd .tit {
+	font-size: 14px;
+}
+
+.answer .bd .cont {
+	padding: 10px 0;
+	color: #666666;
+	line-height: 22px;
+}
+
+.answer a:hover {
+	text-decoration: none;
+}
+
+.yhelp {
+	padding-top: 30px;
+}
+
+.yhelp_hd {
+	background: none repeat scroll 0 0 #F6F6F6;
+	font-size: 22px;
+	height: 30px;
+	line-height: 30px;
+	margin: 15px 0 0;
+	overflow: hidden;
+	padding: 10px 0 10px 10px;
+}
+
+.yhelp_bd {
+	padding: 50px 0 10px 200px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+.yhelp_bd  i {
+	color: #D5231A;
+	display: block;
+	font-family: Arial;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 36px;
+	margin: 0 0 5px;
+}
+
+.BoxWeak,.BoxStrong {
+	background: url(/statics/img/od_hpj.png) no-repeat scroll 0 0
+		transparent;
+	display: block;
+	float: left;
+	height: 76px;
+	margin-right: 45px;
+	padding-top: 22px;
+	text-align: center;
+	width: 97px;
+}
+
+.BoxStrong .advantage {
+	background: url(/statics/img/od_hq.png) no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 24px;
+	margin: 0px 0 0 9px;
+	padding-left: 18px;
+}
+
+.BoxWeak .disadvantage {
+	background: url(/statics/img/od_hr.png) no-repeat scroll 0 0 transparent;
+	display: block;
+	height: 24px;
+	margin: 0px 0 0 9px;
+	padding-left: 18px;
+}
+
+.search-submit {
+	background: url(/statics/img/uButton2.gif) no-repeat scroll -2px -6px
+		transparent;
+	display: inline-block;
+	height: 36px;
+	line-height: 36px;
+	text-align: center;
+	width: 80px;
+}
+
+.search-submit:hover {
+	background-position: -2px -49px;
+}
+
+.bdf.on {
+	background: url(/statics/img/back-bg.png) repeat-x scroll 0 0 #F3F3F3;
+}
+
+#pagename h2 {
+	width: 590px;
+}
+
+#pagename .topright {
+	width: 300px;
+	text-align: right;
+}
+
+

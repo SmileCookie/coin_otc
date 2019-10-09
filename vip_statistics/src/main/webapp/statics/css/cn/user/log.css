@@ -1,0 +1,56 @@
+/* CSS Document */
+
+body { background-color: #f9f9f9;}
+#pagename { width:100%; min-width:1010px; background: url(/statics/img/cn/user/headings.png) repeat-x scroll 0 100% #F9F9F9; height: 85px; overflow: hidden; padding: 0 0 15px; }
+#pagename .inner { margin: 10px auto 0; width: 1010px; }
+#pagename h2 { color: #333333; float: left; font-size: 26px; font-weight: 300; line-height: 30px; margin: 0; text-shadow: 1px 1px 1px #FFFFFF; width: 400px; font-family:"微软雅黑"; }
+#pagename h2 span { font-family:"宋体";}
+.desc { color: #777777; display: block; font-size: 12px; font-weight: normal; margin: -2px 0 0; text-transform: none; }
+.desc a { color: #333333; text-decoration: underline; }
+
+#outer { width: 650px; margin: 20px auto 60px auto; overflow: hidden; }
+#topbarQ { padding: 30px 0px 30px 110px;  float: left; }
+#topbarQ .stepOne { width: 500px; float: left; }
+#topbarQ .stepTwo { width: 440px; float: left; }
+/*#username input { background: url(/statics/img/cn/form/login.gif) repeat scroll -26px -18px transparent; border: medium none; color: #999999; font-size: 26px; height: 52px; line-height: 52px; padding-left: 60px; padding-right: 30px; width: 260px; font-family: arial; }
+#username input.focus { background-position: -454px -18px; }
+#password { margin-top: 10px; }
+#password input { background: url(/statics/img/cn/form/login.gif) repeat scroll -26px -82px transparent; border: medium none; color: #999999; font-size: 26px; height: 52px; line-height: 52px; padding-left: 60px; padding-right: 30px; width: 260px; font-family: arial; }
+#password input.focus { background-position: -453px -82px; }
+.do { float: left; margin-top: 20px; width: 340px; height: 45px; background: url(/statics/img/cn/form/login.gif) repeat scroll -26px -160px transparent; padding-top: 20px; }
+.do.on { background-position: -454px -160px; }
+.do a { display: block; width: 120px; height: 25px; float: left; margin-left: 20px; color: #545658; text-decoration: none; text-align: center; }
+.do a:hover { color: #4f9ef0; }*/
+#forgot { }
+#forgot a { color: #545658; text-decoration: none; }
+#forgot a:hover { color: #4f9ef0; }
+.input { background: url(/statics/img/ui/textarea-bg.png) no-repeat scroll 0 0 #FFFFFF; border: 1px solid #CCCCCC; color: #333333; font-size: 12px; height: 22px; line-height: 22px; font-size: 16px; padding: 9px 12px; font-family: arial; }
+.form-line {clear: both; float: left; padding-bottom: 10px; margin-top: -10px; width: 400px; }
+.form-tit { font-family:"微软雅黑"; line-height: 40px; color: #666666; margin-right: 3px; width: 500px; font-weight: 500; font-size: 24px; float: left; }
+.form-code img { cursor: pointer; }
+.form-code a { display: block; float: left; height: 40px; line-height: 40px; padding-left: 10px; }
+#check { width: 380px; height: 30px; background: url(/statics/img/ui/radio.gif) no-repeat 0 -1px; overflow: hidden; }
+#check a { display: block; font-size: 16px; width: 50px; height: 26px; padding-left: 25px; float: left; margin-right: 10px; color: #666666; }
+#check a:hover { color: #4f9ef0; }
+#message { background-color: #d75a46; border: 10px solid #B1AFAF; color: #ffffff; font-size: 30px; height: 90px; left: 50px; padding: 20px; position: absolute; top: 70px; width: 300px; display: none; }
+
+.bor_box {  width:1000px; margin:5px auto; overflow:hidden; text-align:left;}
+.stepOne input { width:405px; margin-bottom:20px;padding:10px 10px; height:50px; line-height:30px; text-align:left; font-size:18px; color:#999; border:1px solid #ddd; font-family:"微软雅黑";}
+.stepOne .username { height:50px;}
+.stepOne .do_btn { width:100%; padding-top:30px; float:left; }
+
+#stepOne { width:798px; border:1px solid #ddd; margin-top:10px; padding:0px 0px 30px; background-color:#fff;}
+#stepOne .hd { margin:20px 50px 30px; height:50px; line-height:40px; text-align:left; padding-left:0px; clear:both; background:url(/statics/img/gexian.png) left bottom repeat-x; }
+#stepOne .hd h3 { font-size:24px; font-family:"微软雅黑"; color:#333;}
+#stepOne .form-line:after { display: block; clear: both; content: ""; visibility: hidden; height: 0; }
+#stepOne .form-line { zoom: 1; padding-left:30px; }
+#stepOne .form-line .form-tit { width:208px; text-align:right;}
+#stepOne .form-line .form-con { width:400px; text-align:right;}
+#stepOne .form-line .form-con input { width:290px;}
+#stepOne .form-line .form-tit,#stepTwo .form-line .form-con { font-size:14px; float:left; height:50px; line-height:40px; _display:inline;}
+
+#stepOne .bottomLine {margin:10px 50px 30px; width:auto; padding-top: 20px; text-align:center; background:url(/statics/img/gexian.png) left top repeat-x; border:none; clear:both; }
+#stepOne .bottomLine a { width:300px;}
+#stepOne .bottomLine a h4 { width:285px;}
+
+

@@ -1,0 +1,24 @@
+/* CSS Document */
+
+.online-qa { overflow: hidden; zoom: 1; width: 1200px; margin: 0 auto; }
+body { background-color: #fafafa; }
+.online-qa .bd { border: 1px #eee solid; float: right; width: 998px; overflow: hidden; padding-bottom: 20px; border-top: none; background-color: white; min-height: 370px; }
+.page_nav { margin-top: 20px; padding-right: 20px; }
+.online-qa table { width: 968px; margin: 10px auto 0 auto; }
+.online-qa th, .online-qa td { padding: 15px 0; text-align: center; }
+.online-qa th { background: none repeat scroll 0 0 #F8F8F8; font-size: 14px; font-weight: bold; padding: 5px 0; }
+.online-qa td { border-bottom: 1px dotted #e8e8e8; color: #666666; }
+.online-qa td span { font-family: 宋体; color: #999999; }
+.online-qa td a { color: #666666; }
+.online-qa td a:hover { color: #317EE7; }
+.tab { position: relative; float: left; margin-right: -1px; left: 1px; width: 200px; }
+#pagename { height: 60px; }
+#pagename .inner { margin: 0 auto; }
+.tab a { background: #f3f3f3 url(/statics/img/back-bg.png) repeat-x 0 0; border: 1px #eee solid; border-right: 1px #eee solid; margin-top: -1px; display: block; height: 50px; line-height: 50px; text-align: right; padding-right: 20px; font-weight: bold; font-size: 14px; color: #666666; position: relative; }
+.tab a:hover { color: #317EE7; text-decoration: none; }
+.tab a.current, .tab a.current:hover { background: #fff; color: #333333; position: relative; border-right: none; border-top: none; margin-top: -1px; top: 1px; }
+.main { width:100%;  min-width:1007px; overflow: hidden; zoom: 1; margin: 0px 0 15px; }
+#formSearchContainer { float: left; margin: 0 10px 0 0; }
+.search-submit { background: url(/statics/img/uButton2.gif) no-repeat scroll -5px -6px  transparent; }
+.search-submit:hover { background-position: -5px -49px; }
+.bdf.on { background: url(/statics/img/back-bg.png) repeat-x scroll 0 0 #F3F3F3; }

@@ -1,0 +1,519 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Roboto,"PingFang SC",'Microsoft YaHei',arial;
+}
+html,body{
+    font-size: 16px;
+    color: #DCDDE1;
+}
+.container_index_main {
+    width: 100%;
+    min-width: 1230px;
+    background: url("../img/activity/bg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.content{
+    position: relative;
+    min-height: 500px;
+    width:1170px;
+    margin: 0 auto;
+    
+}
+.content .title{
+    /* font-family: Roboto-Bold; */
+    font-size: 64px;
+    color: #DCDDE1;
+    letter-spacing: 1.33px;
+    text-align: center;
+    margin-top: 40px;
+}
+.content .info{
+    opacity: 0.5;
+    /* font-family: Roboto-Regular; */
+    font-size: 14px;
+    color: #95ABBC;
+    letter-spacing: 0.29px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0;
+    /* width: 600px; */
+    margin: 0 auto;
+}
+.content .draw-box{
+    width: 100%;
+    margin-top: 69px;
+    position: relative;
+}
+.content .draw-box-main{
+    width: 1148px;
+    margin: 0 auto;
+    position: relative;
+    height: 424px;
+    line-height: 424px;
+    text-align: center;
+    z-index: 5;
+}
+.content .draw-awarded{
+    position: absolute;
+    left: 0px;
+    top:140px;
+    width: 270px;
+    height: 100px;
+    padding: 15px 20px;
+    text-align: center;
+}
+.content .draw-awarded ,
+.content .draw-obtained {
+    background: url("../img/activity/bg_1.png") no-repeat;
+    background-size: 100% 100%;
+}
+.content .draw-awarded .num,
+.draw-obtained .num {
+    /* font-family: Roboto-Regular; */
+    font-size: 36px;
+    color: #DCDDE1;
+    letter-spacing: 0.75px;
+    text-align: right;
+}
+.content .draw-box .draw-box-title{
+    /* font-family: PingFangSC-Regular; */
+    font-size: 18px;
+    color: #DCDDE1;
+    letter-spacing: 0.38px;
+    height: 21px;
+    line-height: 21px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.content .draw-box .draw-box-content .num{
+    /* font-family: Roboto-Regular; */
+    line-height: 42px;
+    height: 42px;
+    font-size: 36px;
+    color: #DCDDE1;
+    letter-spacing: 0.75px;
+}
+.content .draw-awarded .draw-box-title {
+    text-align: right;
+}
+
+.content .draw-box .draw-awarded .num {
+    text-align: right;
+}
+
+.content .draw-box .draw-obtained .draw-box-title {
+    text-align: left;
+}
+
+.content .draw-box .draw-obtained .num {
+    text-align: left;
+}
+.content .draw-box .draw-box-content .icon{
+    position: absolute;
+    /* font-family: PingFangSC-Regular; */
+    font-size: 20px;
+    color: #4E4F51;
+    letter-spacing: 0.42px;
+    height: 28px;
+    margin-right: 10px;
+    right: 20px;
+}
+.content .draw-box .draw-button{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px;
+    margin: 0 auto;
+    background: #485E6E;
+    margin-bottom: 60px;
+    z-index: 10;
+    position: relative;
+}
+.content .draw-box .tip-box{
+    display: block;
+    /* font-family: Roboto-Regular; */
+    font-size: 14px;
+    color: #fff;
+    line-height: 18px;
+    text-align: center;
+    margin:19px 0 2px 0;
+}
+.tip-box_1{
+    display: block;
+    font-family: Roboto-Regular;
+    font-size: 14px;
+    color: #95ABBC;
+    opacity: 0.5;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+.content .draw-obtained{
+    position: absolute;
+    right: 0px;
+    top:140px;
+    width: 270px;
+    height: 100px;
+    padding:15px 20px;
+    text-align: center;
+}
+.content .scroll_mian {
+    margin: 0 auto;
+    width: 424px;
+    height: 424px;
+    text-align: center;
+    position: relative;
+}
+.scroll-num{
+    width: 240px;
+    line-height: 40px;
+    margin: 0 auto;
+     color: #CEC277;
+     font-size: 36px;
+     color: #CEC277;
+     letter-spacing: 0.75px;
+     position: relative;
+}
+.scroll-num .scroll{
+    width: 220px;
+    height: 78px;
+    margin: 0 auto;
+    line-height: 30px;
+    letter-spacing: -10px;
+    position: relative;
+}
+.scroll-num .scroll_end{
+    width: 240px;
+    margin-top: 50px;
+}
+.scroll-num .scroll_none{
+    width: 100px;
+    height: 60px;
+    margin: 0 auto;
+    background: url("../img/activity/web_draw_1.png") no-repeat;
+    background-size: 100%;
+    margin-top: 54px;
+} 
+.scroll-num .scroll_gif{
+    width: 186px;
+    height: 186px;
+    margin: 0 auto;
+    background: url("../img/activity/web_draw_gif.gif") no-repeat;
+    background-size: 100%;
+}
+.scroll-num .scroll .num{
+    display: inline-block;
+    width: 54px;
+    height: 78px;
+}
+.scroll-num .scroll img{
+}
+.scroll-num .scroll .dian{
+    position: relative;
+    top: 26px;
+}
+
+
+.foot_tips{
+    opacity: 0.2;
+    /* font-family: Roboto-Regular; */
+    font-size: 12px;
+    color: #95ABBC;
+    width: 100%;
+    text-align: center;
+    line-height: 14px;
+    margin-top: 48px;
+    margin-bottom: 15px;
+}
+.content .draw-bottom .draw-bottom-title{
+    opacity: 0.5;
+    font-size: 16px;
+    color: #95ABBC;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 4px;
+    width: 608px;
+    margin: 0 auto;
+}
+.content .draw-bottom p{
+    opacity: 0.5;
+    width: 608px;
+    font-size: 14px;
+    color: #95ABBC;
+    line-height: 24px;
+    text-align: left;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.noStart{
+    width: 50px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 0.38px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    margin-left: -25px;
+}
+.vote_alert{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.vote_home {
+    position: fixed;
+    border-radius: 3px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    width: 450px;
+    height: 220px;
+    z-index: 10001;
+    top: 50%;
+    left: 50%;
+    margin-top: -110px;
+    margin-left: -225px;
+    background: #fff;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.vote_close{
+    width: 18px;
+    height: 18px;
+    background: url("../img/common/close.png");
+    background-size: 100%;
+    position: absolute;
+    right: 19px;
+    top: 15px;
+    cursor: pointer;
+}
+.vote_home h3{
+    font-size: 18px;
+    color: #484C4B;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin: 40px 0 33px 0;
+    text-align: center;
+}
+.vote_login{
+    width: 240px;
+    height: 36px;
+    background: #128FDC;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.vote_login a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    line-height: 36px;
+    cursor: pointer;
+}
+.vote_reg{
+    text-align: center;
+    color: #128FDC;
+}
+.vote_reg .reg_a{
+    font-size: 13px;
+    color: #199ED8;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.toupiao-icon{
+    position: fixed;
+    font-size: 14px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    right: 60px;
+    bottom: 80px;
+    background:#485E6E;
+    background-size: contain;
+    cursor: pointer;
+    display: none;
+    z-index: 300;
+}
+.toupiao-icon:hover{
+    background:#354652;
+}
+.content .draw-box .draw-box-content .awarded_gbc{
+    opacity: 0.5;
+    /* font-family: Roboto-Regular; */
+    font-size: 20px;
+    color: #95ABBC;
+    letter-spacing: 0.42px;
+    margin-left: 10px;
+}
+.tip_box_alert{
+    display: none;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    width: 300px;
+    /* font-family: Roboto-Regular; */
+    font-size: 14px;
+    color: #DCDDE1;
+    letter-spacing: 0.29px;
+    background: rgba(72, 94, 110, 0.5);
+    position: relative;
+    bottom: 40px;
+}
+/* 旋转 */
+.content .scroll_mian .backgr_01{
+    width: 100%;
+    height: 100%;
+    padding: 29px;
+    position: relative;
+}
+.content .scroll_mian .backgr_01:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/activity/back_a.png") no-repeat;
+    background-size: 100% 100%;
+    animation: backs 1.3s infinite linear;
+    -webkit-animation: backs 1.3s infinite linear;
+}
+.content .scroll_mian .backgr_02 {
+    width: 364px;
+    height: 364px;
+    padding: 26px;
+    position: relative;
+}
+.content .scroll_mian .backgr_02:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/activity/back_b.png") no-repeat;
+    background-size: 100% 100%;
+    animation: backs 1.4s infinite linear reverse;
+    -webkit-animation: backs 1.4s infinite linear reverse;
+    
+}
+.content .scroll_mian .backgr_03{
+    width: 312px;
+    height: 312px;
+    padding: 15px;
+    position: relative;
+}
+.content .scroll_mian .backgr_03:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../img/activity/back_c.png") no-repeat;
+    background-size: 100% 100%;
+    animation: backs 4s infinite linear ;
+    -webkit-animation: backs 4s infinite linear ;
+}
+.content .scroll_mian .backgr_04 {
+    width: 282px;
+    height: 282px;
+    margin: 0 auto;
+    background: url("../img/activity/back_d.png") no-repeat;
+    background-size: 100% 100%;
+    padding-top: 46px;
+    position: relative;
+}
+@keyframes backs {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes backs {
+/* Safari 和 Chrome */
+from {
+    -webkit-transform: rotate(0deg);
+}
+to {
+    -webkit-transform: rotate(360deg);
+}
+}
+/* 旋转end */
+
+
+/*****分享的图标**/
+.at-expanding-share-button[data-position=bottom-right]{
+    right: 60px !important;
+    bottom: 140px !important;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.at-expanding-share-button .at-expanding-share-button-toggle-bg>span{
+    background-image: url('../img/common/addthis-icon.png') !important;
+    background-color: #DABB84 !important; 
+}
+.at-expanding-share-button.at-expanding-share-button-desktop .at-expanding-share-button-toggle-bg {
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+}
+
+.vote_home_box{
+    position: fixed;
+    border-radius: 3px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    z-index: 10001;
+    top: 50%;
+    left: 50%;
+    margin-top: -77px;
+    width: 440px;
+    opacity: 0.95;
+    background: rgba(72, 94, 110, 1);
+    color: #fff;
+     margin-left: -200px;
+}
+.vote_home_box_en{
+    /* height: 200px; */
+}
+.vote_home_box h3{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 53px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0 6px;
+}
+.vote_home_box .vote_login {
+    background: #688397;
+    text-align: center;
+    width: 177px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+   cursor: pointer;
+}
+.vote_home_box .vote_login:hover {
+    background: #8099AB;
+}
+.lucky_draw_page{
+    background: #29333B;
+}

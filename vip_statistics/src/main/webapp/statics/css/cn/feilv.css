@@ -1,0 +1,58 @@
+#main{background:#266db5 url(/statics/img/cn/help/5/bg.png) repeat-x 0 0;padding-bottom:50px;}
+.help1{width:1050px; margin:0 auto;}
+
+#map{
+background-color:#e3e7ea;
+height:295px;
+}
+#mapIn{width:1000px;margin:0 auto;
+height:295px;
+background:url(/statics/img/cn/help/fl_03.gif);
+}
+#mapIn a{display:block;float:left;width:350px;height:295px;text-indent: -9999px;}
+#mapIn.pro{
+background:url(/statics/img/cn/help/fl2_03.gif);
+}
+#mapIn.guibin{
+background:url(/statics/img/cn/help/fl3_03.gif);
+}
+
+#middle{
+background-color:#f2f2f2;
+} 
+#middleIn{
+width:1000px;margin:0 auto;
+}
+#miaoshu{background: url("/statics/img/cn/help/fl_03.gif") repeat scroll 0px -296px;
+    height: 100px;} 
+#miaoshu.pro{background: url("/statics/img/cn/help/fl2_03.gif") repeat scroll 0px -296px;height:180px;
+}
+#miaoshu.guibin{background: url("/statics/img/cn/help/fl3_03.gif") repeat scroll 0px -296px;height:180px;
+}
+
+
+#currentLevel{float:left;}
+#currentLevel .current{  background: url("/statics/img/cn/help/fldj.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 50px;
+    width: 320px;   margin-left: 20px;float:left; }
+ #currentLevel .current.pro{background-position:-350px 0;}
+ #currentLevel .current.guibin{background-position:-690px 0;}
+ #currentLevel a{line-height:60px;font-family:宋体;}
+ 
+.btn{float:right;} 
+.btn a {
+    background: none repeat scroll 0 0 #8DC03C;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    float: left;
+    height: 33px;
+    line-height: 33px !important;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+.btn a.red {
+    background: none repeat scroll 0 0 #E55E48;
+}
+.btn a:hover {
+    background: none repeat scroll 0 0 #E55E48;
+}

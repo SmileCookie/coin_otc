@@ -1,0 +1,213 @@
+.mainer-phase2{
+    padding:20px 0 105px;
+    background:#fff;
+}
+.entrust-title{
+    font-size:20px;
+    margin-top: 10px;
+    color: #333;
+    font-weight: normal;
+    margin-top: -5;
+    margin-bottom: 0;
+    padding-bottom:20px;
+    border-bottom:none;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.entrust-head{
+    width:100%;
+    float: left;
+    color:#333;
+    font-size:14px;
+}
+h5{
+    font-weight:normal;
+    line-height:30px;
+    font-size:14px;
+    margin:0;
+}
+.beaSelect{
+    width:90px;
+    height:30px;
+    position: relative;
+    line-height:28px;
+    padding:0 10px;
+    border:1px solid #d1d1d1;
+    font-size:14px;
+    color:#333;
+}
+.beaSelect a{
+    line-height:28px;
+    display:block;
+    width:100%;
+    color:#333;
+}
+.beaSelect a .caret{
+    float:right;
+    position: relative;
+    top:11px;
+}
+.beaSelect dl{
+    display:none;
+    position: absolute;
+    top:29px;
+    left:-1px;
+    width:90px;
+    z-index:1000;
+    background:#fff;
+}
+.beaSelect dl dd{
+    width:100%;
+    box-sizing:border-box;
+    padding:0 10px;
+    line-height:28px;
+    border:1px solid #d1d1d1;
+    border-top:none;
+    cursor: pointer;
+}
+.beaSelect dl dd:hover{
+    background:#F5FCFE;
+}
+.beaSelect dl dd.active{
+    background:#F5FCFE;
+}
+.pad10{
+    padding:0 10px;
+}
+.padl10{
+    padding-right:5px;
+}
+.entrust-head-type,.entrust-head-box{
+    margin-left:30px;
+}
+.entrust-head-box{
+    line-height:28px;
+}
+.entrust-head-box input[type="checkbox"]{
+    height:21px; 
+    vertical-align:top;
+    outline:none;
+}
+.entrust-time h5,.entrust-time .tab-time{
+    float: left;
+}
+.tab-time{
+    border-radius:2px;
+}
+.tab-time li{
+    width:64px;
+    line-height:28px;
+    float: left;
+    text-align:center;
+    cursor: pointer;
+    border:1px solid #d1d1d1;
+    border-radius:0 2px 2px 0;
+}
+.tab-time .bor-left{
+    border-right:none;
+    border-radius:2px 0 0 2px; 
+}
+.tab-time li.active{
+    color:#fff;
+    background:#1184d7;
+    border-color:#1184d7;
+}
+.entrust-con{
+    width:100%;
+    position: relative;
+    float: left;
+    margin-top:15px;
+    min-height:300px;
+}
+.table-entrust{
+    width:100%;
+}
+.table-entrust tbody{
+    position: relative;
+}
+.table-entrust thead th,.table-entrust tbody td{
+    color:#333;
+    padding:8px 20px;
+}
+.table-entrust thead th{
+    background:#F3F5F7;
+}
+.borright{
+    border-right:1px solid #e4e4e4;
+}
+.table-entrust tbody tr,.table-entrust thead tr{
+    border:1px solid #e4e4e4;
+}
+.table-entrust tbody tr{
+    border-top:none;
+}
+.table-entrust tbody tr:hover{
+    background:#F5FCFE;
+}
+label{
+    display: inline-block; 
+    max-width:auto;;
+    margin-bottom:0; 
+    font-weight:normal;
+}
+.historyEntrustList-page{
+    float:left;
+    position: relative;
+    left:50%;
+    transform:translateX(-50%);
+}   
+.text-right{
+    text-align:right;
+}
+.text-center{
+    text-align:center;
+}
+.table-entrust tbody .buy{
+    color:#2BB38A;
+}
+.table-entrust tbody .sell{
+    color:#E34B51;
+}
+.detailEntrust{
+    color:#128FDC;
+    cursor: pointer;
+}
+.detailEntrust:hover{
+    text-decoration:underline;
+}   
+.entrust-norecord{
+    margin: 0;
+    padding:80px 0;
+    text-align:center;
+}
+.table-entrust tbody tr.topnone{
+    border:none;
+}
+.table-entrust tbody tr.topnone:hover{
+    background:transparent;
+}
+.loading{
+    position: absolute;
+    top:35px;
+    left:0;
+    width:100%;
+    padding:130px;
+    background:url(../img/common/loading.gif) no-repeat center center;
+}
+.bk-entrust .bk-norecord:hover{
+    background:transparent;
+}
+
+
+
+
+
+
+
+
+
+
