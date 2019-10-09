@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="63px" height="50px" viewBox="0 0 63 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>list</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="运营风控后台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="驾驶舱_设置面板内容_弹窗" transform="translate(-769.000000, -1170.000000)" fill-rule="nonzero">
+            <g id="list-copy-5" transform="translate(686.000000, 1135.000000)">
+                <g id="list" transform="translate(83.000000, 35.000000)">
+                    <rect id="Rectangle-22-Copy" fill="#D7EAF9" x="18" y="0" width="45" height="10"></rect>
+                    <rect id="Rectangle-21" fill="#D7EAF9" x="0" y="0" width="10" height="10"></rect>
+                    <rect id="Rectangle-22-Copy" fill="#C9D4F0" x="18" y="20" width="45" height="10"></rect>
+                    <rect id="Rectangle-21" fill="#C9D4F0" x="0" y="20" width="10" height="10"></rect>
+                    <rect id="Rectangle-22-Copy" fill="#76A4D6" x="18" y="40" width="45" height="10"></rect>
+                    <rect id="Rectangle-21" fill="#76A4D6" x="0" y="40" width="10" height="10"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

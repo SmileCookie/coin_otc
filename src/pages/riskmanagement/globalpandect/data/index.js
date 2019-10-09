@@ -1,0 +1,204 @@
+export const  elments = [
+    {
+            title:'频繁对倒账户',
+            id:0,
+            frequency:0,
+            num:0,
+            sum:0,
+            url:'/riskmanagement/checkaccounts/checkaccounts',
+    },
+    {
+            title:'频繁挂单撤单的账户预警',
+            id:1,
+            frequency:0,
+            num:0,
+            sum:0,
+            url:'/riskmanagement/accountmonitoring/accountmonitoring'
+    },
+    {
+        
+            title:'关键信息预警',
+            id:2,
+            frequency:0,
+            num:0,
+            sum:0,
+            url:'/riskmanagement/cancelaccount/cancelaccount'
+        
+    },
+    {
+            title:'关联账户',
+            id:3,
+            frequency:0,
+            num:0,
+            sum:0,
+            url:'/riskmanagement/connectedaccout/connectedaccout'
+    },
+    {
+        
+            title:'大额账户监控',
+            id:4,
+            frequency:0,
+            num:0,
+            sum:0,
+            url:'/riskmanagement/frequentlyonput/frequentlyonput'
+        
+    },
+    {
+        
+            title:'大额挂单账户',
+            id:5,
+            frequency:0,
+            num:0,
+            sum:0,
+            url:'/riskmanagement/keyinformationchange/keyinformationchange'
+        
+    },
+    
+]
+
+export const keepValue = [{ title:'保值异常',
+                            id:6,
+                            frequency:0,
+                            num:0,
+                            sum:0,
+                            url:'/keepvalueofwarning/valueofwarning/valueofwarning'
+                            },
+                            {
+                            title:'保值记录异常',
+                            id:7,
+                            frequency:0,
+                            num:0,
+                            sum:0,
+                            url:'/keepvalueofwarning/recordabnormal/recordabnormal'
+                            },
+                            {
+                            title:'资金低于预警值',
+                            id:8,
+                            frequency:0,
+                            num:0,
+                            sum:0,
+                            url:'/keepvalueofwarning/prewarningvalue/prewarningvalue'
+                            },
+                            {
+                            title:'保值下单数量异常汇总',
+                            id:9,
+                            frequency:0,
+                            num:0,
+                            sum:0,
+                            url:'/keepvalueofwarning/numberofwarning/abnormalSummary'
+                            }
+                        ]
+export const market = [{
+                            title:'外网行情获取失败预警',
+                            id:10,
+                            frequency:0,
+                            num:0,
+                            sum:0,
+                            url:'/keepvalueofwarning/quotesabnormalmonitormod/extranetQuotesGet'
+                        },{
+                            title:'行情偏离',
+                            id:11,
+                            frequency:0,
+                            num:0,
+                            sum:0,
+                            url:'/keepvalueofwarning/quotesabnormalmonitormod/quotesDeviate'
+                        },{
+                            title:'刷量账号资金低于预警',
+                            id:12,
+                            frequency:0,
+                            num:0,
+                            sum:0,
+                            url:'/keepvalueofwarning/quotesabnormalmonitormod/brushAccountFunds'
+                        },{
+                            title:'盘口深度低于预警值报警',
+                            id:13,
+                            frequency:0,
+                            num:0,
+                            sum:0,
+                            url:'/keepvalueofwarning/quotesabnormalmonitormod/handicapDepthBelowWarning'
+                        },{
+                            title:'量化程序停止报警',
+                            id:14,
+                            frequency:0,
+                            num:0,
+                            sum:0,    
+                            url:'/keepvalueofwarning/quotesabnormalmonitormod/quantizateProgramStopAlarm'                    
+                        },{
+                            title:'用户成交占数量资金比',
+                               id:15,
+                            frequency:0,
+                            num:0,
+                            sum:0,
+                            url:'/keepvalueofwarning/quotesabnormalmonitormod/userTransForAmountFunds'
+                        },]
+
+export const personalBlow = [//个人熔断
+    {
+        title:'频繁对倒账户熔断',
+        id:40,
+        frequency:0,
+        num:0,
+        withdrawNum:0,
+        exchangeNum:0,
+        sum:0,
+    },
+    {
+        title:'频繁挂撤单账户熔断',
+        id:41,
+        frequency:0,
+        num:0,
+        withdrawNum:0,
+        exchangeNum:0,
+        sum:0,
+    },
+    {
+        title:'关联账户熔断',
+        id:42,
+        frequency:0,
+        num:0,
+        withdrawNum:0,
+        exchangeNum:0,
+        sum:0,
+    },
+]
+export const platformBlow = [//平台熔断
+    {
+        title:'行情偏离熔断',
+        id:43,
+        frequency:0,
+        num:0,
+        withdrawNum:0,
+        exchangeNum:0,
+        sum:0,
+    },
+    {
+        title:'热充钱包熔断',
+        id:44,
+        frequency:0,
+        num:0,
+        withdrawNum:0,
+        exchangeNum:0,
+        sum:0,
+    },
+    {
+        title:'热提钱包熔断',
+        id:45,
+        frequency:0,
+        num:0,
+        withdrawNum:0,
+        exchangeNum:0,
+        sum:0,
+    },
+    {
+        title:'冷钱包熔断',
+        id:46,
+        frequency:0,
+        num:0,
+        withdrawNum:0,
+        exchangeNum:0,
+        sum:0,
+    },
+]
+                        
+                                                        
+                            

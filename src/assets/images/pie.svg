@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="53px" viewBox="0 0 54 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>cs-bt-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="运营风控后台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="驾驶舱_设置面板内容_弹窗" transform="translate(-774.000000, -772.000000)" fill-rule="nonzero">
+            <g id="list" transform="translate(686.000000, 739.000000)">
+                <g id="cs-bt-1" transform="translate(88.000000, 33.000000)">
+                    <path d="M25.6344464,2.68992275 C11.4780316,2.68992275 0.00527238281,13.9462148 0.00527238281,27.8355274 C0.00527238281,41.7196671 11.4780316,52.9811321 25.6344464,52.9811321 C39.7855888,52.9811321 51.2636204,41.72484 51.2636204,27.8355274 L25.6344464,27.8355274 L25.6344464,2.68992275 Z" id="Shape" fill="#76A4D6"></path>
+                    <path d="M28.3655536,0.00517290389 L28.3655536,25.1507776 L53.9947276,25.1507776 C53.9947276,11.261465 42.5219684,0.00517290389 28.3655536,0.00517290389 Z" id="Shape" fill="#D7EAF9"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
