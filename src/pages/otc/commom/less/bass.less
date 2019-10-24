@@ -1,0 +1,277 @@
+/*公共样式*/
+
+@import "./popUp.less"; 
+@import "./w_bass.less";
+//公共icon
+.wm-icon {
+  /* 通过设置 font-size 来改变图标大小 */
+  width: 1em; height: 1em;
+  /* 图标和文字相邻时，垂直对齐 */
+  vertical-align: -0.15em;
+  /* 通过设置 color 来改变 SVG 的颜色/fill */
+  fill: currentColor;
+  /* path 和 stroke 溢出 viewBox 部分在 IE 下会显示
+     normalize.css 中也包含这行 */
+  overflow: hidden;
+}
+
+
+
+@f12:12px;
+@f14:14px;
+@f16:16px;
+@f18:18px;
+@f20:20px;
+@f22:22px;
+@f24:24px;
+@f26:26px;
+@f28:28px;
+@f30:30px;
+@f32:32px;
+
+.f-12{
+  font-size: @f12;
+}
+.f-14{
+  font-size: @f14;
+}
+.f-16{
+  font-size: @f16;
+}
+.f-18{
+  font-size: @f18;
+}
+.f-20{
+  font-size: @f20;
+}
+.f-22{
+  font-size: @f22;
+}
+.f-24{
+  font-size: @f24;
+}
+.f-26{
+  font-size: @f26;
+}
+.f-28{
+  font-size: @f28;
+}
+.f-30{
+  font-size: @f30;
+}
+.f-32{
+  font-size: @f32;
+}
+
+.f-l{
+  float:left;
+}
+.f-r{
+  float: right;
+}
+.flex-r{
+  display: flex;
+  flex-direction: row;
+}
+.flex-c{
+  display: flex;
+  flex-direction: column;
+}
+
+//上下左右居中
+.oct-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform:translate(-50%, -50%);
+}
+
+//按钮padding
+.btnSmallPad{
+  padding: 7px 15px 5px 15px;
+}
+
+.btnBigPad{
+  width: 180px;
+  height: 48px;
+}
+
+
+//色值
+@co1:#93A2B8;
+@co2:#BABDC0;
+@co3:#E6E9ED;
+//我的钱包 文字颜色
+@co10:#3E85A2;
+.coFont10{
+  color: @co10;
+}
+//弹窗颜色
+@co11:#FFFFFF;
+.coFont11{
+  color: @co11;
+}
+//弹窗标题背景色
+@co13:rgba(44,48,58,0.5);
+.bg-pop-title{
+  background-color: @co13;
+}
+//弹窗备注颜色
+@co14:#737A8D;
+.coFont14{
+  color: @co14;
+}
+//关闭弹窗按钮
+@co12:#5F5F69;
+.coFont12{
+  color: @co12;
+}
+//添加鼠标样式 
+.divHand{
+  cursor:pointer;
+}
+
+
+
+//err color
+.coRrror{
+  color:#CE4444
+}
+.coFont1{
+  color: @co1;
+}
+.coFont2{
+  color: @co2;
+}
+.coFont3{
+  color: @co3;
+}
+.coFont5{
+  color: @co5;
+}
+
+.coFont4{
+  color: @co4;
+}
+
+.coFont15{
+  color:#626C7A;
+}
+
+
+@co4:#159DA6;
+@co8:#096F75;
+@co9:#549AA5;
+
+//button
+@co5:#AD4848;
+@co6:#9C4F4A;
+@co7:#7F3935;
+
+
+button.otcNormal{
+  border-radius: 4px;
+  color:@co3;
+}
+
+//红按钮
+button.otcRedBtn{
+  background-color:@co5;
+  line-height: normal;
+  border: none;
+  outline: none;
+  &:hover{
+    background-color:@co6;
+  }
+}
+
+//蓝按钮
+button.otcBlueBtn{
+  background-color:@co4;
+  line-height: normal;
+  border: none;
+  outline: none;
+  &:hover{
+    background-color:@co9;
+  }
+}
+
+//文字对齐
+.text-l{
+  text-align: left;
+}
+.text-r{
+  text-align: right;
+}
+.text-c{
+  text-align: center;
+}
+
+//取消按钮
+button.otcCancelBtn{
+  width: 180px;
+  height: 48px;
+  border-radius: 4px;
+  color: @co4;
+  line-height: normal;
+  outline: none;
+  background:none;
+  border: 1px solid #414654;
+  &:hover{
+    border:1px solid @co4;
+  }
+}
+
+//确认按钮
+button.otcSureBtn{
+  width: 180px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: @co4;
+  color: @co3;
+  line-height: normal;
+  outline: none;
+  border: none;
+  &:hover{
+    background-color:@co8;
+  }
+}
+
+//布局
+.dealContent{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+//公共table
+.otcTable{
+  width: 100%;
+  tr{
+    line-height: 62px;
+    td{
+      text-align: center;
+      line-height: 62px;
+    }
+  }
+}
+
+//公共input
+.otcInput input:not([type='checkbox']) {
+  font-size:14px;
+  padding-left:10px;
+  border-radius: 2px;
+  color: #FFFFFF;
+  outline: none;
+  background: #1A1E2E;
+  border: 1px solid rgba(65, 70, 84, 0);
+}
+.otcInput input:not([type='checkbox']):hover {
+  border: 1px solid #3E85A2;
+}
+.otcInput input:not([type='checkbox']):focus {
+  border: 1px solid #3E85A2;
+}

@@ -1,0 +1,159 @@
+//2018.9.28
+@import "../commom/less/bass.less";
+@import "../../../assets/css/trust.css";
+
+.dealContent{
+    .capitalTitle,.capitalTab{
+        margin-top: 10px;
+        font-size: 24px;
+        color: #D4DCF0;
+        letter-spacing: 0;
+        font-weight: normal;
+        margin-bottom: 0;
+        padding-bottom: 20px;
+        border-bottom: none;
+    }
+    .capitalTab{
+        padding-bottom: 42px;
+        ul{
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex; 
+            display: flex;
+            li{
+                margin-right: 40px;
+                position: relative;
+                a{
+                    color: rgba(212,220,240,0.2);
+                }
+            }
+            .current::before{
+                content: ""; 
+                width: 100%;
+                height: 0px;
+                border-bottom: 2px @co10 solid;
+                position: absolute;
+                left: 0;
+                bottom: -10px;
+            }
+            .current{
+                color: #D4DCF0;
+            }
+        }
+    }
+    .capitalContent{
+        width: 100%;
+        .capitalActions{
+            width: 100%;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            .capitalActionsTime{
+                flex:1;
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                align-items: center;
+                margin-left: 40px;
+                .TimeTitle{
+                    display: block;
+                    height: 28px;
+                    line-height: 28px;
+                    margin-right: 5px;
+                }
+                .tab-time{
+                    padding-top: 0;
+                }
+            }
+            .capitalActionsCurrency{
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                width: auto;
+                .CurrencyType{
+                    width: 40px;
+                }
+                .CurrencySelect{
+                    width: 80px;
+                    height: 32px;
+                    position: relative;
+                }
+            }
+            .val-con{
+                color: @co1;
+            }
+        }
+        .undoFlex{
+            flex-direction: column;
+        }
+        .recordBtn{
+            margin-right: 21px;
+        }
+        .entrust-con{
+            margin-bottom: 20px;
+            
+            .table-entrust{
+                button{
+                    outline:none;
+                }
+                tr{
+                    height: 44px;
+                    th,td{
+                        text-align: right;
+                    }
+                    th:first-child,th:nth-child(2),
+                    td:first-child,td:nth-child(2){
+                        text-align: left;
+                    }
+                    
+                    th:last-child,td:last-child{
+                        text-align: right;
+                        width: 110px;
+                        button{
+                            padding: 0;
+                        }
+                    }
+                    th:nth-child(4){
+                        span{
+                            margin-right: 23px;
+                        }
+                    }
+                }
+            }
+        }
+            
+        .capitalTableDetail{
+            button{
+                border: none;
+                background: none;
+                color: #3E85A2;
+            }
+        }
+    }
+    .history_list_right .history_list{
+        padding:  0 13px;
+        height: 32px;
+        line-height: 30px;
+    }
+    .tab-time li label{
+        font-size: 12px;
+    }
+    //以下为强制提升优先级 谨慎使用
+    .undoMargin{
+        margin: 0 !important;
+    }
+}
+.capitalTabSwitch{
+    .capitalDealContent{
+        width: 1400px;
+    }
+}

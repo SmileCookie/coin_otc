@@ -1,0 +1,151 @@
+@import '../../assets/css/base/_variable';
+@c1:#FFFFFF;
+
+.selwp{
+    bottom: 12px;
+    position: absolute;
+    .stithwp{
+        &,em{
+            color: @c1;
+        }
+        display: inline-block;
+        border-right: 1px solid rgba(212, 220, 240, 0.2);
+        line-height: 24px;
+        strong{
+            font-weight: normal;
+        }
+        em{
+            font-size: 12px;
+            transform: scale(0.6);
+            display: inline-block;
+            padding: 0 7px;
+        }
+    }
+    .country{
+        position: static;
+        width: auto;
+        height: auto;
+        .goog-menu{
+            left: 0;
+            top: 25px;
+            padding: 0;
+            width: auto;
+            .goog-menu-con{
+                height: auto;
+                .goog-menuitem{
+                    padding: 5px 40px 5px 10px;
+                }
+            }
+        }
+    }
+}
+.checkboxwp{
+    svg{
+        cursor: pointer;
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 0;
+        top: 0;
+    }
+}
+.theme{
+    .tc{
+        text-align: center;
+    }
+    &.sp0{
+        .stithwp{
+            width: 100px;
+            .stith{
+                margin-right: 27px !important;
+            }
+        }
+        .goog-menu{
+            width: 100px;
+        }
+    }
+    &.sp1{
+        text-align: center;
+        .goog-menu,
+        .stithwp{
+            width: 80px;
+        }
+        .stith{
+            margin: 0 !important;
+            color: @c7;
+        }
+        .stithwp{
+            border: 1px solid transparent !important;
+            background: transparent !important;
+        }
+    }
+    .selwp{
+        top: 0;
+        bottom: auto;
+        .stithwp{
+            border: 1px solid @c13;
+            border-radius: 2px;
+            background: @c9;
+            padding: 5px 6px 5px 10px;
+            height: 32px;
+            em{
+                padding: 0;
+            }
+            .stith{
+                margin-right: 10px;
+            }
+            &:hover{
+                border-color: @c0;
+                em{
+                    color: @c0;
+                    transform:rotate(180deg) scale(0.6);
+                    -ms-transform:rotate(180deg) scale(0.6);
+                    -moz-transform:rotate(180deg) scale(0.6);
+                    -webkit-transform:rotate(180deg) scale(0.6); 
+                    -o-transform:rotate(180deg) scale(0.6);
+                    position: relative;
+                    top: -3px;
+                }
+            }
+        }
+        .goog-menu{
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+            .goog-menuitem{
+                color: @c10;
+            }
+            top: 32px;
+            background: @c9;
+            .goog-menu-con{
+                border: 1px solid transparent;
+                padding: 9px 0;
+            }
+            & .goog-menuitem:hover{
+                background: @c8 !important;
+                color: @c0;
+            }
+        }
+        .goog-inline-block{
+            display: none;
+        }
+    }
+}
+.rd_wp{
+    width: 12px;
+    height: 12px;
+    border: 1px solid @c4;
+    border-radius: 10px;
+    &:hover{
+        border-color: @c0;
+    }
+    &.ac{
+        border-color: @c0;
+        em{
+            display: block;
+            background: @c0;
+            width: 6px;
+            height: 6px;
+            border-radius: 10px;
+            margin: 2px 0 0 2px;
+        }
+    }
+}

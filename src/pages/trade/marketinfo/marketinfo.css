@@ -1,0 +1,184 @@
+.trade-wrap .coininfo{
+    width:100%;
+    height:50px;
+    background: #121418;
+}
+.trade-wrap .coininfo-title{
+    float: left;
+    line-height:50px;
+    color:#fff;
+    margin-left:20px;
+    font-size: 18px;
+    letter-spacing: 0.6px;
+}
+.ifre{
+    border: none
+}
+.trade-wrap .coininfo-title h2{
+    line-height: 34px;
+    font-size: 26px;
+    color: #333;
+    font-weight: normal;
+    padding-bottom: 4px;
+    /* text-transform: uppercase; */
+}
+.trade-wrap .coininfo-title p{
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: bold;
+    color: #128FDC;
+}
+.trade-wrap .coininfo-price{
+    float: right;
+    position: relative;
+    padding: 8px 0 ;
+    /* border: #E4E4E4 solid 1px; */
+    border-radius: 2px;
+    text-align: left;
+    /* width: 660px; */
+}
+.trade-wrap .coininfo-price .coininfo-price-type{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 82px;
+    height: 59px;
+}
+.coininfo-price-type .Select-control{
+    padding: 14px 0 0 10px;
+    height: 53px;
+}
+.coininfo-price-type .Select .Select-value {
+    position: relative;
+    padding-left: 5px;
+    font-size: 16px;
+    line-height: 35px;
+    font-weight: 600;
+    border-right: #E4E4E4 solid 1px;
+    cursor: pointer;
+}
+.coininfo-price-type .Select .Select-value:after{
+    position: absolute;
+    top: 15px;
+    right: 7px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: transparent solid 5px;
+    border-top: 0;
+    border-bottom: #666 solid 5px;
+    transition: all .5s;
+    transform: rotate(180deg);
+    content: "";
+}
+.coininfo-price-type .is-open .Select-value:after{
+    transform: rotate(0deg);
+}
+.coininfo-price-type .Select .Select-menu-outer {
+    position: absolute;
+    left: -1px;
+    top: 59px;
+    width: 82px;
+    border: #E4E4E4 solid 1px;
+    background: #FFF;
+    box-shadow: #999 1px 1px 3px;
+}
+.coininfo-price-type .Select-menu-outer .Select-option {
+    padding: 10px;
+    color: #128FDC;
+    font-size: 14px;
+    cursor: pointer;
+    background: #FFF;
+}
+.coininfo-price-type .Select-menu-outer .Select-option:hover {
+    background: #EBECF1;
+}
+.trade-wrap .coininfo-price-data li{
+    position: relative;
+    float: left;
+    padding: 0 10px 0 15px;
+}
+/* .trade-wrap .coininfo-price-data li:last-child{
+    width: 20%;
+}
+.trade-wrap .coininfo-price-data li:first-child {
+    width: 35%;
+} */
+.coininfo-price-data li h6 {
+    margin: 0;
+    color: #737A8D;
+    font-weight:normal;
+    font-size:12px;
+}
+.coininfo-price-data li p {
+    margin: 0;
+    margin-top: 3px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 16px;
+}
+.coininfo-price-data li p span.red{
+    color: #CE6144;
+}
+.coininfo-price-data li p span.green{
+    color: #49A664;
+}
+.coininfo-price-data li div {
+    display: none;
+    position: absolute;
+    top: 43px;
+    left: -65%;
+    width: 180%;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background: #128FDC;
+    color: #FFF;
+    text-align: center;
+}
+.coininfo-price-data li:hover div {
+    display: block;
+}
+
+.coininfo-price-data li div:before {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    margin-left: -4px;
+    content: "";
+    width: 0;
+    height: 0;
+    border: transparent solid 7px;
+    border-bottom: #128FDC solid 7px;
+}
+
+
+
+/* 亮版样式 */
+
+.trade-wrap-light .coininfo{
+    background:#fff;
+}
+.trade-wrap-light .coininfo-title{
+    color: #17191F;
+}
+.trade-wrap-light .coininfo-price-data li h6{
+    color: #ABAFBB;
+}
+.trade-wrap-light .coininfo-price-data li p{
+    color: #3C4351;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

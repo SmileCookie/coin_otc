@@ -1,0 +1,144 @@
+/**
+* Dialog
+* @author luchao.ding
+* @date 07-30-2018
+*/
+@import '../base/_variable';
+
+.dia-wp{
+    z-index: 9999;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    width: 540px;
+    height: 310px;
+    margin: -155px 0 0 -270px;
+    padding: 40px 60px 20px 60px;
+    background: rgba(47, 50, 63,0.9);
+    text-align: center;
+    .bbyh-sure{
+        border-radius: 4px;
+        display: block;
+        border: 1px solid #3E85A2;
+        padding: 13px 28px;
+        color: #3E85A2;
+        font-size: 16px;
+        background: none;
+        margin: 55px auto 0 auto;
+        outline: none;
+        &:hover{
+            color: #FFFFFF;
+            background: #3E85A2;
+        }
+    }
+    &.sp0{
+        height: auto;
+        padding: 50px 60px 40px 60px;
+    }
+
+    .warning{
+        width: 48px;
+        height: 44px;
+        margin: 0 auto 20px auto;
+        display: block;
+    }
+    .p{
+        &.lf{
+            text-align: left;
+            color: @c7;
+            margin-bottom: 45px;
+            word-wrap: break-word;
+        }
+        color: @c6;
+        font-size: @s1;
+        line-height: @lh;
+        margin-bottom: 30px;
+    }
+    .opt{
+        margin-bottom: 20px;
+        a{
+            border-radius: 2px;
+            display: block;
+            border: 1px solid @c0;
+            padding: 17px 49px;
+            color: @c0;
+            font-size: @s1;
+            &:hover{
+                color: @c6;
+                background: @c0;
+            }
+            *{
+                vertical-align: middle;
+            }
+            svg{
+                height: 30px;
+            }
+            .l{
+                width: 20px;
+            }
+            .r{
+                width: 27px;
+            }
+            .s{
+                font-size: 26px;
+            }
+            .s0{
+                font-size: 27px;
+            }
+            .iconfont{
+                margin-right: 10px;
+            }
+        }
+    }
+    .opt2{
+        a{
+            border: 1px solid @c13;
+            color: @c0;
+            border-radius: 5px;
+            font-size: @s1;
+            &.ac{
+                color: @c3;
+                background: @c0;
+            }
+            width: 180px;
+            height: @s7;
+            line-height: @s7;
+        }
+        padding: 0 20px;
+    }
+    .ft{
+        color: @c12;
+        font-size: @s0;
+        cursor: pointer;
+        &:hover{
+            color: @c0;
+        }
+    }
+    &.k{
+        .opt{
+            a{
+                padding: 10px 5px;
+            }
+        }
+    }
+    &.k{
+        a{
+            float:none;
+            display:block;
+            margin:0 auto;
+        }
+    }
+}
+
+.dm{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	opacity: 0.5;
+    background: #000000;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 98;
+}

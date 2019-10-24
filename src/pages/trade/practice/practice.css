@@ -1,0 +1,441 @@
+.trans-practice{
+    float: left;
+    position: relative;
+    width:100%;
+    height:100%;
+    padding-bottom:287px;
+}
+.trans-practice .trade-content-th table{
+    float: left;
+    width: 50%;
+}
+.trans-practice .trade-item{
+    margin-left:0;
+}
+.trans-practice .trade-content .trade-moudle{
+    position: relative;
+    z-index: 10;
+    width:100%;
+}
+.trans-practice .trade-content .trade-moudle:first-child{
+    left: 0;
+}
+.trade-item-title-right{
+    float: left;
+}
+.trans-exchange .sell-practice{
+    left: 50%;
+}
+.trans-exchange .buy-practice{
+    display:flex;
+    flex-direction:column;
+}
+.trans-practice .transposal{
+    position: absolute;
+    top: 15px;
+    left: 50%;
+    margin-left: -30px;
+    cursor: pointer;
+}
+.trans-practice .transposal .icon{
+    width: 18px;
+    height: 22px;
+}
+.select-conf-set .select-title{
+    float: right;
+    margin: 0 10px 0 15px;
+    line-height: 20px;
+    color: #999;
+}
+.select-conf-set .Select{
+    float: right;
+    color: #333;
+    cursor: pointer;
+    height: 22px;
+}
+.select-conf-set .Select-control{
+    width:55px;
+    height:20px;
+    padding: 0 18px 0 0;
+    line-height: 18px;
+    text-align: left;
+    border-radius: 1px;
+    font-size: 13px;
+    color: #FFFFFF;
+    
+}
+.select-conf-set .Select-arrow-zone{
+    position: absolute;
+    top:-1px;
+    left: 32px;
+    height: 20px;
+    line-height: 20px;
+}
+.select-conf-set .Select-arrow{
+    display: block;
+    width: 6px;
+    height: 6px;
+    transform: rotate(-45deg);
+    border-left: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    float: right;
+    position: relative;
+    top: 5px;
+}
+.select-conf-set .Select-menu-outer{
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.20);
+    margin-left:-16px;
+    border:none !important;
+}
+.select-conf-set .Select-menu-outer .Select-option{
+    padding:0 20px;
+    font-size:13px;
+    line-height: 26px;
+    cursor: pointer;
+    white-space:nowrap;
+    color: #FFFFFF;
+    
+}
+.select-num .Select-menu-outer .Select-option{
+    text-align: left;
+}
+.select-conf-set .Select-menu-outer .Select-option:hover{
+    background: #3C414C;
+    color: #3E85A2;
+}
+.select-conf-set .Select-menu-outer .Select-option.is-selected{
+    background: #3C414C;
+    color: #3E85A2;
+}
+.trans-practice .percent-cover{
+    position: relative;
+    width: 100%;
+    height: 18px;
+    padding:2px 0;
+   
+}
+.trans-practice .percent-cover span{
+    display: block;
+    height:16px;
+    vertical-align: middle;
+    position: absolute;
+    max-width: 100%;
+    min-width: 3%;
+}
+.trans-practice .percent-cover .green{
+    right: 0;
+    opacity: 0.2;
+    background: #49A664;
+}
+.trans-practice .percent-cover .red{
+    right: 0;
+    opacity: 0.2;
+    background: #CE6144;
+}
+
+.trade-content-practice-box table{
+    position: relative;
+    width: 100%;
+    z-index: 11;
+    font-size: 12px;
+} 
+.trade-content-practice-box ul{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    /* padding:0 4%; */
+    top:0;
+    z-index: 8;
+}
+.trade-content-practice-box .buy ul{
+    top:0;
+}
+.trade-content-practice-box tbody tr{
+    cursor: pointer;
+}
+.sell-practice-table tbody tr:hover td{
+    background: #7E4A41;
+}
+.sell-practice-table tbody .nohover:hover td{
+    background:transparent !important;
+    cursor: default !important;
+}
+.buy-practice-table tbody tr:hover td{
+    background: #3C6C51;
+}
+.trade-content-practice-box tbody tr td{
+    position: relative;
+}
+.trade-content-practice-box tbody tr td:first-child:after{
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    left: 3px;
+    top: 7px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px #FFFFFF;
+    display: none;
+}
+.trade-content-practice-box tbody tr.ac td:first-child:after{
+    display: block;
+}
+.trade-content-practice-box tbody tr td.red{
+    color: #CE6144;
+}
+.trade-content-practice-box .sell-practice-table tbody tr.ac td{
+    color: #E58248;
+}
+.trade-content-practice-box tbody tr td.red:after{
+    background: #FFA700;
+}
+.trade-content-practice-box tbody tr td.green{
+    color: #49A664;
+}
+.trade-content-practice-box .buy-practice-table tbody tr.ac td{
+    color: #8EBE54;
+}
+.trade-content-practice-box tbody tr td.green:after{
+    background: #D6F530;
+}
+.trans-practice .sell-index,.trans-practice .buy-index{
+    position: relative;
+}
+.trans-practice .sell-index i,.trans-practice .buy-index i{
+    position: absolute;
+    top:8px;
+    display: block;
+    width:6px;
+    height:6px;
+    border-radius: 5px;
+}
+.trans-practice .sell-index i{
+    right: -10px;
+    background: #E34B51;
+}
+.trans-practice .buy-index i{
+    left: -3px;
+    background: #2BB38A;
+}
+.sell-practice-table tr td:last-child,
+.sell-practice-table tr th:last-child{
+    text-align: right;
+    padding-left: 0;
+}
+.now-price{
+    width:100%;
+    height:20px;
+    padding:3px 20px;
+    overflow:hidden;
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 10px;
+    border: 1px solid #414654;
+    border-left: 0;
+    border-right: 0;
+    margin: 0px 0;
+    flex-basis: 20px;
+    flex-grow: 0;
+}
+.now-price span{
+    display: inline-block;
+    /*min-width:120px;*/
+}
+.now-price span:first-child{
+    font-size: 16px !important;
+    margin-right: 10px;
+}
+.now-price span:last-child{
+    font-size: 12px !important;
+}
+.now-price-red{
+    color:#CE6144;
+}
+.now-price-green{
+    color:#49A664;
+}
+.trade-item .buy-practice-table tr td,
+.trade-item .sell-practice-table tr td{
+    height:18px;
+    line-height:18px;
+    color: #FFFFFF;
+}
+.buy-practice-table tr th,
+.buy-practice-table tr td,
+.sell-practice-table tr th,
+.sell-practice-table tr td{
+    padding:0 10px;
+}
+.buy-practice-table tr th{
+    background:rgba(44,48,58,0.5);
+}
+
+.buy-practice-table tr td:last-child,
+.sell-practice-table tr td:last-child{
+    color: #FFFFFF;
+}
+.buy-practice-table tr td:last-child{
+    padding-left: 0;
+}
+.sell-practice-table tr th{
+    background:rgba(44,48,58,0.5);
+}
+.marleft40{
+    margin-left:40px;
+}
+.practice-depth{
+    float: right;
+    margin-top:5px;
+    font-size: 12px;
+    color: #737A8D;
+    line-height:26px;
+}
+.marginleft5{
+    margin-left:5px;
+}
+.practice-table-head{
+    width:100%;
+    float: left;
+}
+.practice-table-head .practice-table-head-item{
+    float: left;
+    width:35%;
+    color: #737A8D;
+    font-size: 12px;
+    white-space: nowrap;
+    line-height:18px;
+    text-align:right;
+    padding-right: 30px;
+    background:rgba(44, 48, 58, 0.5);
+}
+
+.practice-table-head .practice-table-head-item:first-child{
+    text-align:left;
+    padding-left: 10px;
+}
+.practice-table-head .practice-table-head-item:last-child{
+    width:30%;
+    padding-right: 10px;
+}
+.trade-item-title,.trade-content-practice-box{
+    width:100%;
+    float: left;
+}
+.trade-content-practice-box{
+    width:100%;
+    flex:1;
+    overflow: hidden;
+    position:relative;
+}
+.trade-content-practice-box .trade-moudle{
+    position:relative;
+}
+.trade-content-practice-box{
+    display:flex;
+    flex-direction:column;
+}   
+.trade-content-practice-box .trade-moudle{
+    flex:1;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+
+@keyframes practiceRed {
+    0% {
+        opacity: 0.2;
+        background: #CE6144;
+    }
+    40% {
+        opacity: 0.4;
+        background: #CE6144;
+    }
+    60% {
+        opacity: 0.2;
+        background: #CE6144;
+    }
+    100% {
+        opacity: 0.4;
+        background: #CE6144;
+    }
+}
+
+@keyframes practiceGreen {
+    0% {
+        opacity: 0.4;
+        background: #49A664;
+    }
+    40% {
+        opacity: 0.2;
+        background: #49A664;
+    }
+    60% {
+        opacity: 0.4;
+        background: #49A664;
+    }
+    100% {
+        opacity: 0.2;
+        background: #49A664;
+    }
+}
+
+.practice_red{
+    animation: practiceRed 1s;
+}
+
+.practice_green{
+    animation: practiceGreen 1s;
+}
+
+
+
+
+
+
+
+
+
+
+/* 亮版样式 */
+.trade-wrap-light .now-price{
+    border-color: #ECECED;
+}
+.trade-wrap-light .sell-practice-table tr th{
+    background: #F4F4F5;
+    color: #ABAFBB;
+}
+.trade-wrap-light .trade-item .trade-content th{
+    color:#ABAFBB;
+}
+.trade-wrap-light .select-conf-set .Select-control{
+    color: #737A8D;
+}
+.trade-wrap-light .select-conf-set .Select-arrow{
+    border-color:#737A8D;
+}
+.trade-wrap-light .select-conf-set .Select-menu-outer .Select-option{
+    background-color:#fff !important;
+    color: #3E85A2;
+}
+.trade-wrap-light .select-conf-set .Select-menu-outer .Select-option:hover{
+    background:#EDEFF4 !important;
+    color: #3E85A2 !important;;
+}
+.trade-wrap-light .select-conf-set .Select-menu-outer .Select-option.is-selected{
+    background: #EDEFF4 !important;
+    color: #3E85A2 !important;
+}
+.trade-wrap-light .practice-table-head .practice-table-head-item{
+    background: #F4F4F5;
+    color: #ABAFBB;
+}
+.trade-wrap-light  .buy-practice-table tr td,
+.trade-wrap-light  .sell-practice-table tr td{
+    color:  #23282F;
+}
+.trade-wrap-light .sell-practice-table tbody tr:hover td{
+    background:#E6B0A1;
+}
+.trade-wrap-light .buy-practice-table tbody tr:hover td{
+    background:#A4D2B1;
+}

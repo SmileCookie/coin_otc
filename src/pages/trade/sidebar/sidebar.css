@@ -1,0 +1,539 @@
+.trade-wrap .col-s .sidebar{
+    position: relative;
+    width:100%;
+    height:calc(100% - 264px);
+    background: #121418;
+    margin-bottom:4px;
+}
+.sidebar .sidebar-title{
+    position: relative;
+    width:100%;
+    overflow: hidden;
+    padding: 0px 10px 10px 15px;
+}
+.sidebar-title .sidebar_set{
+    display:none;
+    position: absolute;
+    right:0px;
+    float: right;
+    width: 35px;
+    height: 30px;
+    border: #d7d7d7 solid 1px;
+}
+.sidebar-title .sidebar_set i{
+    display: block;
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 17px;
+    font-style: normal;
+    font-family: iconfont;
+    cursor: pointer;
+    color:#fff;
+}
+.sidebar-title .sidebar_set ul{
+    display: none;
+    position: absolute;
+    right: 0;
+    top:30px;
+    min-width: 100px;
+    background: #FFF;
+    box-shadow: #999 0 0 3px;
+    z-index: 11;
+}
+.sidebar-title .sidebar_set ul>li{
+    padding:10px;
+    color: #333;
+    font-weight: bolder;
+    white-space : nowrap;
+}
+.sidebar-title .sidebar_set ol li{
+    padding:5px 0;
+    font-size: 12px;
+    font-weight: normal;
+    color: #666;  
+}
+.sidebar-title .sidebar_set ol input,.sidebar-title .sidebar_set ol span{
+    cursor: pointer;
+}
+.sidebar-title .sidebar_set ul>li:not(:last-child){
+    border-bottom: #d7d7d7 solid 1px;
+}
+.sidebar-title .sidebar_set:hover ul{
+    display: block;
+}
+.sidebar-title .mark {
+    width:100%;
+    float: left;
+}
+.sidebar-title .mark li{
+    float: left;
+    width:60px;
+    margin: 0 0 0 5px;
+    text-align: center;
+    padding: 0;
+    font-size: 12px;
+    line-height: 24px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #C8CDD9;
+    background: #414654;
+}
+.sidebar-title .mark li:first-child{
+    width:80px;
+    font-family: iconfont;
+}
+.sidebar-title .mark li:hover{
+    color: #3E85A2;
+    background: #414654;
+}
+.sidebar-title .mark li.react-tabs__tab--selected{
+    background: #3E85A2;
+    color:#fff;
+}
+
+.sidebar .side_th{
+    overflow: hidden;
+    padding:0 20px;
+    background: rgba(44, 48, 58, 0.5);
+}
+.sidebar .side_th span{
+    float: left;
+}
+.sidebar .side_th span i{
+    float: left;
+    margin-left: 5px;
+    height: 23px;
+    font-family: iconfont;
+    font-style: normal;
+    text-indent: 0;
+    text-align: center;
+}
+.sidebar .side_th span,.sidebar .side_th em{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 23px;
+    cursor: pointer;
+    color: #737A8D;
+}
+
+.sidebar .side_th span.side_th_market{
+    width: 90px;
+    padding-left:10px;
+    text-align: left;
+}
+.sidebar .side_th span.side_th_price{
+    text-align: left;
+    width:70px;
+    text-indent:2px;
+}
+.sidebar .side_th span.side_th_change{
+    text-align: right;
+    width:70px;
+}
+.sidebar .side_th span.side_th_change span,.sidebar .side_th span.side_th_change i{
+    float:right;
+}
+
+.sidebar .side_th span.side_th_vol{
+    text-align: right;
+    width: 85px;
+}
+.sidebar .side_th em{
+    width: 30px;
+    font-style: normal;
+    text-decoration: underline;
+}
+.react-tabs__tab-panel .coin{
+    position: relative;
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    padding:0 20px;
+}
+.react-tabs__tab-panel .coin:nth-child(odd){
+    
+}
+.react-tabs__tab-panel .coin:last-child{
+    
+}
+.react-tabs__tab-panel .coin a{
+    display: block;
+}
+.react-tabs__tab-panel .coin a div.clearfix>span{
+    height: 26px;
+    line-height: 24px;
+}
+.react-tabs__tab-panel .coin:hover{
+    background:rgba(85, 88, 93, 0.2);
+}
+.react-tabs__tab-panel .coin.active{
+    background:rgba(85, 88, 93,0.2) !important;
+}
+.coin span{
+    display: block;
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    white-space:nowrap;
+}
+.coin .sidebar_item_img .money-coin{
+    width: 20px;
+    height: 20px;
+    margin: 4px;
+    background-size: cover;
+}
+.react-tabs__tab-panel .coin .coin-name{
+    width: 50px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: normal;
+}
+.react-tabs__tab-panel .coin .coin-name-fav{
+    width: 80px;
+    text-indent:2px;
+}
+.react-tabs__tab-panel .coin .coin-current-price{
+    color:#B6C1DA;
+}
+.react-tabs__tab-panel .coin .red{
+    color:#e46161;
+}
+.react-tabs__tab-panel .coin .green{
+    color:#49a664;
+}
+.naewspan{
+    font-size: 14px;
+    color: rgb(200, 205, 217)
+    }
+.react-tabs__tab-panel .coin .coin-current-price-usdt{
+    font-size: 12px;
+    line-height:28px;
+}
+
+.react-tabs__tab-panel .coin .coin-current-price-usdt i{
+    /*可能回退*/
+    display: none !important;
+
+    display:inline-block;
+    color:#737A8D;
+    font-size:12px;
+    font-style: normal;
+    font-weight: normal;
+    transform: scale(0.85);
+    -webkit-transform:scale(0.85);
+}
+.coin .coin-price-range{
+    width: 60px;
+    color: #B6C1DA;
+    text-align: right;
+    font-size: 12px;
+    font-weight: normal;
+}
+.coin .coin-price-range.green{
+    color: #49A664;
+}
+.coin .coin-price-range.red{
+    color: #CE6144;
+}
+.react-tabs__tab-panel .coin .coin-volume{
+    width: 60px;
+    text-align: right;
+    color: #333;
+    font-size: 12px;
+}
+.react-tabs__tab-panel .coin .coin-fav{
+    width:16px;
+    color: #737A8D;
+    font-family: iconfont;
+    font-size:12px;
+    position: relative;
+}
+.react-tabs__tab-panel .coin .coin-fav:hover .tips{
+    display: none;
+}
+.react-tabs__tab-panel .coin .coin-fav .tips{
+    position: absolute;
+    background: #4A4F5B;
+    display: none;
+    top: -29px;
+    height: 34px;
+    left: -3px;
+    padding: 0px 17px;
+    color: #B6C1DA;
+    text-align: left;
+    border-radius: 2px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15);
+    font-size: 12px;
+    color: #B6C1DA;
+}
+.react-tabs__tab-panel .coin .coin-fav .tips:after{
+    content: '';
+    display: transparent;
+    border: 6px solid #4A4F5B;
+    border-color: #4A4F5B transparent transparent transparent;
+    /* margin-top: 20px; */
+    position: absolute;
+    top: 100%;
+    left:4px;
+}
+
+.react-tabs__tab-panel .coin .coin-fav:hover{
+    color:#3E85A2;
+}
+.react-tabs__tab-panel .coin .coin-fav-true{
+    color: #3E85A2;
+}
+.sidebar .sidebar-list{
+    min-height: 100%;
+}
+.sidebar .sidebar-list .gray .sidebar_item_img{ 
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    
+    filter: grayscale(100%);
+	
+    filter: gray;
+}
+.sidebar .sidebar-list .haveNoFav{
+    color:#A2A7AF;
+    padding: 60px 0;
+    text-align: center;
+    font-size:12px;
+}
+.sidebar .sidebar-list .haveNoFav i{
+    font-size:14px;
+    color: #3E85A2;
+    position: relative;
+    top:1px;
+}
+.sider-search{
+    width:100%;
+    padding:7px 20px; 
+    float: left;
+}
+.sider-search h3{
+    float: left;
+    line-height:24px;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    font-weight:normal;
+}
+.search-form{
+    float:right;
+    position: relative;
+}
+
+.search-form input{
+    display:block;
+    float:left;
+    width:120px;
+    height:24px;
+    border:none;    
+    outline:none;
+    padding:0 6px;
+    background: transparent;
+    color: #fff;
+    font-size:12px;
+    border: 1px solid #414654;
+    padding-right:26px;
+    border-radius: 2px;
+}
+.search-form input:hover,.search-form input:focus{
+    border: 1px solid #3E85A2;
+}
+.search-form button{
+    display:block;
+    position: absolute;
+    right:0;
+    top:0;
+    width:26px;
+    height:26px;
+    color: #5F6575;
+    border:none;
+    background:transparent;
+    outline:none;
+    font-size:12px;
+}
+.search-form button:hover{
+    color:#3E85A2;
+}
+.react-tabs{
+    width: 100%;
+    float: left;
+    height: 100%;
+}
+.sidebar-list-market{
+    width:117px;
+    float: left;
+    margin-right: -8px;
+}
+.sidebar-list-price{
+    width:80px;
+    float: left;
+    padding-left:5px;
+}
+.sidebar-list-market-box{
+    width:100%;
+    float: left;
+}
+.sidebar-list-market-box div span ,.sidebar-list-market-box .sidebar-list-price span{
+    /* overflow: hidden; */
+    line-height: 24px!important;
+}
+.side_th i.icon{
+    display:block;
+    width:12px;
+    height:14px;
+    background-size:10px 12px;
+    background-position:center 4px;
+}
+.paixujiantou-moren{
+    background:url(../../../assets/img/paixujiantou-moren.png) no-repeat;
+}
+.paixujiantou-zhengxu{
+    background:url(../../../assets/img/paixujiantou-zhengxu.png) no-repeat;
+}
+.paixujiantou-daoxu{
+    background:url(../../../assets/img/paixujiantou-daoxu.png) no-repeat;
+}
+.sidebar-btn{
+    position: absolute;
+    left: 429px;
+    top:350px;
+    display:block;
+    width: 10px;
+    height: 64px;
+    /* background-size:4px 36px; */
+    background-position:center center;
+    background-repeat:no-repeat;
+    cursor: pointer;
+    z-index: 998;
+    background-image:url(../../../assets/img/showAllNav.png);
+    background-size: auto 100%;
+}
+.trade-wrap .sidebar-btn:hover{
+    background-image:url(../../../assets/img/showAllNavHover.png);
+    
+}
+
+
+.rotate180{
+    transform: rotate(180deg);
+}
+.left86{
+    left:88px;
+}
+.gray{
+    color: #737A8D !important;
+}
+.light{
+    color: #D4DCF0 !important;
+}
+
+/* 亮版交易页面样式 */
+
+.trade-wrap-light .col-s .sidebar{
+    background:#fff;
+}
+
+.trade-wrap-light .react-tabs__tab-panel .coin .red{
+    color:#e46161!important;
+}
+.trade-wrap-light .react-tabs__tab-panel .coin .green {
+    color:#49a664!important;
+}
+
+.trade-wrap-light .sider-search h3{
+    color: #000000;
+}
+.trade-wrap-light .search-form input{
+    border: 1px solid rgba(65,70,84,.2);
+    background:#fff;
+}
+.trade-wrap-light .search-form input{
+    
+}
+
+.trade-wrap-light .sidebar-title .mark li{
+    background:#E3E3E6;
+    color: #8B9097;
+}
+.trade-wrap-light .sidebar-title .mark li span{
+    color: #23282F;
+}
+
+.trade-wrap-light .react-tabs__tab-panel .coin{
+    background: #FFFFFF;
+}
+
+.trade-wrap-light .react-tabs__tab-panel .coin:nth-child(odd) {
+    
+}
+
+.trade-wrap-light .react-tabs__tab-panel .coin:last-child{
+    
+}
+
+.trade-wrap-light .react-tabs__tab-panel .coin:hover {
+    background:#EAEBEC!important;
+}
+.trade-wrap-light .react-tabs__tab-panel .coin.active{
+    background:#EAEBEC!important;
+}
+.trade-wrap-light .react-tabs__tab-panel .coin .coin-name{
+    color: #5F6575;
+}
+
+.trade-wrap-light .sidebar-btn{
+    background-image:url(../../../assets/img/showAllLight.png);
+}
+.trade-wrap-light .sidebar .side_th{
+    background-color: #EFF0F3;
+}
+.trade-wrap-light .sidebar-title .mark li:hover *{
+    color: #3E85A2;
+}
+.trade-wrap-light .sidebar-title .mark li.react-tabs__tab--selected{
+    background: #3E85A2;
+    color:#FFFFFF;
+}
+.trade-wrap-light .sidebar-title .mark li.react-tabs__tab--selected span{
+    color: #fff;
+}
+.trade-wrap-light .sidebar-title .mark li:not(.react-tabs__tab--selected):hover {
+    color: #3E85A2;
+}
+
+.trade-wrap-light .search-form input:hover,
+.trade-wrap-light .search-form input:focus{
+    border: 1px solid #3E85A2;
+}
+.trade-wrap-light .coin .coin-price-range,
+.trade-wrap-light .react-tabs__tab-panel .coin .coin-current-price{
+    color:#5F6575;
+}
+.trade-wrap-light .search-form input{
+    color:#AFB2BA;
+}
+.trade-wrap-light .sidebar .react-tabs__tab-panel .coin .coin-fav .tips{
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.20);
+    color: #17191F;
+}
+.trade-wrap-light .sidebar .react-tabs__tab-panel .coin .coin-fav .tips:after{
+                border: 6px solid #FFFFFF;
+                border-color: #FFFFFF transparent transparent transparent;
+}
+/* .sidebar .react-tabs .react-tabs__tab-panel--selected{
+    height: 400px!important;
+}
+@media screen and (min-height: 900px) {
+    .sidebar .react-tabs .react-tabs__tab-panel--selected{
+        height: 530px!important;
+    }
+} */

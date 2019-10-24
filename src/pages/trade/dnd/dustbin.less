@@ -1,0 +1,488 @@
+.dustbin-box{
+    width:100%;
+    height:100%;
+    background-color:#0E0F13;
+    .dustbin{
+        width:50%;
+        height:50%;
+        float: left;
+        .dustbin-con{
+            width:100%;
+            height:100%;
+            background-color:#121418;
+            position: relative;
+            .dustbin-market{
+                position: absolute;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                background-color:rgba(47,52,63,1);
+                z-index:9999;
+                font-size:14px;
+                color: #FFFFFF;
+                text-align:center;
+                border: 2px solid #3E85A2;
+                b{
+                    position: relative;
+                    top:50%;
+                    transform: translateY(-50%);
+                    font-weight:300;
+                }
+            }
+            .dustbin-default{
+                position: relative;
+                top:45%;
+                transform:translateY(-50%);
+                z-index:3333;
+                p{
+                    font-size: 14px;
+                    color: #737A8D;
+                    text-align:center
+                }
+                .dustbin-add-btn{
+                    i{
+                        margin-right:10px;
+                    }
+                    i,span{
+                        vertical-align:middle;
+                    }
+                    min-width:120px;
+                    height:32px;
+                    margin-top:30px;
+                    float: left;
+                    position: relative;
+                    left:50%;
+                    transform:translateX(-50%);
+                    padding:0 20px;
+                    border: 1px solid #414654;
+                    border-radius: 2px;
+                    color: #FFFFFF;
+                    font-size:12px;
+                    line-height:30px;
+                    text-align:center;
+                    cursor: pointer;
+                    &:hover{
+                        border-color:#3E85A2;
+                        color:#3E85A2;
+                        span{
+                            color:#3E85A2;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
+
+.kline-dust-box{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height:100%;
+    position: relative;
+    .kline-dust-box-mark{
+        position: absolute;
+        left:0;
+        right:0;
+        width:100%;
+        height:100%;
+        z-index: 9999;
+    }
+    .kline-dust-oper{
+        position: relative;
+        width:100%;
+        height:50px;
+        .trade-link{
+            display:block;
+            width:100px;
+            height:32px;
+            line-height:32px;
+            text-align:center;
+            border: 1px solid #414654;
+            border-radius: 2px;
+            font-size: 14px;
+            color: #9199AF;
+            margin:1% auto 0;
+            &:hover{
+                border-color: #3E85A2;
+                span{
+                    color: #3E85A2;
+                }
+            }
+        }
+        .kline-dust-edit{
+            position:absolute;
+            right:5px;
+            top:20%;
+            z-index:9999;
+            cursor: pointer;
+            p{
+                padding:3px 5px;
+                font-size: 12px;
+                color:#9199AF;
+                &:hover{
+                    color:#3E85A2;
+                }
+            }
+            ul{
+                position: absolute;
+                right:5px;
+                top:22px;
+                padding:10px 0;
+                background: rgba(47, 50, 63, .9);
+                box-shadow: 0 2px 6px 0 rgba(0,0,0,0.50);
+                li{
+                   width:80px;
+                   line-height:26px; 
+                   font-size: 13px;
+                   color: #FFFFFF;
+                   text-align:center;
+                   &:hover,&.active{
+                       background: #3C414C;
+                       span{
+                         color: #3E85A2;
+                       }
+                   }
+                }
+            }
+        }
+        .kline-dust-edit-2,.kline-dust-edit-3{
+            ul{
+                top:-70px; 
+            }
+        }
+    }
+    .bbyh-kdp{
+        position: absolute;
+        top: 57px;
+        right: 40px;
+        text-align: right;
+        width: auto;
+        z-index:2001;
+        .trade-link{
+            display: inline;
+            border: 0;
+            border-radius: 0;
+            margin: 0;
+            font-size: 12px;
+            color: #3E85A2;
+            line-height: inherit;
+            margin-right: 10px;
+            &:hover{
+                span{
+                    color: #479EC2;
+                }
+            }
+        }
+        .kline-dust-edit{
+            position: static;
+            display: inline;
+            p{
+                display: inline;
+                color: #3E85A2;
+                &:hover{
+                    color: #479EC2;
+                }
+            }
+        }
+    }
+}
+
+.dustbin-modal{
+    position: absolute;
+    left:0;
+    top:0;
+    z-index:8888;
+    width:338px;
+    height:100%;
+    background: #121418;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.50);
+
+    .dustbin-modal-header{
+        padding:8px 10px 8px 20px;
+        overflow: hidden;
+        background-color: #1E2128;;
+        .search-form{
+            float:left;
+            input{
+                width: 200px;
+                height: 24px;
+                padding-left:10px;
+            }
+        }
+        i{
+            font-size:14px;
+            color:#5F5F69;
+            float:right;
+            margin-top:6px;
+            cursor: pointer;
+            &:hover{
+                color: #9199AF;
+            }
+        }
+    }
+    .dustbin-modal-con{
+       
+        .dustbin-modal-tab{
+            overflow: hidden;
+            padding:6px 14px;
+            background: rgba(44,48,58,0.5);
+            ul > li{
+                float: left;
+                font-size: 13px;
+                color: #FFFFFF;
+                background: #414654;
+                border-radius: 2px;
+                padding:5px 12px;
+                line-height:15px;
+                margin-right:5px;
+                cursor: pointer;
+                i{
+                    font-size:14px;
+                }
+                &:hover{
+                    color: #3E85A2;
+                }
+                &.active{
+                    background: #3E85A2;
+                }
+            }
+        }
+
+        .dustbin-modal-tabPane-ul{
+            overflow: hidden;
+            margin:0 14px;
+            padding:5px 0;
+            li{
+                width:33.33%;
+                float: left;
+                padding:3px 5px;
+                font-size: 13px;
+                line-height:20px;
+                color: #9199AF;
+                cursor: pointer;
+                &:hover{
+                    color:#3E85A2;
+                }
+            } 
+        }  
+
+
+
+
+    }
+
+    .gp-wp{
+        margin: 0 14px;
+        padding-top: 15px;
+        .m{
+            width: 50%;
+            float: left;
+            .dustbin-modal-tabPane-ul{
+                padding: 0;
+                margin: 0;
+                overflow: auto;
+            }
+            ul{
+                li{
+                    width: 100%;
+                    float: none;
+                    padding: 0;
+                    font-size: 12px;
+                    color: #9199AF;
+                    line-height: 24px;
+                    &:hover{
+                        color: #3E85A2;
+                    }
+                }
+            }
+        }
+    
+        .tith{
+            font-size: 14px;
+            color: #FFFFFF;
+            font-weight: normal;
+            margin-bottom: 10px;
+        }
+    }
+
+    .scr-wp{
+        height: 100%;
+        margin-top: -40px;
+        padding: 40px 0 15px 0;
+    }
+
+    .sa-wp{
+        height: 100%;
+    }
+
+    .scrollbar{
+        background: #414654 !important;
+        border-radius: 100px;
+        &:hover{
+            background: #737A8D !important;
+        }
+    }
+
+    .scrollbar-container{
+        background: rgba(44,48,58,0.5) !important;
+    }
+
+    .scrollarea{
+        &,
+        &:hover .scrollbar-container,
+        &.active,
+        &:hover{
+            opacity: 1 !important;
+        }
+    }
+}
+
+
+
+.dustbin-0{
+    padding:0 2px 2px 0;
+}
+.dustbin-1{
+    padding:0 0 2px 2px;
+}
+.dustbin-2{
+    padding:2px 2px 0 0;
+}
+.dustbin-3{
+    padding:2px 0 0 2px;
+}
+
+.trade-wrap-light{
+    .dustbin-market{
+        background: rgba(255,255,255,0.80) !important;
+        color: #5F6575 !important;
+        border: 2px solid #3E85A2;
+    }
+    .dustbin-modal{
+        background: #FFFFFF;
+        .dustbin-modal-header{
+            background: #F4F4F5;
+            
+        }
+
+        .scrollbar{
+            background: #D9DADD !important;
+            &:hover{
+                background: #BFC3CE !important;
+            }
+        }
+
+        .scrollbar-container{
+            background: #FFFFFF !important;
+        }
+
+        .tith{
+            color: #000000;
+        }
+    
+        ul{
+            li{
+                color: #23282F !important;
+                &:hover{
+                    color: #3E85A2 !important;
+                }
+            }
+        }
+    }
+
+    .kline-dust-box .kline-dust-oper{
+        .trade-link{
+            border-color:#D9DADD;
+            color:#5F6575;
+            &:hover{
+                border-color:#3E85A2;
+                color:#3E85A2;
+            }
+        }
+        .kline-dust-edit{
+            p{
+                color:#5F6575;
+                &:hover{
+                    color: #3E85A2;
+                }
+            }
+            ul{
+                background:#FFFFFF;
+                li{
+                    color: #5F6575;
+                    &:hover{
+                        background: #EDEFF4;
+                        color:#3E85A2;
+                    }
+                }
+            }
+        } 
+
+    }  
+} 
+
+@media only screen and (max-width:1690px){
+    .dustbin-box{
+        .coininfo-price ul li:last-child{
+            display:none;
+        }
+    }
+}
+@media only screen and (max-width:1480px){
+    .dustbin-box{
+        .coininfo-price ul li:last-child,
+        .coininfo-price ul li:nth-child(4){
+            display:none;
+        }
+    }
+}
+
+@media (min-width:769px) and (max-width:1365px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

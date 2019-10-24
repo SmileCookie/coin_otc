@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ORG CHART</title>
+    <link rel="stylesheet" type="text/css" href="./jquery.orgchart.css?v=v1.0.2">
+    <style type="text/css">
+        #chart-container {
+            position: relative;
+            display: inline-block;
+            top: 10px;
+            left: 10px;
+            height: auto;
+            width: calc(100% - 24px);
+            border-radius: 5px;
+            overflow: auto;
+            text-align: center;
+        }
+        html, body, .orgchart, #chart-container{
+            overflow: hidden;
+        }
+        .orgchart {
+            background: #22262E;
+        }
+
+        .orgchart>.spinner {
+            color: rgba(255, 255, 0, 0.75);
+        }
+
+        .orgchart .node .title {
+            color: #fff;
+            font-weight: 500;
+            line-height: 41px
+        }
+
+        .orgchart .node .content {
+            color: #A4A7AE;
+            letter-spacing: 0;
+            text-align: center;
+        }
+          .orgchart  .true  {
+            background: url(./sswq.png) no-repeat 3px center;
+            background-size: 98px 100px
+        }
+        
+        .orgchart .true .title{
+            color: #fff
+        }
+        .orgchart .node>.spinner {
+            color: rgba(184, 0, 54, 0.75);
+        }
+        .orgchart .node .edge {
+            color: rgba(0, 0, 0, 0.6);
+        }
+
+        .orgchart .edge:hover {
+            color: #000;
+        }
+
+        .orgchart tr.lines td.leftLine,
+        .orgchart tr.lines td.topLine,
+        .orgchart tr.lines td.rightLine {
+            border-color: #3E85A2;
+            border-radius: 0px;
+        }
+
+        .orgchart tr.lines .downLine {
+            background-color: #3E85A2;
+        }
+        .tesz{
+            transform: scale(-1);
+            color: #FFFFFF;
+            line-height: 50px
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="chart-container"></div>
+</body>
+<!-- <script src="//cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script> -->
+<script type="text/javascript" src='./jquery.min.js?v=v1.0.2'></script>
+<script type="text/javascript" src='./jquery.orgchart.js?v=v1.0.2'></script>
+<script type="text/javascript">
+// 国际化暂无数据
+var g = {
+    cn: '暂无数据',
+    en: 'No data',
+    jp: 'データなし',
+    kr: '데이터가 없습니다',
+}
+var lng = 'cn';
+
+try{
+    lng = document.cookie.split('zlan=')[1].replace(/;.+/g,'');
+}catch(e){
+
+}
+
+    //获取url参数方法
+  
+    function GetQueryString(name){
+      var reg = new RegExp("(^|&)"+name+"=([^&]*)(&|$)");
+      var result = window.location.search.substr(1).match(reg);
+      return result?decodeURIComponent(result[2]):null;
+  }
+  var admin=GetQueryString('admin');
+  var username=GetQueryString('username')==null?"":"?username="+GetQueryString('username');
+  var chartContainer = $('#chart-container');
+  chartContainer.orgchart({
+      'data' :admin+'/manage/financial/userInvitationChart'+username,
+      //'depth': 3,
+      'nodeContent': 'title', 
+      'toggleSiblingsResp': true
+  });
+// chartContainer.orgchart({
+//       'data' :'./sss.json',
+//       //'depth': 3,
+//       'nodeContent': 'title', 
+//       'toggleSiblingsResp': true
+//   });
+function ee(){
+        setTimeout(function(){
+  window.parent.document.getElementById("charting_library").style.width=($(".orgchart").width() + 100)+'px';
+  window.parent.document.getElementById("charting_library").style.height=$(".orgchart").height()+'px'
+
+  },1000);
+      }
+      ee()
+function show(name) {
+        chartContainer.empty();
+        chartContainer.orgchart({
+            'data' :admin+'/manage/financial/userInvitationChart?username='+name.dataset.name,
+            //'depth': 3,
+            'nodeContent': 'title',
+            'toggleSiblingsResp': true
+        });
+        ee()
+      }
+ 
+
+
+
+</script>
+</html>

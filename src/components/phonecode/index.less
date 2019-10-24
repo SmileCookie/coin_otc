@@ -1,0 +1,111 @@
+.country{
+    position: absolute;
+    left:185px;
+    top:0;
+    width:85px;
+    height:36px;
+    background-color:orange;
+    .inp-country{
+        width:100%;
+        height:100%;
+        outline:none;
+        padding:0 5px 0 30px;
+        border:1px solid rgba(0, 0, 0, 0.15);
+        border-right:none;
+    }
+    .talk-flag{
+        position:absolute;
+        left:10px;
+        top:13px;
+        background: url(./flags.png) no-repeat 0 0;
+        height: 11px;
+        overflow: hidden;
+        width: 16px;
+    }
+    .country-icon{
+        position: absolute;
+        right: -10px;
+        top: 5px;
+        width: 20px;
+        height: 26px;
+        border-right: 1px solid rgba(0, 0, 0, .15);
+        .arrow{
+            position: absolute;
+            left: 0;
+            top: 10px;
+            display: block;
+            width: 0;
+            height: 0;
+            border-top: 6px solid #000;
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+        }
+    }
+    .goog-menu{
+        position: absolute;
+        top:36px;
+        width: 370px;
+        background-color: #fff;
+        font-size: 12px;
+        margin: 0;
+        padding:6px 0 0;
+        transition: opacity 0.218s ease 0s;
+        z-index: 1000;
+        .goog-menu-con{
+            max-height: 220px;
+            border: 1px solid #E4E4E4;
+        }
+        .goog-menuitem{
+            text-align: left;
+            color: #333;
+            cursor: pointer;
+            margin: 0;
+            padding: 5px 5px 5px 30px;
+            position: relative;
+            white-space: nowrap;
+            .talk-flag{
+                top:8px;
+            }
+            .talk-select-country-name{
+                display:inline-block;
+                margin: 0 5px 0 7px;
+            }
+            &:hover{
+                background:#EEEEEE;
+            }
+        }
+        .goog-menuseparator{
+            border-top: 1px solid #EBEBEB;
+            margin-bottom: 10px;
+            margin-top: 7px;
+        }
+    }
+}
+.hide{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

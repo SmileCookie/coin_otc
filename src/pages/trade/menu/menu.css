@@ -1,0 +1,271 @@
+
+.trade_slider_nav{
+    width: 84px;
+    height:min-content;
+    background: #17191F;
+    box-shadow: 0 2px 4px 0 rgba(56,64,89,0.10);
+    margin-right:4px;
+    min-width: 84px;
+}
+.trade_slider_nav ul{
+    width:100%;
+}
+.trade_slider_nav ul li a{
+    position: relative;
+    display:block;
+    width:100%;
+    height:88px;
+    padding:16px 0;
+    font-size:14px;
+    text-align:center;
+    color: #737A8D;
+    font-weight:normal;
+}
+.trade_slider_nav_en ul li a{
+    font-size:12px;
+}
+.trade_slider_nav ul li a:hover{
+    color: #3E85A2;
+}
+.trade_slider_nav ul li a:hover i{
+    color: #3E85A2;
+}
+.trade_slider_nav ul li a.active{
+    background: #3E85A2;
+    color:#fff;
+}
+.trade_slider_nav ul li a.active i{
+    color:#fff;
+}
+.trade_slider_nav ul li a.active::after{
+    background: #3E85A2;
+}
+.trade_slider_nav ul li a::after{
+    content: '';
+    display:block;
+    position: absolute;
+    left:22px;
+    bottom:0px;
+    width:40px;
+    height:1px;
+    background: #414654;
+}
+.trade_slider_nav ul li:last-child a::after{
+    display:none;
+}
+.trade_slider_nav ul li a i{
+    display:block;
+    width:26px;
+    height:26px;
+    font-size:24px;
+    margin:0 auto 8px;
+    color: #737A8D;
+
+}
+.trade_slider_nav ul li:nth-child(2) a i,
+.trade_slider_nav ul li:nth-child(4) a i{
+    font-size:20px;
+}
+
+/* 亮版交易页面的样式 */
+.trade-wrap-light .trade_slider_nav{
+    background:#fff;
+}
+.trade-wrap-light .trade_slider_nav ul li a::after{
+    opacity:.1;
+}
+/*交易-2018-11-30 亮版调色，删除后还原原来样式，基于第一版进行样式覆盖*/
+.trade-wrap-light .trade_slider_nav ul li a{
+    color: #17191F;
+}
+.trade-wrap-light.trade-wrap .select-type ul li.active,
+.trade-wrap-light.trade-wrap .buyProportion .form-group em:hover,
+.trade-wrap-light.trade-wrap .kline-dust-box .kline-dust-oper .kline-dust-edit ul li:hover,
+.trade-wrap-light.trade-wrap .select-type ul li:hover,
+.trade-wrap-light.trade-wrap .trade-item-title-right li:hover,
+.trade-wrap-light .trade_slider_nav ul li a:hover{
+    color: #3E85A2;
+}
+.trade-wrap-light.trade-wrap .tab-box-head ul li.active,
+.trade-wrap-light .trade_slider_nav ul li a.active{
+    color: #fff;
+}
+.trade-wrap-light.trade-wrap .select-type{
+    border: 1px solid #D2D5D9;
+}
+.trade-wrap-light.trade-wrap .select-type{
+    background: #F4F5F6;
+    color: #23282F;
+}
+.trade-wrap-light.trade-wrap .select-type{
+    border-color: #FFFFFF;
+}
+.Overlay-Light .trade-pwd-inp::-webkit-input-placeholder,
+.trade-wrap-light.trade-wrap input::-webkit-input-placeholder { /* WebKit browsers*/ 
+    color: #AFB2BA !important;
+}
+.Overlay-Light .trade-pwd-inp::-moz-placeholder,
+.trade-wrap-light.trade-wrap input:-moz-placeholder {  /* Mozilla Firefox 4 to 18*/ 
+    color: #AFB2BA !important;
+}
+.Overlay-Light .trade-pwd-inp::-moz-placeholder,
+.trade-wrap-light.trade-wrap input::-moz-placeholder {  /* Mozilla Firefox 19+*/ 
+    color: #AFB2BA !important;
+}
+.Overlay-Light .trade-pwd-inp::-ms-input-placeholder,
+.trade-wrap-light.trade-wrap input:-ms-input-placeholder { /* Internet Explorer 10+*/ 
+    color: #AFB2BA !important;
+}
+
+.trade-wrap-light.trade-wrap .dustbin-box .dustbin .dustbin-con .dustbin-market,
+.trade-wrap-light.trade-wrap .kline-dust-box .kline-dust-oper .kline-dust-edit ul li,
+.Overlay-Light .bk-entrust table thead tr th,
+.Overlay-Light .bk-entrust table thead tr td,
+.Overlay-Light .bk-moadlDetail li,
+.Overlay-Light .bk-moadlDetail li span,
+.Overlay-Light .bk-moadlDetail h3,
+.Overlay-Light .trade-notice-modal .notice-dialog-content table tbody tr th,
+.Overlay-Light .trade-notice-modal .notice-dialog-content table tbody tr td,
+.trade-notice-modal .notice-dialog-content,
+.Overlay-Light .trade-radio-box label,
+.Overlay-Light .react-safe-box-head h3,
+.Overlay-Light .modal-btn p,
+.trade-wrap-light.trade-wrap .entrust-record .select-conf-set .checkbox-includeCancel span,
+.trade-wrap-light.trade-wrap .sull-tip p,
+.trade-wrap-light.trade-wrap .alt_wp,
+.trade-wrap-light.trade-wrap .buyProportion .form-group em,
+.trade-wrap-light.trade-wrap .haveUser,
+.trade-wrap-light.trade-wrap .select-type ul li,
+.trade-wrap-light.trade-wrap .trade-item .trade-content .alert_under_table,
+.trade-wrap-light.trade-wrap .coininfo-price-data li p,
+.trade-wrap-light.trade-wrap .tab-box-head ul li,
+.trade-wrap-light.trade-wrap .sidebar .side_th em{
+    color: #17191F;
+}
+.ctrl_btn{
+    width: 30px;
+    height: 30px;
+    color:#fff;
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    cursor: pointer;
+}
+.trade-wrap-light.trade-wrap .history-list-tit li,
+.trade-wrap-light.trade-wrap .practice-table-head .practice-table-head-item{
+    background: #EFF0F3;
+}
+.trade-wrap-light.trade-wrap .history-list-tit li{
+    background: rgba(239, 240, 243, .5);
+    color: #707479;
+}
+.trade-wrap-light.trade-wrap .practice-table-head .practice-table-head-item{
+    background: rgba(239, 240, 243,0.5);
+}
+.trade-wrap-light.trade-wrap .trade-feesnum,
+.trade-wrap-light.trade-wrap .sell-practice-table tr td:nth-child(2),
+.trade-wrap-light.trade-wrap .sell-practice-table tr td:nth-child(3),
+.trade-wrap-light.trade-wrap .practice-depth,
+.trade-wrap-light.trade-wrap .trade-item .table-box-cover table tr td{
+    color: #23282F;
+}
+.trade-wrap-light.trade-wrap .entrust-record .trade-content table thead tr th{
+    background: rgba(239,240,243,0.5);
+    color: #707479;
+}
+.trade-wrap-light.trade-wrap .trade-item-title-right li.react-tabs__tab--selected{
+    color: #000000;
+}
+.trade-wrap-light.trade-wrap .practice-table-head .practice-table-head-item,
+.trade-wrap-light.trade-wrap .dustbin-box .dustbin .dustbin-con .dustbin-default p,
+.trade-wrap-light.trade-wrap .buyDefaultLabel .form-group,
+.trade-wrap-light.trade-wrap .trade-input-desc,
+.trade-wrap-light.trade-wrap .sidebar .side_th span{
+    color: #707479;
+}
+.trade-wrap-light.trade-wrap .trade-history .trade-content table tr td:nth-child(1),
+.trade-wrap-light.trade-wrap .trade-history .trade-content table tr td:nth-child(3),
+.trade-wrap-light.trade-wrap .react-tabs__tab-panel .coin .coin-name{
+    color: #23282F;
+}
+.trade-wrap-light .new-title .naewspan{
+    font-size: 14px;
+    color: #23282F
+}
+.naewspan{
+    font-size: 14px;
+    color: rgb(200, 205, 217)
+    }
+    .trade-wrap-light .new-title .naewspan{
+    font-size: 14px;
+    color: #23282F
+    }
+.Overlay-Light .trade-notice-modal .notice-dialog-time,
+.trade-wrap-light.trade-wrap .coininfo-price-data li h6{
+    color: #5F6575;
+}
+.trade-wrap-light.trade-wrap .trade-item-title-right li{
+    color: #707479;
+}
+
+.Overlay-Light .trade-pwd-inp{
+    border-color:#9FA2A9;
+}
+.trade-wrap-light.trade-wrap .trade-content input:not([type='checkbox']){
+    border-color:  #D2D5D9;
+    color: #000000;
+}
+.trade-wrap-light.trade-wrap .select-type{
+    color:#000;
+    border-color:#D2D5D9;
+    background:#FFFFFF;
+}
+.trade-wrap-light.trade-wrap .buyProportion .form-group em:hover,
+.trade-wrap-light.trade-wrap .search-form input:hover,
+.trade-wrap-light.trade-wrap .trade-content input:not([type='checkbox']):hover{
+    border-color: #3E85A2;
+}
+
+.trade-wrap-light.trade-wrap .search-form input,
+.trade-wrap-light.trade-wrap .buyProportion .form-group em{
+    border-color: #D9DADD;
+    color: #23282F;
+}
+
+.trade-wrap-light.trade-wrap .alt_wp{
+    background: #EBEEF0;
+}
+.trade-wrap-light.trade-wrap .alt_wp:after{
+    border-top-color: #EBEEF0;
+}
+.trade-wrap-light.trade-wrap .entrust-record .select-conf-set label{
+    color: #001600;
+}
+.trade-wrap .sp .sidebar-list-market-box .coin-price-range,
+.trade-wrap .sp .sidebar-list-market-box div span,
+.trade-wrap .sp .sidebar-list-market-box .sidebar-list-price span{
+    height: 26px;
+    line-height: 24px;
+}
+
+
+.Overlay-Light .bk-entrust table tbody td:last-of-type,
+.Overlay-Light .bk-entrust table tbody td:first-of-type,
+.Overlay-Light .bk-entrust table tbody td{
+    border: 0 !important;
+}
+.trade-wrap-light .up-cnj{
+    color: #000000;
+}
+.trade-wrap-light .up-cnjed{
+    color: #707479;
+}
+.trade-wrap-light .coin-detail-name{
+    border-color: #fff;
+}
+.trade-wrap-light.trade-wrap .bk-trans-form .form-row,
+.trade-wrap-light .coin-detail-con p,
+.trade-wrap-light .coin-detail-con{
+    color: #23282F;
+}
+/*end*/

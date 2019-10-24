@@ -1,0 +1,1358 @@
+/**
+* 理财专属样式
+*/
+
+@f-color:#fff;
+*{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.lc{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background: transparent;
+    z-index: 9;
+}
+.money_wp_out{
+    background: url('../img/money/bg-1.png') no-repeat 50% 140px #0C0C0E;
+}
+/*  money 内容 */
+.money_wp{
+    font-size: 14px;
+    background: url('../img/money/hd.png') no-repeat 50% 0;
+    padding-top: 295px;
+    background-size: auto 670px;
+    .mc{
+        position: relative;
+        color: #fff;
+        .in{
+            background: url('../img/money/gl0.png') no-repeat 0 40px;
+            background-size: 100%;
+            padding:190px 105px 95px 105px;
+            width: 550px;
+            height: 1100px;
+            margin: 0 auto;
+        }
+        .mnav{
+            // width: 1200px;
+            // left:50%;
+            // margin-left: -600px;
+            left: 0;
+            right: 0;
+            top: -220px;
+            position: absolute;
+            display: flex;
+            justify-content: space-around;
+            .mi0{
+                float: left;
+                width: 20%;
+                text-align: center;
+                height: 50px;
+                position: relative;
+                .rt{
+                    
+                    height: 100%;
+                }
+                .lt{
+                    
+                    height: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .icon{
+                        display: inline-block;
+                        width: 35px;
+                        height: 35px;
+                        margin-right: 10px;
+                    }
+                    .icon1{
+                        background: url("../../assets/img/money/投资数量@2x.png") no-repeat center;
+                        background-size: 94%;
+                    }
+                    .icon2{
+                        background: url("../../assets/img/money/6.png") no-repeat center;
+                        background-size: 94%;
+                    }
+                    .icon3{
+                        background: url("../../assets/img/money/分红权重@2x.png") no-repeat center;
+                        background-size: 94%;
+                    }
+                    .icon4{
+                        background: url("../../assets/img/money/节点数量@2x.png") no-repeat center;
+                        background-size: 94%;
+                    }
+                    .icon5{
+                        background: url("../../assets/img/money/产出数量@2x.png") no-repeat center;
+                        background-size: 94%;
+                    }
+                    .icon6{
+                        background: url("../../assets/img/money/剩余区块@2x.png") no-repeat center;
+                        background-size: 94%;
+                    }
+                }
+            }
+            >li + li:before{
+                content: " ";
+                display: block;
+                position: absolute;
+                top: 40px;
+                left: 0;
+                width: 1px;
+                height: 24px;
+                opacity: 0.3;
+                background: #8A8E98;
+            }
+            .mpic{
+                &.king{
+                background: url('../img/money/vds.png') no-repeat 100% 50%;
+                padding-right: 18px;
+                }
+                font-size: 24px;
+                margin-right: 10px;
+            }
+            .mutil{
+
+            }
+            .msub{
+                color: #737A8D;
+                a,
+                a:hover{
+                    color: #09A5C5;
+                }
+            }
+        }
+        .l,.r{
+            position: absolute;
+            border-top:28px solid transparent;
+            border-bottom:28px solid transparent;
+            top: 335px;
+            opacity: 1;
+            cursor: pointer;
+        }
+        .l{
+            border-right:56px solid #FFC94E;
+            left: -200px;
+        }
+        .r{
+            border-left:56px solid #FFC94E;
+            right: -200px;
+        }
+        .sx_wp{
+            .jc{
+                font-size: 24px;
+                background-size: 13px;
+            }
+            h2{
+                font-size: 28px;
+                color: #FFFFFF;
+                margin: 15px 0;
+            }
+            h3{
+                font-size: 48px;
+                color: #FFC94E;
+                margin: 20px 0;
+            }
+            .sx_wp_btn{
+                margin-top: 50px !important;
+                position: relative;
+                width: 180px;
+                height: 44px;
+                z-index: 0;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 30px auto;
+                cursor: pointer;
+                font-size: 18px;
+            }
+            .sx_wp_btn::before{
+                content: '';
+                position: absolute;
+                top:0;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                z-index: -1;
+                // transform: skew(-25deg);
+                background: #FFC94E;
+            }
+            .sx_wp_btn:hover{
+                &::before{
+                    background-color:#FFB91B;
+                }
+            }
+            .sx_wp_ul{
+                .money-icon{
+                    display: inline-block;
+                    height: 14px;
+                    width: 14px;
+                    background: url("../../assets/img/money/特权@2x.png") no-repeat center;
+                    background-size: 100%;
+                    margin-right: 10px;
+                }
+                li{
+                    margin: 30px 0;
+                    font-size: 16px;
+                }
+            }
+            
+        }
+        
+        .money-footer{
+            width: 1100px;
+            position: absolute;
+            left: 50%;
+            margin-left: -550px;
+            top: 710px;
+            ul{
+                display: flex;
+                justify-content: space-around;
+            }
+            .footer-li{
+                width: 260px;
+                .footer-li-img{
+                    width: 72px;
+                    height: 72px;
+                    margin: 50px auto;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .footer-li-cont{
+                    h3{
+                        font-size: 20px;
+                        margin: 20px 0;
+                        text-align: center;
+                    }
+                    p{
+                        text-align: center;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* 对话框 及 遮罩 */
+
+.fl-lt{
+    float: left;
+}
+.fl-rt{
+    float: right;
+}
+
+.money-dialog{
+    width: 560px;
+    .head{
+        overflow: hidden;
+        padding: 24px 30px;
+        background: #22262E;
+        border-radius: 2px;
+        color: #FFFFFF;
+        h3{
+            float: left;
+        }
+    }
+    .body{
+        .title{
+            margin-top: 30px;
+            padding: 0 60px;
+            .btn:hover{
+                background: #3E85A2 !important;
+                color: #fff;
+            }
+            .btn-border{
+                border: 1px solid #3E85A2;
+            }
+            .fl-lt{
+                font-size: 34px;
+                color: #FFC94E;
+                span:first-of-type{
+                    font-size: 28px;
+                    color:#fff;
+                    margin-right: 10px;
+                }
+            }
+        }
+        .bk-balances{
+            clear:both;
+            padding-top: 10px !important;
+        }
+    }
+}
+.account-right{
+    p{
+        height: 30px;
+    };
+}
+
+
+.bk-prompt{
+    p:last-of-type a{
+        margin-left: 10px;
+    }
+}
+.money-cont{
+    padding: 50px 60px 30px 60px;
+    ul:first-of-type{
+        width: 45%;
+    }
+    .lock{
+        background: url('../img/money/lock.png') no-repeat;
+        background-size: 9px 12px;
+        position: absolute;
+        width: 9px;
+        height: 12px;
+        right: -15px;
+        top: 2px;
+    }
+}
+
+.money-btn{
+    background: #3E85A2;
+    border-radius: 4px;
+    color: #fff;
+    height: 30px;
+    width: 100px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer;
+    &:hover{
+        background: #479EC2;
+        border-color: #479EC2;
+    }
+}
+.mar-lt10{
+    margin-left: 10px;
+}
+.mar-lt20{
+    margin-left: 20px;
+}
+.money-ul{
+    li{
+        height: 30px;
+        margin-bottom: 20px;
+        line-height: 30px;
+        p{
+            span:first-of-type{
+                width: 235px;
+                display: inline-block;
+            }
+        }
+    }
+}
+
+.clearboth{
+    clear: both;
+}
+
+.clearMarPa{
+    margin-top: 15px !important;
+    margin-bottom: 5px !important;
+    padding: 0 !important;
+    span{
+        span{
+            margin: 0 !important;
+        }
+    }
+}
+
+.font-fff{
+    color: @f-color;
+    //width: 400px;
+}
+.dis{
+    background: #737A8D !important;
+    border-color: #737A8D !important;
+    color:#9199AF !important;
+    &:hover{
+        color:#9199AF !important;
+    }
+}
+.money-table {
+    table{
+        tr{
+            th {
+                text-align: left !important;
+                padding-left: 60px;
+            }
+        }
+
+        tr {
+            td {
+                padding-left: 60px;
+            }
+        }
+    }
+}
+
+.money-table{
+    h2{
+        height: 80px;
+        line-height: 100px;
+        background: #17191F;
+    }
+    .money-table-content{
+        min-height: 306px;
+        .alert_under_table{
+            width: 240px;
+            margin: 0 auto;
+            padding-top: 120px;
+            text-align: center;
+            i{
+                color: #3E85A2;
+                margin-right: 5px;
+            }
+        }
+    }
+
+}
+
+.tablist li a:hover{
+    text-decoration: underline;
+    color: #3E85A2;
+}
+.cmoney {
+    padding-top:40px !important;
+}
+
+.bok{
+    span{
+    background: url('../img/money/bok.png') no-repeat 0 50%;
+    background-size: 24px;
+    padding-left: 30px;
+    }
+}
+.boklst{
+    &,
+    a,
+    a:hover{
+        color: #9199AF;
+    }
+}
+.money_content{
+    text-align: center;
+}
+.smn_wp{
+    .vdstith{
+        color: #fff;
+        text-align: center;
+        margin: -50px 0 50px 0;
+    }
+    background: url('../img/money/bg-1.png') no-repeat 50% 550px #0C0C0E;
+    .inx{
+        padding-top: 95px;
+        background: url('../img/money/smnht.png') no-repeat 50%  0;
+    }
+    .smn_tith{
+        font-size: 36px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        margin-bottom: 60px;
+        .vds{
+            background: url('../img/money/bigvds.png') no-repeat 100%  50%;
+            padding-right: 36px;
+            background-size: 34px;
+        }
+    }
+    .smn_lk{
+        width: 1400px;
+        margin: 0 auto;
+        text-align: right;
+        display: block;
+        padding:10px 0;
+    }
+    .smn_tb{
+        width: 1400px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        background: #22262E;
+        font-size: 14px;
+        border: 1px solid #414654;
+        table-layout: fixed;
+        
+        th{        
+            font-weight: normal;
+            color: #737A8D;
+        }
+        td{
+            color: #fff;
+        }
+        td,th{
+            border: 1px solid #414654;
+            border-left: none;
+            border-right: none;
+            padding: 10px 0;
+        }
+        .mtr{
+            text-align: right;
+            padding-right: 54px;
+        }
+        .mtc{
+            text-align: center;
+        }
+        .px{
+            margin-left: 5px;
+            background: url('../img/money/px0.png') no-repeat;
+            background-size: 8px;
+            width: 8px;
+            height: 7px;
+            display: inline-block;
+            cursor: pointer;
+            margin-top: 1px;
+            &.ac{
+                background: url('../img/money/px1.png') no-repeat;
+                background-size: 8px;
+            }
+        }
+        .span,.px{
+            vertical-align: middle;
+        }
+        .md{
+            .select-type,
+            .k{
+                vertical-align: middle;
+            }
+            .select-type{
+                &,
+                ul{
+                width: 150px !important;
+                }
+                height: 24px;
+                .select-val{
+                    line-height: 24px;
+                    .per-icon-jiao{
+                        top: 6px !important;
+                    }
+                }
+                display: inline-block;
+                ul{
+                    background: #2F323F;
+                }
+            }
+            &.slsp{
+                .select-type{
+                    &,
+                    ul{
+                        width: 120px !important;
+                    }
+                }
+            }
+        }
+        .tb{
+            span{
+                vertical-align: middle;
+                display: inline-block;
+            }
+            .b{
+                background: url('../img/money/vds.png') no-repeat;
+                width: 14px;
+                height: 11px;
+                background-size: 14px;
+                margin: 0 8px 0 2px;
+            }
+            .t{
+                font-size: 12px;
+                color: #737A8D;
+            }
+            .dg{
+                margin-top: 4px;
+                background: url('../img/money/dj.png') no-repeat;
+                width: 14px;
+                height: 15px;
+                background-size: 14px;
+                margin-left: 7px;
+            }
+            a:hover,
+            a{
+                color: #3E85A2;
+            }
+        }
+    }
+    .mr5{
+        margin-right: 5px;
+    }
+    
+}
+.cmy{
+    .pub_nav{
+        li{
+            width: 210px !important;
+        }
+    }
+}
+.cmy2{
+    .pub_nav{
+        li{
+            width: 160px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .money_wp .mc .mnav .mpic{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .money_wp .mc .mnav .mpic{
+        font-size: 16px;
+    }
+    .money_wp .mc .mnav .msub{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 790px) {
+    .money_wp .mc .mnav .mpic{
+        font-size: 12px;
+    }
+    
+}
+.cyrs{
+    color: rgb(9, 165, 197);
+    margin-right: 5px;
+}
+.mgd_wp{
+    width: 550px;
+    margin: 0 auto;
+    position: relative;
+}
+.six-p {
+    position: absolute;
+    left: 50%;
+    z-index: 9;
+    margin-left: -45px;
+    bottom: 465px;
+    .six {
+        cursor: pointer;
+        display: inline-block;
+        width: 15px;
+        height: 15px;
+    }
+
+    .six-1 {
+        background: url('../../assets/img/money/six-1.png') no-repeat center;
+        background-size: 80%;
+    }
+
+    .six-2 {
+        background: url('../../assets/img/money/six-2.png') no-repeat center;
+        background-size: 60%;
+    }
+
+}
+.plv{
+    position: relative;
+}
+.mz_wp{
+    font-size: 14px;
+    color: #C8CDD9;
+    letter-spacing: 0;
+    line-height: 28px;
+    
+    h5{
+        border-top: 1px solid #414654;
+        padding-bottom: 8px;
+    }
+    p{
+        text-indent: 1.5em;
+    }
+}
+.mz_ms{
+    margin: 0;
+}
+.mz_by{
+    margin-top: -20px;
+}
+.my_indent{
+    
+}
+.mmbs{
+    padding-bottom: 0 !important;
+    .scrollarea{
+    word-wrap: break-word;
+    height: 350px !important;
+    }
+}
+.my_tip_wp{
+    .modal-btn{
+        padding:30px 20px 20px 20px;
+    }
+    word-wrap: break-word;
+    text-align: center;
+    h2{
+        font-size: 18px;
+        color: #FFFFFF;
+        padding: 15px 0 25px 0;
+        font-weight: normal;
+    }
+    .fmt{
+        width: 460px;
+        padding: 0 20px;
+        margin: 0 auto;
+        font-size: 14px;
+        color: #9199AF;
+        line-height: 22px;
+        .f{
+            color: #fff;
+            padding: 0 5px;
+        }
+    }
+}
+.my_txt{
+    background: #22262E;
+    border: 1px solid #414654;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    width: 100%;
+    height: 38px;
+    padding-left: 10px;
+}
+.my_titp_wp{
+    font-size: 14px;
+    text-align: left;
+    .mpic{
+        color: #fff;
+        padding-left: 3px;
+    }
+    .mth{
+        font-size: 14px;
+        font-weight: normal;
+        color: #FFFFFF;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+}
+.pubPops{
+    .alt{
+        font-size: 12px;
+        color: #737A8D;
+        margin-bottom: 15px;
+    }
+    position: relative;
+    .ew{
+        display: block;
+        position: absolute;
+        margin-right: -50%;
+        left: 50%;
+        top:-46px;
+        max-width: 70%;
+        transform: translate(-50%, 0);
+        background: rgba(47, 50, 63, .9);
+        padding: 10px 13px;
+        color: #FFFFFF;
+        text-align: left;
+        border-radius: 2px;
+        box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15);
+        &:after{
+            content: '';
+            display: transparent;
+            border: 6px solid rgba(47, 50, 63, .9);
+            border-color: rgba(47, 50, 63, .9) transparent transparent transparent;
+            /* margin-top: 20px; */
+            position: absolute;
+            top: 100%;
+            left: 46%;
+        }
+    }
+}
+
+.p_date_groups{
+    .tip{
+        display: inline;
+        margin-left: 20px;
+    }
+    .select-history{
+        width: 220px;
+        margin-left: 5px;
+        display: inline-block;
+    }
+    &.left{
+        width: 100%;
+    }
+    .opt_wp{
+        float: right;
+        .i{
+            text-align: center;
+            background: #3E85A2;
+            border-radius: 4px;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            display: inline-block;
+            color: #fff;
+            cursor: pointer;
+            margin-left: 10px;
+        }
+    }
+    .laydate{
+        .sp{
+            padding: 0 10px;
+            color: #fff;
+        }
+        position: relative;
+        input{
+            background: transparent;
+            border: 1px solid #414654;
+            border-radius: 2px;
+            width: 200px;
+            height: 32px;
+            line-height: 32px;
+            padding-left: 8px;
+        }
+        &:after{
+            top: 0;
+            right: 8px;
+            content: ' ';
+            position: absolute;
+            width: 16px;
+            height: 16px;
+            background: url('../img/money/rls.png') no-repeat;
+        }
+    }
+}
+.my_select_wp{
+    h5{
+        margin-right: 5px;
+    }
+}
+.entrust-head.my_k{
+    margin-bottom: 20px;
+}
+.my_select_wp{
+    .ploading{
+        height: 400px;
+        line-height: 400px;
+        background: transparent;
+    }
+    th{
+        font-weight: normal;
+    }
+    tr:not(.nohover):hover td{
+        background: #363A46;
+    }
+}
+.money_wp .myjl_wp{
+    .shadow{
+        background: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 1;
+    }
+    position: relative;
+    z-index: 999;
+    .in{
+        position: absolute;
+        bottom: -1px;
+        left: -76px;
+        background-image: url('../img/money/clone_bg.png');
+        width: 680px;
+        z-index: 2;
+        padding-right: 85px;
+        .close{
+            width: 24px;
+            height: 24px;
+            background: url('../img/money/del.png') no-repeat;
+            background-size: 100%;
+            top:0;
+            right: 0;
+            position: absolute;
+            cursor: pointer;
+        }
+        @yl:#FFC94E;
+        @w:#fff;
+
+        .tith{
+            margin-top: -35px;
+            margin-bottom: 15px;
+            font-size: 28px;
+            color: @yl;
+        }
+        p{
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .p2,
+        .p0{
+            color: @yl;
+        }
+        .sx_wp_btn,
+        .p1{
+            color: @w;
+        }
+        .p2{
+            font-size: 24px;
+        }
+        .p3{
+            padding-top: 25px;
+            font-size: 14px;
+            color: #9199AF;
+            margin-bottom: 15px;
+        }
+        .p0{
+            margin-bottom: 40px;
+        }
+        .sx_wp_btn{
+            margin-top: 0px !important;
+        }
+        
+        .tb{
+            width: 144px;
+            height: 116px;
+            margin: 70px auto;
+            background: url('../img/money/vdsbg.png') no-repeat;
+            background-size: 100%;
+        }
+    }
+}
+.sx_wp_btn.ds::before{
+    background: #737A8D !important;
+    cursor: default !important;
+}
+.sx_wp_btn.ds{
+    span{
+    color: #9199AF;
+    cursor: default !important;
+    }
+}
+.my_t_wp{
+    padding:25px 60px 0 60px;
+    margin-bottom: -10px;
+    .tabwp{
+        width: 100% !important;
+        font-size: 14px;
+        line-height: 24px;
+        border-bottom: 1px solid #414654;
+        li{
+            top: 1px;
+        }
+        .ac{
+            font-size: 18px;
+        }
+        
+    }
+}
+.my_ait{
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    background: #CE6144;
+    position: absolute;
+    right: -5px;
+}
+.my_vds_wp{
+    font-size: 14px;
+    color: #fff;
+    background: url('../img/money/vds.png') no-repeat 100% 50%;
+    padding-right: 18px;
+    &.jc{
+        background: url('../img/money/jvds.png') no-repeat 100% 50%;
+    }
+    &.jsc{
+        background: url('../img/money/jscvds.png') no-repeat 100% 50%;
+        background-size: 14px;
+        color: #FFC94E;
+    }
+    &.jsb{
+        background: url('../img/money/bvds.png') no-repeat 100% 50%;
+        background-size: 14px;
+        color: #3E85A2;
+    }
+    .my_pi_alt{
+        display: none;
+        width: 300px;
+        left: 50%;
+        transform: translate(-48%, 0);
+    }
+    &.jsbig{
+        background: url('../img/money/bigvds.png') no-repeat 100% 50%;
+        background-size: 16px;
+    }
+}
+.my_pth_wp{
+    font-size: 14px;
+    color: #737A8D;
+    position: relative;
+    &:hover{
+        .my_pi_alt{
+            display: block;
+        }
+    }
+}
+.my_vds_hd{
+    font-size: 14px;
+    color: #3E85A2;
+    background: url('../img/money/gvds.png') no-repeat 100% 50%;
+    padding-right: 18px;
+    background-size: 14px;
+    margin-right: 20px;
+}
+.my_hwp{
+    position: absolute;
+    right: 60px;
+    .i{
+        font-size: 12px;
+        color: #9199AF;
+        padding:0 5px 0 10px;
+    }
+    span{
+        font-size: 12px;
+        color: #9199AF;
+    }
+}
+.my_jg_wp{
+    height: 1px;
+    opacity: 0.5;
+    background: #414654;
+    width: 100%;
+    margin: 10px 0 40px 0;
+}
+.my_c_gwp{
+    width: 100%;
+    .p{
+        color: #fff
+    }
+    td{
+        padding-bottom: 30px;
+        .my_txt_cz{
+            display: block;
+        }
+    }
+}
+.my_w_pt{
+    cursor:pointer;
+}
+.my_txt_cz{
+    color: #9199AF !important;
+    &.font-fff{
+        color: #fff !important;
+    }
+    .my_pth_wp{
+        margin-left: 5px;
+    }
+}
+.money-btn{
+    &.dis{
+        background: #737A8D;
+        color: #9199AF;
+        cursor: default;
+    }
+}
+.my_ld{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.my_up_wp{
+    background: url('../img/money/vidup.png') no-repeat 100% 0;
+    background-size: 14px;
+    padding-right: 20px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin: 0;
+}
+.mytr{
+    text-align: right;
+    padding-right: 5px !important;
+}
+.c_abdrop{
+    cursor: pointer;
+    &:hover{
+        ul{
+            display: block;
+        }
+    }
+    ul{
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        opacity: 0.9;
+        background: #2F323F;
+        box-shadow: 0 2px 8px 0 rgba(0,0,0,0.20);
+        text-align: center;
+        padding:10px 0;
+        font-size: 14px;
+        li{
+            height: 40px;
+            line-height: 40px;
+            span{
+                color: #FFFFFF;
+                display: block;
+            }
+            &:hover{
+                background: #3C414C;
+                span{
+                    color: #FFC94E;
+                }
+            }
+        }
+    }
+    position: relative;
+    .per-icon-jiao{
+        position: absolute;
+        right: 7px;
+        top: 3px !important;
+        width: 7px;
+        height: 7px;
+        border-color: #FFC94E;
+    }
+}
+.cpsh_wp{
+    background: url('../img/sh.png') no-repeat 97% 50% #22262E;
+    border: 1px solid #414654;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 14px;
+    padding: 0 30px 0 8px;
+    height: 32px;
+    line-height: 32px;
+    width: 246px;
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    background-size: 20px;
+}
+.ctb_selwp{
+    .select-type{
+        display: inline-block;
+        text-align: left;
+        margin-left: 5px;
+        width: 150px !important;
+    }
+    .select-type .select-val .per-icon-jiao{
+        top:5px !important;
+    }
+    .select-type, .select-val{
+        height: 24px;
+        line-height: 24px;
+    }
+    ul{
+        width: 150px !important;
+        text-align: center;
+    }
+}
+.msuperhd_wp{
+    background: #22262E;
+    border: 1px solid #414654;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 15px 0;
+    table{
+        table-layout: fixed;
+        width: 100%;
+        th,td{
+            font-weight:  normal;
+            text-align: center;
+        }
+        th{
+            padding-bottom: 8px;
+        }
+        td{
+            span{
+                font-size: 14px;
+                color: #737A8D;
+            }
+        }
+    }
+    margin-bottom: 10px;
+    .msth{
+        font-size: 18px;
+        color: #737A8D;
+        margin-right: 5px;
+    }
+    .msnum{
+        font-size: 20px;
+        color: #FFFFFF;
+        margin-right: 3px;
+    }
+    .msalt{
+        width: 16px;
+        height: 16px;
+        background: url("../img/money/ts2.png") no-repeat;
+        background-size: 16px;
+        display: inline-block;
+        cursor: pointer;
+        &:hover{
+            i{
+                display: block;
+            }
+        }
+        i{
+            position: absolute;
+            opacity: 0.9;
+            background: #4A4F5B;
+            border-radius: 2px;
+            padding:13px 30px;
+            font-size: 12px;
+            color: #FFFFFF;
+            bottom: 24px;
+            left: 50%;
+            transform: translate(-48%, 0);
+            right: -300px;
+            
+            display: none;
+            &:after{
+                content: '';
+                display: transparent;
+                border: 6px solid #4A4F5B;
+                border-color: rgba(74,79,91, .9) transparent transparent transparent;
+                /* margin-top: 20px; */
+                position: absolute;
+                top: 100%;
+                left: 46%;
+            }
+        }
+    }
+    .msth,
+    .msnum,
+    .msalt{
+        vertical-align: middle;
+    }
+   
+    .my_vds_wp{
+        margin-right: 20px;
+        color: #fff;
+        font-size: 16px;
+    }
+    .my_vds_padding{
+        padding-left: 20px;
+    }
+}
+
+.mydp{
+    display: inline-block;
+    width: 11px;
+    height: 14px;
+    background: url('../img/money/tb.png') no-repeat;
+    background-size: 11px;
+    position: relative;
+    top: 3px;
+    cursor: pointer;
+}
+.my_pi_alt{
+    text-align: center;
+    position: absolute;
+    opacity: 0.9;
+    background: #4A4F5B;
+    border-radius: 2px;
+    padding:13px 30px;
+    font-size: 12px;
+    color: #FFFFFF;
+    bottom: 24px;
+    &:after{
+        content: '';
+        display: transparent;
+        border: 6px solid #4A4F5B;
+        border-color: rgba(74,79,91, .9) transparent transparent transparent;
+        /* margin-top: 20px; */
+        position: absolute;
+        top: 100%;
+        left: 46%;
+    }
+}
+.pmtc{
+    text-align: center;
+}
+.pmtr{
+    text-align: right;
+}
+.confirm_sy1{
+    .dia-wp .p.lf{
+        text-align: center;
+    }   
+}
+.myppic{
+    table-layout: fixed;
+    width: 100%;
+    td{
+        width: 33.3333333%;
+        padding:20px 10px;
+        font-size: 18px;
+        color: #FFFFFF;
+    }
+}
+.phz{
+  width: 100%;
+  th{
+      font-weight: normal;
+      text-align: right;
+      font-size: 16px;
+      color: #9199AF;
+  }
+  td{
+      font-size: 16px !important;
+      color: #fff;
+      text-align: left;
+  }
+  th,td{
+      width: 50%;
+      line-height: 28px;
+  }
+}
+.pvm_wp{
+    *{
+        vertical-align: middle;
+    }
+    .question_point{
+        margin-left: 5px;
+    }
+}
+.question_point{
+    &:hover{
+        em{
+            display: block;
+        }
+    }
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background: url('../img/money/wenhao.png') no-repeat;
+    background-size: 14px;
+    margin: 1px 5px 0 0;
+    position: relative;
+    em{
+        font-size: 12px;
+        display: none;
+        font-weight: normal;
+        position: absolute;
+        transform: translate(-46%, 0);
+        left: 0;
+        right: -99999px;
+        max-width: 300px;
+        text-align: center;
+        padding: 12px 20px;
+        opacity: 0.9;
+        background: #4A4F5B;
+        border-radius: 2px;
+        color: #fff;
+        bottom: 25px;
+        &:before{
+            content: '';
+            display: transparent;
+            border: 6px solid #4A4F5B;
+            border-color: rgba(47, 50, 63, .9) transparent transparent transparent;
+            /* margin-top: 20px; */
+            position: absolute;
+            top: 100%;
+            left: 46%;
+        }
+    }
+}
+.pmcanck{
+    font-size: 14px;
+    color: #3E85A2;
+    cursor: pointer;
+}

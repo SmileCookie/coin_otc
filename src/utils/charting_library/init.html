@@ -1,0 +1,154 @@
+﻿<html>
+<head>
+    <title>K线图</title>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="jquery.js"></script>
+    <script src="jquery.mousewheel.js"></script>
+    <script src="jquery.cookie.min.js"></script>
+  <style>
+      body,html{
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+      }
+      #tetx_1,#tetx_2{
+            opacity: 0;
+            font-size: 12px;
+            display: -webkit-inline-box;
+        }
+    
+  </style>
+</head>
+<body>
+<div class="init">
+    <div class="kl" id="kline_1"></div>
+    <div id="tetx_1"></div>
+    <div id="tetx_2"></div>
+</div>
+<script id="script1" src="kline.min.js"></script>
+
+<script type="text/javascript">
+
+    //获取url参数方法
+    
+    function GetQueryString(name){
+        var reg = new RegExp("(^|&)"+name+"=([^&]*)(&|$)");
+        var result = window.location.search.substr(1).match(reg);
+        return result?decodeURIComponent(result[2]):null;
+    }
+    //获取传参，用来动态赋值给kline参数
+    var _theme = GetQueryString('theme');
+    var urlname=GetQueryString('urlname'); 
+    var admin=GetQueryString('admin');
+    var clientWidth=$("body").width();
+    var clientHeight=$("body").height();
+    var lang=GetQueryString('lang');
+    var symbol=GetQueryString('symbol');
+    var symbolName=GetQueryString('symbolName'); 
+    var nameid=GetQueryString('nameid');
+    var state=GetQueryString('state');//状态值，当页面加载时候状态值为0这个时候你的状态是会继承的，当切换币种时候会将值重新为1这个时候会消除已存KOOK
+    var wswl=0;
+    var datai=(new Date()).getTime();
+    var offss=true;
+    var fioo=null;
+    var indicNamez="";
+    if(/^[0-9]+.?[0-9]*$/.test(nameid)){
+        nameid="original_kline"+nameid
+    }
+    if(nameid=="original_kline10"){
+        state=0
+    }
+    if(!window.parent.document.getElementById(nameid))
+    {
+        nameid="original_kline10"
+    }
+  
+   window.onload=function(){
+    this.originalKline = new Kline({
+        element: "#kline_1",
+        theme: _theme, // light/dark
+        language: lang, // zh-cn/en-us/zh-tw/kr/jp
+        ranges: ["1m", "5m", "15m", "30m", "1h", "4h", "1d", "5d", "1w","line"],
+        symbol: symbol,
+        symbolName: symbolName,
+        type: "poll",
+        url:admin+`/markets/klineLastData`,
+        limit: 1000,
+        intervalTime: 1000,
+        debug: false ,
+        showTrade: false,
+        onResize: function(width, height) {
+            //console.log("chart resized: " + width + " " + height);
+        }
+    });
+    
+    this.originalKline.draw(nameid);
+    this.originalKline.fues()
+
+    setInterval(function() {
+        if($.cookie("skin")!=_theme){
+            var _theme=$.cookie("skin")
+            this.originalKline.setTheme($.cookie("skin"))
+        }
+    }, 1);
+    setInterval(function() {
+        var date = (new Date()).getTime();
+       
+         datar=datai+1500
+        if(date>datar){
+            datai=date
+            var  timeName = document.querySelectorAll("a.chart_str_period")[0].innerHTML;
+                document.querySelectorAll(`a.chart_str_period_${timeName}`)[0].click();
+        }else{
+            datai=date 
+        }
+    }, 1000);
+    function hide() {
+    if(window.parent.document.getElementById(nameid).clientWidth==window.parent.document.documentElement.clientWidth){
+        $("#chart_show_indicator").show();
+            $("#chart_show_tools").show();
+            $(".chart_dropdown_t").eq(1).show();
+    }else{
+        if(urlname=="multitrade"&&offss==true){
+            $("#chart_show_indicator").hide();
+            $("#chart_show_tools").hide();
+            $(".chart_dropdown_t").eq(1).hide();
+        }else if(offss==true){
+            $("#chart_show_indicator").show();
+            $("#chart_show_tools").show();
+            $(".chart_dropdown_t").eq(1).show();
+        }
+    }
+       
+    }
+    hide()
+    this.originalKline.resize(window.parent.document.getElementById(nameid).clientWidth-5, window.parent.document.getElementById(nameid).clientHeight-5)//监听窗口改变以后改变画布大小
+    $(window).resize(function () {
+        if(window.parent.document.getElementById(nameid).clientWidth==window.parent.document.documentElement.clientWidth){
+            hide()
+        }else{
+            hide()
+        }  
+        if(window.parent.document.getElementById(nameid).clientWidth==540){
+            this.originalKline.resize(window.parent.document.getElementById(nameid).clientWidth-5, window.parent.document.getElementById(nameid).clientHeight-5)//监听窗口改变以后改变画布大小
+            var  timeName = document.querySelectorAll("a.chart_str_period")[0].innerHTML;
+                document.querySelectorAll(`a.chart_str_period_${timeName}`)[0].click();
+        }else{
+            this.originalKline.resize(window.parent.document.getElementById(nameid).clientWidth-5, window.parent.document.getElementById(nameid).clientHeight-5)//监听窗口改变以后改变画布大小
+            var  timeName = document.querySelectorAll("a.chart_str_period")[0].innerHTML;
+                document.querySelectorAll(`a.chart_str_period_${timeName}`)[0].click();
+        }
+      });
+      return false;
+   } 
+    
+    
+   
+   
+   
+</script>
+</body>
+</html>
+

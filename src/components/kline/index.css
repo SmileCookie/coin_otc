@@ -1,0 +1,221 @@
+.kline-box{
+    height:calc(100% - 264px);
+    background:#121418;
+    margin-bottom: 4px;
+}
+.kline_top{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:35px;
+    z-index:1001;
+    padding:3px 0 0 5px ;
+}
+.kline{
+    height:100%;
+    width:100%;
+    position: relative;
+    
+}
+.trade-wrap-light .kline{
+    background:#fff;
+}
+.kline-wrap{
+    width:100%;
+    padding-top:35px;
+    height:100%;
+}
+.pad60{
+    padding-top:60px;
+}
+.time-button{
+    display:block;
+    float: left;
+    font-size: 26px;
+    height:30px;
+    border:1px solid #414654;
+    color: #61688A;
+    margin-left:5px;
+    padding:0 5px;
+    cursor: pointer;
+}
+.time-button:hover{
+    border-color:#b5b7b9;
+    background-color: #2C3B59;
+    color:#b5b7b9;
+}
+.set{
+    font-size:20px;
+    padding: 2px 7px;
+}
+.fullscreen{
+    float:right;
+    border:none;
+    font-size:22px;
+    margin-right:5px;
+    padding-top:2px;
+}
+.fullscreen:hover{
+    background-color:transparent;
+    color:#b5b7b9;
+}
+.kline-select-type{
+    min-width:60px;
+    height:30px;
+    float: left;
+    position: relative;
+    font-size:12px;
+    cursor: pointer;
+    margin-left:5px;
+}
+.kline-select-val{
+    width:100%;
+    height:100%;
+    color: #61688A;
+    text-align: center;
+    line-height:28px;
+    font-weight: 600;
+    border:1px solid #414654;
+}
+.kline-select-val:hover,
+.kline-select-val.active{
+    border-color:#b5b7b9;
+    background-color: #2C3B59;
+}
+.kline-select-val:hover .kline-per-icon-jiao,
+.kline-select-val.active .kline-per-icon-jiao{
+    border-left-color:#b5b7b9;
+}
+
+.kline-per-icon-jiao{
+    width:20px;
+    height:100%;
+    font-size:12px;
+    float: right;
+    border-left:1px solid #414654;
+}
+.kline-select-val > span{
+    padding:0 5px;
+}
+.kline-select-val svg{
+    fill: #61688A;
+}
+.kline-select-type ul{
+    position: absolute;
+    left:0;
+    top:31px;
+    width:194px;
+    background-color: #2F3542;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.kline-select-type ul li{
+    font-size:14px;
+    color: #FFFFFF;
+    padding: 5px 7px;
+    cursor: pointer;
+}
+.kline-select-type-bor ul li:nth-child(6){
+    border-bottom:1px solid #FFFFFF;
+}
+.kline-select-type ul li:hover{
+    background-color: #3C414C;
+    color: #3E85A2;
+}
+.kline-select-type ul li:hover svg{
+    fill: #3E85A2;
+}
+.kline-select-type ul li svg{
+    fill: #FFFFFF;
+    color: #FFFFFF;
+}
+.kline-select-type-style ul li{
+    padding: 5px 7px 0;
+    height: 35px;
+    line-height:30px;
+}
+.kline-select-type-style ul li span{
+    display: inline-block;
+    width: 120px;
+    vertical-align: top;
+    line-height: 25px;
+    padding-left: 5px;
+}
+.kline-select-type-style ul{
+    left:-76px;
+}
+
+.trade-wrap-light .kline-select-val{
+    color: #9194a4;
+    border-color:#E3E4E8;
+}
+.trade-wrap-light .kline-select-val:hover,
+.trade-wrap-light .kline-select-val.active{
+    border-color: #b5b7b9;
+    background-color: #f2f3f5;
+    color: #4c525e;
+}
+
+.trade-wrap-light .kline-select-val svg{
+    fill:#9194a4;
+}
+.trade-wrap-light .kline-select-val:hover svg,
+.trade-wrap-light .kline-select-val.active svg{
+    fill:#4c525e;
+}
+.trade-wrap-light .kline-select-val:hover .kline-per-icon-jiao{
+    border-left-color:#b5b7b9;
+}
+.trade-wrap-light .kline-per-icon-jiao{
+    border-left-color:#E3E4E8;
+}
+.trade-wrap-light .time-button{
+    border-color:#E3E4E8;
+    color: #9194a4;
+}
+.trade-wrap-light .time-button svg{
+    fill:#9194a4;
+}
+.trade-wrap-light .time-button:hover{
+    border-color: #b5b7b9;
+    background-color: #f2f3f5;
+    color: #4c525e;
+}
+.trade-wrap-light .time-button:hover svg{
+    fill:#4c525e;
+}
+.trade-wrap-light .fullscreen:hover{
+    background-color:transparent;
+}
+.trade-wrap-light .kline-select-type ul{
+    background: #fff;
+}
+.trade-wrap-light .kline-select-type ul li{
+    color: #5F6575;
+}
+.trade-wrap-light .kline-select-type ul li.active,
+.trade-wrap-light .kline-select-type ul li:hover{
+    background-color: #EDEFF4;
+    color:#3E85A2;
+}
+.trade-wrap-light .kline-select-type ul li.active svg,
+.trade-wrap-light .kline-select-type ul li:hover svg{
+    fill:#3E85A2;
+}
+.trade-wrap-light .kline-select-type-bor ul li:nth-child(6){
+    border-top-color:#c1c8ec;
+}
+.trade-wrap-light .tab-box-body-item .kline{
+    background:#fff;
+}
+.trade-wrap-light  .kline-box{
+    background:#fff;
+}
+.bb-yh-kh{
+    height: 100%;
+}
+.original_kline{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}

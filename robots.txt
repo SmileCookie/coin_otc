@@ -1,0 +1,9 @@
+# robots.txt generated at http://www.bitstaging.com
+User-agent: *
+Disallow: 
+Disallow: /terms/service/
+Disallow: /terms/termsExpenseTable/
+Disallow: /terms/termsPrivacy/
+Disallow: https://btcwinex.zendesk.com/hc/zh-cn
+Disallow: /bw/announcements
+Sitemap: http://www.bitstaging.com/sitemap

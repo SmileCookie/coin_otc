@@ -1,0 +1,122 @@
+//otc 通用弹窗样式
+
+.otcToastMain{
+    padding: 30px 60px 40px;
+    text-align: center;
+    position: relative;
+    width: 540px;
+    .toastTitle{
+        font-size: 18px;
+        color: #D4DCF0;
+        text-align: center;
+    }
+    .toastContent{
+        padding: 40px 0;
+        color: #93A2B8;
+        line-height: 20px;
+        .personContent{
+            .personInfor{
+                .pic{
+                    width: 80px;
+                    height: 80px;
+                    border-radius: 50%;
+                    background: #159DA6;
+                    position: relative;
+                    overflow: hidden;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                .infor{
+                    text-align: left;
+                    p{
+                        line-height: 30px;
+                    }
+                    .text{
+                        color: #737A8D;
+                        padding-left: 20px;
+                    }
+                    .word{
+                        padding-left: 25px;
+                    }
+                }
+            }
+            .personTip{
+                text-align: left;
+                line-height: 30px;
+                padding-top: 40px;
+            }
+        }
+    }
+    .toastConfrom{
+        button{
+            &:first-child{
+                margin-right: 20px;
+            }
+        }
+    }
+    .close{
+        position: absolute;
+        top: 30px;
+        right: 26px;
+        color: #5F5F69;
+        cursor: pointer;
+        &:hover{
+            color: #93A2B8;
+        }
+    }
+
+}
+
+
+//我的钱包弹窗
+.copitalModal{
+    width: 640px;
+    height: 500px;
+    .copitalModalTitle{
+        width: 100%;
+        height: 72px;
+        box-sizing: border-box;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 60px;
+        line-height: 72px;
+        h5{
+            line-height: 72px;
+            font-weight: 500;
+        }
+    }
+    .copitalModalList{
+        padding: 0 60px;
+        box-sizing: border-box;
+        li{
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: space-between;
+            height: 20px;
+            line-height: 20px;
+        }
+        li:first-child{
+            margin-top: 30px;
+        }
+        li,hr{
+            margin-top: 20px;
+        }
+        hr{
+            border-radius: 2px;
+            border-color:#1A1E2E;
+            height: 1px;
+        }
+        .copitalModalListNote{
+            margin-top: 40px;
+        }
+    }
+}

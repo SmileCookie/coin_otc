@@ -1,0 +1,64 @@
+.money_center{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 99999999;
+    .money_center_main{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        right: auto;
+        bottom: auto;
+        border: none;
+        overflow: auto;
+        outline: none;
+        padding: 0px;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        .money_center_content{
+            width: 420px;
+            height: 288px;
+            background-image: url('../../assets/images/moneyBorder.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            padding-top: 94px;
+            text-align: center;
+            padding-left: 19px;
+            .money_center_word{
+                width: 220px;
+                text-align: center;
+                margin: 0 auto;
+                p{
+                    font-size: 16px;
+                    color: #FFFFFF;
+                }
+                h2{
+                    font-size: 24px;
+                    color: #FFC94E;
+                    font-weight: normal;
+                    padding-top: 10px;
+                }
+                .money_center_word_sure{
+                    display: inline-block;
+                    width: 140px;
+                    height: 38px;
+                    background-color: #FFC94E;
+                    text-align: center;
+                    line-height: 38px;
+                    font-size: 18px;
+                    color: #FFFFFF;
+                    margin-top: 20px;
+                    cursor: pointer;
+                    &:hover{
+                        background-color: #FFB91B;
+                    }
+
+                }
+            }
+        }
+    }
+
+}

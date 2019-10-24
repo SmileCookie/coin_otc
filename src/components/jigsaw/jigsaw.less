@@ -1,0 +1,192 @@
+.ab{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin: -165px 0 0 -155px;
+  z-index: 10;
+
+  .ew{
+    font-size: 14px !important;
+    color: #CE4444;
+    line-height: 20px !important;
+    display: block;
+    text-align: left !important;
+  }
+  .container {
+    width: 310px;
+    margin: 0 !important;
+  }
+  input {
+    display: block;
+    width: 290px;
+    line-height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    outline: none;
+    border:1px solid #c8cccf;
+    border-radius: 4px;
+    color:#6a6f77;
+  }
+  #msg {
+    width: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+  }
+  a:link,a:visited,a:hover,a:active {
+    margin-left: 100px;
+    color: #0366D6;
+  } .container {
+    width: 310px;
+    margin: 100px auto;
+  }
+  input {
+    display: block;
+    width: 290px;
+    line-height: 40px;
+    margin: 10px 0;
+    padding: 0 10px;
+    outline: none;
+    border:1px solid #c8cccf;
+    border-radius: 4px;
+    color:#6a6f77;
+  }
+  #msg {
+    width: 100%;
+    line-height: 40px;
+    font-size: 14px;
+    text-align: center;
+  }
+  a:link,a:visited,a:hover,a:active {
+    margin-left: 100px;
+    color: #0366D6;
+  }
+}
+.block {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .sliderContainer {
+    position: relative;
+    text-align: center;
+    width: 310px;
+    height: 40px;
+    line-height: 40px;
+    background: #282A31;
+    color: #58606D;
+    border: 1px solid #58606D;
+    font-size: 15px;
+  }
+  
+  .sliderContainer_active .slider {
+    height: 38px;
+  }
+  
+  .sliderContainer_active .sliderMask {
+    height: 38px;
+  }
+  
+  .sliderContainer_success .slider {
+    height: 38px;
+    background-color: #2F423B !important;
+  }
+  
+  .sliderContainer_success .sliderMask {
+    height: 38px;
+    background-color: #2F423B;
+  }
+  
+  .sliderContainer_success .sliderIcon {
+    background-image: url('./img/dsuc.png');
+  }
+  
+  .sliderContainer_fail .slider {
+    height: 38px;
+    background-color: #493435 !important;
+  }
+  
+  .sliderContainer_fail .sliderMask {
+    height: 38px;
+    background-color: #493435;
+  }
+  
+  .sliderContainer_fail .sliderIcon {
+    // top: 14px;
+    // background-position: 0 -82px !important;
+    background-image: url('./img/derr.png');
+  }
+  .sliderContainer_active .sliderText, .sliderContainer_success .sliderText, .sliderContainer_fail .sliderText {
+    display: none;
+  }
+  
+  .sliderMask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 38px;
+    border: 0 solid #1991FA;
+    background: #2E3752;
+  }
+  
+  .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 38px;
+    background: #fff;
+
+    cursor: pointer;
+    transition: background .2s linear;
+  }
+  
+  .slider:hover {
+    background: #1991FA;
+  }
+  
+  .slider:hover .sliderIcon {
+    // background-position: 0 -13px;
+    background-image: url("./img/dok.png");
+  }
+  
+  .sliderIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 38px;
+    background: url("./img/mu.png") no-repeat;
+    background-size: 40px 40px;
+  }
+  
+  .refreshIcon {
+    position: absolute;
+    right: 42px;
+    top: 10px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    background: url("./img/rf.png") no-repeat;
+    background-size: 18px 18px;
+
+    &:hover{
+      background: url("./img/rfin.png") no-repeat;
+      background-size: 18px 18px;
+    }
+  }
+
+  .dclose{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 11px;
+    right: 11px;
+    background: url("./img/dc.png") no-repeat;
+    background-size: 16px 16px;
+    &:hover{
+      background-image: url("./img/dcxin.png");
+    }
+  }
+  

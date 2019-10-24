@@ -1,0 +1,91 @@
+.col-s .trade-item {
+}
+.col-s .trade-item em{
+    font-style: normal;
+}
+.col-s .trade-item th,.col-s .trade-item td{
+    font-size: 12px;
+    line-height: 16px;
+}
+.col-s .trade-item .trade-item-title {
+    padding-left:0;
+    border-bottom:  1px solid rgb(228, 228, 228);
+}
+.col-s .balance .trade-item-title-right,
+.col-s .trade-item .trade-item-title h4{
+    padding: 8px 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.col-s .balance .trade-item-title-right{
+    height:20px;
+    font-size: 12px;
+    color: #999;
+    font-weight: bolder;
+    cursor: pointer;
+    padding:0;
+    line-height:37px;
+
+}
+.col-s .balance .trade-item-title-right input[type="checkbox"]{
+    position: relative;
+    top:4px;
+    margin:0;
+}
+.col-s .trade-item .needlogin{
+    padding: 25px 10px;
+    text-align: center;
+}
+
+.sidebar-balance table{
+    width: 100%;
+}
+.sidebar-balance th{
+    height: 24px;
+}
+.sidebar-balance th, .sidebar-balance td{
+    text-align: right;
+} 
+.sidebar-balance th{
+    padding: 3px 0;
+    font-weight: normal;
+    color: #999;
+}
+.sidebar-balance td{
+    padding: 3px 0;
+    color:#333;
+    line-height: 25px;
+}
+
+.sidebar-balance tr th:first-child,.sidebar-balance tr td:first-child{
+    padding-left: 6px;
+    text-align: left;
+    font-weight: bolder;
+    color: #999;
+}
+
+.sidebar-balance tr th:last-child,.sidebar-balance tr td:last-child{
+    padding-right: 6px;
+}
+.sidebar-balance tbody tr:nth-child(even){
+    background: #FAFAFA;
+}
+.col-s .balance th:not(:first-child){
+    cursor: pointer;
+}
+.col-s .balance th i{
+    float: right;
+    width: 15px;
+    font-family: iconfont;
+    font-style: normal;
+    text-indent: 0;
+    text-align: center;
+    color: #999;
+}
+
+.col-s .balance .totalAll{
+    padding: 10px 0;
+    text-align: right;
+    border-top:  1px solid rgb(228, 228, 228);
+}

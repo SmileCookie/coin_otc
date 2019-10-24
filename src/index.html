@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" id="rs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title id="title">Btcwinex-the world's most professional and secure digital asset service platform.Focus on trading BTC,VDS,VOLLAR,EOS,LTC,ETH and other digital currency.</title>
+    <meta id="keywords" name="keywords" content="VDS,VOLLAR,Bitcoin trading platform,Virtual currency,Digital currency"  />
+    <meta id="description" name="description" content="Btcwinex is the most professional bitcoin trading platform in the world,have the safest technology and the most professional matching engine.Provide users with various virtual currency trading such as BTC,ETH,VDS,VOLLAR,EOS,LTC.Provides BTC market and BTC news in real time,Btcwinex is a comprehensive digital asset trading platform." />
+    <script src="https://cstaticdun.126.net/load.min.js"></script>
+    <!-- <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=Intl.~locale.en"></script>   -->
+    <script>
+    /* Disable minification (remove `.min` from URL path) for more info */
+
+    (function(undefined) {}).call('object' === typeof window && window || 'object' === typeof self && self || 'object' === typeof global && global || {});
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+          var hm = document.createElement("script");
+          hm.src = "https://hm.baidu.com/hm.js?85c8ebdf8519b81a4f922e0bdbc5f5d2";
+          var s = document.getElementsByTagName("script")[0]; 
+          s.parentNode.insertBefore(hm, s);
+        })();
+
+
+        // 判断是否为 IE 浏览器
+        var ieFlag = (function () {
+            if (!!window.ActiveXObject || "ActiveXObject" in window) {
+                // console.log('ie');
+                return true   // IE
+            } else {
+                // console.log(' not ie')
+                return false  // 非IE
+            }
+        })()
+        window.ieFlag = ieFlag // 全局变量 boolean值 当前浏览器是否为IE  true 为是  false 为否
+
+    </script>
+</head>
+<body>
+<div id="root"></div>
+<script>
+    // console.log('nginx：' + new Date().toLocaleTimeString())  // IE适配 测试用时间
+        window.tradeRtMsgLock = 0;
+        window.ERRORCONFIG  = 1
+        window.rs = (document.documentElement || document.body).clientHeight;
+
+    // skin auto refresh body background color.
+    // window.clearSkin = ({by = document.getElementsByTagName("body")[0]} = {}) => {
+    //     by && by.removeAttribute("style");
+    // }
+
+    // IE 适配 （不支持箭头函数）重写
+    window.clearSkin = function () {
+        var by = document.getElementsByTagName("body")[0];
+        return by && by.removeAttribute("style")
+    };
+
+    // 浏览器升级 全局遮罩提示
+    function maskShow() {
+        var maskDiv = document.getElementById('mask');
+        var warningDiv = document.getElementById('warning');
+        // mask 宽高重设
+        setTimeout(function () {
+            var hei = document.documentElement.scrollHeight;
+            var wid = document.documentElement.scrollWidth;
+            maskDiv.style.height = hei + 'px'
+            maskDiv.style.width = wid + 'px'
+            // console.log(hei)
+            // console.log(wid)
+        },1000)
+        if (window.ieFlag) {
+            maskDiv.style.display = "block";
+            warningDiv.style.display = "block";
+        } else {
+            maskDiv.style.display = "none";
+            warningDiv.style.display = "none";
+        }
+    }
+
+
+    (function () {
+        var path = ['trade', 'multitrade', 'announcements', 'news'];
+        var cp = window.location.href.split('/');
+        var cpIndex = cp.indexOf("v2");
+        cp = cp[cpIndex + 1]
+        // console.log('bugFix')
+        if (path.indexOf(cp) != -1) {
+                var ck = document.cookie;
+                var by = document.getElementsByTagName("body")[0];
+
+            try {
+                    var skin = ck.split('skin=')[1].split(';')[0];
+                if ('light' === skin) {
+                        by.setAttribute("style", "background:#F2F3F8");
+                    } else {
+                        throw new Error("dark");
+                    }
+            } catch (e) {
+                    window.clearSkin();
+                }
+            }
+        })();
+    // 页面加载完成后 执行
+    window.onload = function () {
+        // maskShow();
+    }
+
+</script>
+</body>
+</html>
